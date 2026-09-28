@@ -1,0 +1,48 @@
+# --- secrets & local env ---
+.env
+.env.*
+!.env.example
+
+# --- heavy / regenerable local state ---
+models/*.gguf
+models/**/*.gguf
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# --- superseded artifacts pulled out of the tree; results live in
+#     experiments/EXPERIMENT_SUMMARY.md. Safe to delete locally. ---
+_quarantine/
+
+# --- graph + chunk index ARE committed (a reviewer can run without rebuilding).
+#     Only the rendered visualisations are not: 2.4 MB of PNG/HTML that
+#     `uv run python -m graph.viz` regenerates. ---
+artifacts/viz/
+
+# --- per-run outputs. eval/frozen/ is the committed submission snapshot;
+#     everything under outputs/ is a scratch re-run. The negation needs outputs/*
+#     rather than outputs/, or git cannot un-ignore a path inside an ignored dir. ---
+outputs/*
+!outputs/.gitkeep
+
+# --- run logs (keep the *.json evidence and the *.md summaries) ---
+*.log
+logs/
+
+# --- internal docs (not for GitHub until explicitly un-ignored + scoured) ---
+docs/
+
+# --- assignment writeup & repo README (hold until line-scoured) ---
+README.md
+writeup.md
+
+# --- working note for the push, not part of the deliverable ---
+GIT_PUSH_PLAN.md
+
+# --- Cursor / plan exports (never ship) ---
+**/cursor_*.md
+**/*_plan_*.plan.md
+**/*.plan.md
