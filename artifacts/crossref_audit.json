@@ -1,0 +1,366 @@
+{
+ "summary": {
+  "section_crossrefs_checked": 234,
+  "dangling_found": 0,
+  "proviso_claims_checked": 3,
+  "proviso_claims_unverified": 0,
+  "semantic_candidates_llm_checked": 20,
+  "confirmed_mismatches": 0,
+  "verdict_model": "qwen36-27b"
+ },
+ "dangling": [],
+ "proviso_claims": [
+  {
+   "kind": "proviso_claim",
+   "verified": true,
+   "from": "base::8.03",
+   "from_label": "§8.03",
+   "claims": "the proviso to Section 8.02",
+   "evidence": " and the L/C Obligations have automatically been required to be Cash Collateralized as set forth in the proviso to Section 8.02 ), any amounts received on account of the Obligations shall be applied by the Administrative Agent "
+  },
+  {
+   "kind": "proviso_claim",
+   "verified": true,
+   "from": "base::10.01(d)",
+   "from_label": "§10.01(d)",
+   "claims": "second proviso to this Section 10.01",
+   "evidence": "rate of interest specified herein on, any Loan or L/C Borrowing, or (subject to clause (iii) of the second proviso to this Section 10.01) any fees or other amounts payable hereunder or under any other Loan Document without the written c"
+  },
+  {
+   "kind": "proviso_claim",
+   "verified": true,
+   "from": "base::10.06(d)",
+   "from_label": "§10.06(d)",
+   "claims": "first proviso to Section 10.01",
+   "evidence": "e consent of the Participant, agree to any amendment, waiver or other modification described in the first proviso to Section 10.01 that adversely affects such Participant. The Borrower agrees that each Participant shall be entitle"
+  }
+ ],
+ "mismatch": [
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -10.236494064331055,
+   "from": "base::9.09(b)",
+   "from_label": "§9.09(b)",
+   "to": "base::2.08",
+   "to_label": "§2.08",
+   "evidence": "and any custodian, receiver, assignee, trustee, liquidator, sequestrator or other similar official in any such judicial proceeding is hereby authorized by each Lender and the L/C Issuer to make such payments to the Administrative Agent and, if the Administrative Agent shall consent to the making of such payments directly to the Lenders and the L/C Issuer, to pay to the Administrative Agent any amount due for the reasonable compensation, expenses, disbursements and advances of the Administrative Agent and its agents and counsel, and any other amounts due the Administrative Agent under Sections 2.08 and 10.04 . 91 Nothing contained herein shall be deemed to authorize the Administrative Agent t",
+   "target_snippet": "Fees . In addition to certain fees described in Sections 2.03(h) and (i) :",
+   "verdict": "SUPPORTED: The referring sentence attributes amounts/fees due",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -9.032366752624512,
+   "from": "base::5.13",
+   "from_label": "§5.13",
+   "to": "base::4.01(a)",
+   "to_label": "§4.01(a)",
+   "evidence": "to Section 4.01(a) is a true and correct copy of each such document, each of which is valid and in full force and effect.",
+   "target_snippet": "(a) The Administrative Agent’s receipt of the following, each of which shall be originals or telecopies (followed promptly by originals) unless otherwise specified, each properly executed by a Responsible Officer of the signing Loan Party, each dated the Closing Date (or, in the case of certificates",
+   "verdict": "2.  **Deconstruct Referring Sentence:**\n   - \"to Section 4.01(a) is a true and correct copy of each such document, each of which is valid and in full force and effect.\"\n   - This implies that §5.13 (likely a representation/warranty section about delivered documents or certificates) refers to documents required by §4.01(a), stating they are \"true and correct copies\" and \"valid and in full force and",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -7.7786865234375,
+   "from": "base::2.13(g)",
+   "from_label": "§2.13(g)",
+   "to": "base::2.12",
+   "to_label": "§2.12",
+   "evidence": "This Section shall supersede any provisions in Section 2.12 or 10.01 to the contrary.",
+   "target_snippet": "Sharing of Payments by Lenders . If any Lender shall, by exercising any right of setoff or counterclaim or otherwise, obtain payment in respect of (a) Obligations due and payable to such Lender hereunder and under the other Loan Documents at such time in excess of its ratable share (according to the",
+   "verdict": "1.  **Analyze User Input:**\n   - **Referring Sentence (from §2.13(g)):** \"This Section shall supersede any provisions in Section 2.12 or 10.01 to the contrary.\"\n   - **Target (§2.12 FULL TEXT):** Describes \"Sharing of Payments by Lenders\". It details how lenders must share payments obtained via setoff/counterclaim if they exceed their ratable share, including mechanisms for purchasing participatio",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -7.333079814910889,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::2.05",
+   "to_label": "§2.05",
+   "evidence": "“ Availability Period ” means the period from and including the Closing Date to the earliest of (a) the Maturity Date, (b) the date of termination of the Commitments pursuant to Section 2.05 , and (c) the date of termination of the commitment of each Lender to make Loans and of the obligation of the L/C Issuer to make L/C Credit Extensions pursuant to Section 8.02 . “ Bail-In Action ” means the exercise of any Write-Down and Conversion Powers by the applicable EEA Resolution Authority in respect of any liability of an EEA Financial Institution. “ Bail-In Legislation ” means, with respect to any EEA Member Country implementing Article 55 of Directive 2014/59/EU of the European Parliament and ",
+   "target_snippet": "Termination or Reduction of Commitments .",
+   "verdict": "SUPPORTED: Section 2.05 is titled \"Termination or Reduction of Commitments\" and explicitly outlines the procedures for terminating or reducing the Commitments, directly matching the referring sentence's attribution.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -6.847744941711426,
+   "from": "base::6.12(b)",
+   "from_label": "§6.12(b)",
+   "to": "base::4.01(a)",
+   "to_label": "§4.01(a)",
+   "evidence": "(for so long as such entity remains a charitable entity under Section 501(c)(3) of the Code)) of each Loan Party (if it has not already done so) to duly execute and deliver, to the Administrative Agent Guarantee and Collateral Agreement Supplements, IP Security Agreement supplements and other security and pledge agreements, as specified by and in form and substance satisfactory to the Administrative Agent (including delivery of all Pledged Stock and Pledged Debt Securities in and of such Loan Party and such Subsidiary, as applicable, and other instruments of the type specified in Section 4.01(a)(iii) ), securing payment of all the Obligations of such Loan Party or such Subsidiary, as the cas",
+   "target_snippet": "(a) The Administrative Agent’s receipt of the following, each of which shall be originals or telecopies (followed promptly by originals) unless otherwise specified, each properly executed by a Responsible Officer of the signing Loan Party, each dated the Closing Date (or, in the case of certificates",
+   "verdict": "All constraints met. Output matches exactly one line. Proceeds. \n   Self-Correction/Verification during thought:\n   - Does §4.01(a)(iii) actually say what's attributed? Yes, it lists Pledged Stock and Pledged Debt Securities instruments.\n   - The referrer says \"other instruments of the type specified in Section 4.01(a)(iii)\". This is a direct cross-reference that aligns with the target text.\n   - ",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -6.814769744873047,
+   "from": "base::3.05(c)",
+   "from_label": "§3.05(c)",
+   "to": "base::10.13",
+   "to_label": "§10.13",
+   "evidence": "(c) any assignment of a Eurodollar Rate Loan on a day other than the last day of the Interest Period therefor as a result of a request by the Borrower pursuant to Section 10.13 ; including any loss of anticipated profits and any loss or expense arising from the liquidation or reemployment of funds obtained by it to maintain such Loan or from fees payable to terminate the deposits from which such funds were obtained.",
+   "target_snippet": "Replacement of Lenders . If any Lender requests compensation under Section 3.04 , or if the Borrower is required to pay any additional amount to any Lender or any Governmental Authority for the account of any Lender pursuant to Section 3.01 , or if any Lender is a Defaulting Lender or a Non-Consenti",
+   "verdict": "Final check of the text: Referrer says \"assignment... as a result of a request by the Borrower pursuant to Section 10.13\". Target §10.13 says \"the Borrower may, at its sole expense and effort, upon notice... require such Lender to assign and delegate... all of its interests... under this Agreement\". This is a direct match for the mechanism referenced. The compensation details are in §3.05 itself, ",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -5.579228401184082,
+   "from": "base::10.04(c)",
+   "from_label": "§10.04(c)",
+   "to": "base::2.11(d)",
+   "to_label": "§2.11(d)",
+   "evidence": "The obligations of the Lenders under this subsection (c) are subject to the provisions of Section 2.11(d) .",
+   "target_snippet": "(d) Obligations of Lenders Several . The obligations of the Lenders hereunder to make Loans, to fund participations in Letters of Credit and to make payments pursuant to Section 10.04(c) are several and not joint. The failure of any Lender to make any Loan, to fund any such participation or to make ",
+   "verdict": "All steps verified. Output matches draft.✅\n   Note: I will ensure it strictly follows \"SUPPORTED: <reason>\" format on a single line. No extra text.\n   Final check of the prompt: \"Reply with exactly one line: 'SUPPORTED: <reason>' or 'MISMATCH: <what the referrer implies vs what the target actually says>'.\"\n   Ready. \n   Output generation. \n   `SUPPORTED: Section 2.11(d) explicitly states that Lend",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -5.3704118728637695,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::7.04(e)",
+   "to_label": "§7.04(e)",
+   "evidence": "“ Restaurant Businesses ” shall have the meaning assigned to such term in Section 7.04(e) . “ Restricted Payment ” means any dividend or other distribution (whether in cash, securities or other property) with respect to any capital stock or other Equity Interest of any Person or any of its Subsidiaries, or any payment (whether in cash, securities or other property), including any sinking fund or similar deposit, on account of the purchase, redemption, retirement, defeasance, acquisition, cancellation or termination of any capital stock or other Equity Interest of such Person or any of its Subsidiaries or of any other Person of which such Person is a Subsidiary, or on account of any return of",
+   "target_snippet": "(e) any Loan Party may sell, transfer, sell a franchise in or otherwise dispose of restaurants or property (including real property, improvements, fixtures and equipment) relating to current or former restaurants of such person (such restaurants and property are collectively referred to as “ Restaur",
+   "verdict": "SUPPORTED: Section 7.04(e) explicitly assigns a meaning to \"Restaurant Businesses\" by stating in parentheses that certain restaurants and related property are collectively referred to as such term, directly matching the cross-reference attribution.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -5.275515556335449,
+   "from": "base::10.01(e)",
+   "from_label": "§10.01(e)",
+   "to": "base::8.03",
+   "to_label": "§8.03",
+   "evidence": "(e) change the third sentence of Section 2.11(a) (or the definition of Applicable Percentage as used therein) or Section 8.03 in a manner that would alter the pro rata sharing of payments required thereby without the written consent of each Lender adversely affected thereby;",
+   "target_snippet": "Application of Funds . After the exercise of remedies provided for in Section 8.02 (or after the Loans have automatically become immediately due and payable and the L/C Obligations have automatically been required to be Cash Collateralized as set forth in the proviso to Section 8.02 ), any amounts r",
+   "verdict": "SUPPORTED: Section 8.03 explicitly requires that funds be distributed \"ratably among\" Lenders and other parties in proportion to their respective amounts, which directly corresponds to the attributed pro rata sharing of payments.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -4.975878715515137,
+   "from": "base::4.01(a)",
+   "from_label": "§4.01(a)",
+   "to": "base::4.02(a)",
+   "to_label": "§4.02(a)",
+   "evidence": "(ix) a certificate signed by a Responsible Officer of the Borrower certifying (A) that the conditions specified in Sections 4.02(a) and (b) have been satisfied, and (B) that there has been no event or circumstance since the date of the Audited Financial Statements that has had or could be reasonably expected to have, either individually or in the aggregate, a Material Adverse Effect and (C) no action, proceeding, investigation, regulation or legislation shall have been instituted, threatened or proposed before any Governmental Authority to enjoin, restrain, or prohibit, or to obtain substantial damages in respect of, or which is related to or arises out of this Agreement or the other Loan Do",
+   "target_snippet": "(a) The representations and warranties of the Borrower and each other Loan Party contained in Article V or any other Loan Document, or which are contained in any document furnished at any time under or in connection herewith or therewith, shall be true and correct in all material respects, except fo",
+   "verdict": "SUPPORTED: The referring sentence correctly identifies that Sections 4.02(a) and (b) contain specific conditions precedent for credit extensions, which directly aligns with the target text explicitly listing these subsections under \"Conditions to all Credit Extensions\" as requirements that must be satisfied before each request is honored.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -4.471135139465332,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::10.04(b)",
+   "to_label": "§10.04(b)",
+   "evidence": "“ Indemnitee ” has the meaning specified in Section 10.04(b) . “ Information ” has the meaning specified in Section 10.07 . “ Interest Payment Date ” means, (a) as to any Eurodollar Rate Loan, the last day of each Interest Period applicable to such Loan and the Maturity Date; provided , however , that if any Interest Period for a Eurodollar Rate Loan exceeds three months, the respective dates that fall every three months after the beginning of such Interest Period shall also be Interest Payment Dates; and (b) as to any Base Rate Loan, the last Business Day of each March, June, September and December and the Maturity Date. “ Interest Period ” means, as to each Eurodollar Rate Loan, the period",
+   "target_snippet": "(b) Indemnification by the Borrower . The Borrower shall indemnify the Administrative Agent (and any sub‑agent thereof), each Lender and the L/C Issuer, and each Related Party of any of the foregoing Persons (each such Person being called an “ Indemnitee ”) against, and hold each Indemnitee harmless",
+   "verdict": "SUPPORTED: Section 10.04(b) explicitly defines \"Indemnitee\" by stating that the Administrative Agent, each Lender, the L/C Issuer, and their respective Related Parties are collectively called an “Indemnitee”.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -4.347039222717285,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::7.05(b)",
+   "to_label": "§7.05(b)",
+   "evidence": "“ Upstream Payment ” has the meaning specified in Section 7.05(b) . “ Wells Fargo ” means Wells Fargo Bank, National Association and its successors. “ Wells Fargo Securities ” means Wells Fargo Securities, LLC and its successors. “ Write-Down and Conversion Powers ” means, with respect to any EEA Resolution Authority, the write-down and conversion powers of such EEA Resolution Authority from time to time under the Bail-In Legislation for the applicable EEA Member Country, which write-down and conversion powers are described in the EU Bail-In Legislation Schedule.",
+   "target_snippet": "(b) Permit any Subsidiary of Parent to, directly or indirectly, create or otherwise cause or suffer to exist or become effective any encumbrance or restriction on the ability of any such Subsidiary to (i) pay any dividends or make any other distributions on its capital stock or any other interest or",
+   "verdict": "SUPPORTED: Section 7.05(b) explicitly defines the term within its text, stating that subclauses (i) and (ii) are collectively referred to as an “Upstream Payment.”",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -4.1424384117126465,
+   "from": "base::9.11",
+   "from_label": "§9.11",
+   "to": "base::8.03",
+   "to_label": "§8.03",
+   "evidence": "No Cash Management Bank or Hedge Bank that obtains the benefits of Section 8.03 , the Guarantee under the Guarantee and Collateral Agreement or any Collateral by virtue of the provisions hereof or of any Collateral Document shall have any right to notice of any action or to consent to, direct or object to any action hereunder or under any other Loan Document or otherwise in respect of the Collateral (including the release or impairment of any Collateral) other than in its capacity as a Lender and, in such case, only to the extent expressly provided in the Loan Documents (it being understood that Administrative Agent may take any and all action expressly specified in Section 9.10 ).",
+   "target_snippet": "Application of Funds . After the exercise of remedies provided for in Section 8.02 (or after the Loans have automatically become immediately due and payable and the L/C Obligations have automatically been required to be Cash Collateralized as set forth in the proviso to Section 8.02 ), any amounts r",
+   "verdict": "SUPPORTED: Section 8.03 explicitly allocates proceeds ratably to Hedge Banks and Cash Management Banks in its Fourth distribution clause and provides a notice mechanism allowing non-party banks to participate, confirming they obtain benefits under this section.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.984487295150757,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::10.01",
+   "to_label": "§10.01",
+   "evidence": "“ Closing Date ” means the first date all the conditions precedent in Section 4.01 are satisfied or waived in accordance with Section 10.01 . “ Code ” means the Internal Revenue Code of 1986. “ Co-Documentation Agents ” means Cadence Bank, N.A.",
+   "target_snippet": "Amendments, Etc . No amendment or waiver of any provision of this Agreement or any other Loan Document, and no consent to any departure by the Borrower or any other Loan Party therefrom, shall be effective unless in writing signed by the Required Lenders and the Borrower or the applicable Loan Party",
+   "verdict": "All good. Output matches draft.✅\n   Note: I will keep it concise to strictly follow the one-line rule. \"SUPPORTED: Section 10.01 explicitly governs amendments and waivers, including specifically addressing how conditions in Section 4.01 may be waived (requiring written consent of each Lender), which aligns with the referring sentence's attribution that such waivers occur 'in accordance with Sectio",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.9293949604034424,
+   "from": "base::7.05(b)",
+   "from_label": "§7.05(b)",
+   "to": "base::7.02",
+   "to_label": "§7.02",
+   "evidence": "Subsidiary of Parent or the parent of such Subsidiary (subclauses (i) and (ii) above are collectively referred to as an “ Upstream Payment ”) except for such encumbrances or restrictions existing under or by reason of (A) applicable Law, (B) this Agreement, any other Loan Document or any other agreement entered into hereunder or thereunder or as contemplated hereby or thereby, (C) customary provisions restricting (1) subletting or assignment of any lease governing a leasehold interest of Parent or any of the Subsidiaries of Parent, (2) the transfer of intellectual property rights held by Parent or any of the Subsidiaries of Parent through license agreements with the owners of such rights and",
+   "target_snippet": "Indebtedness . Create, incur, assume or suffer to exist any Indebtedness, except:",
+   "verdict": "Check format: Exactly one line. Matches requirement.\n   Reasoning is sound. The referrer clearly points to a different covenant (§7.05 typically covers dividends/distributions/upstream payments), while the target is §7.02 (Indebtedness). Mismatch is clear.✅\n   Output matches exactly. \n   One minor thing: The prompt says \"Reply with exactly one line: 'SUPPORTED: <reason>' or 'MISMATCH: <what the re",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.8061981201171875,
+   "from": "base::4.02(a)",
+   "from_label": "§4.02(a)",
+   "to": "base::5.05(a)",
+   "to_label": "§5.05(a)",
+   "evidence": "(a) The representations and warranties of the Borrower and each other Loan Party contained in Article V or any other Loan Document, or which are contained in any document furnished at any time under or in connection herewith or therewith, shall be true and correct in all material respects, except for any representation and warranty that is qualified by materiality or reference to Material Adverse Effect which such representation and warranty shall be true and correct in all respects, on and as of the date of such Credit Extension, except to the extent that such representations and warranties specifically refer to an earlier date, in which case they shall be true and correct in all material r",
+   "target_snippet": "(a) The Audited Financial Statements (i) were prepared in accordance with GAAP consistently applied throughout the period covered thereby, except as otherwise expressly noted therein; (ii) fairly present the financial condition of Parent and its Subsidiaries as of the date thereof and their results ",
+   "verdict": "2.  **Identify Key Attribution in Referring Sentence:**\n   - The referring sentence is a standard \"bring-down\" clause for representations and warranties at each Credit Extension. It states that reps & warranties in Article V (or other docs) must be true and correct on the date of such Credit Extension, subject to materiality qualifiers.\n   - Wait, does it specifically point to §5.05(a)? The prompt",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.7794294357299805,
+   "from": "base::7.07",
+   "from_label": "§7.07",
+   "to": "base::7.05(a)",
+   "to_label": "§7.05(a)",
+   "evidence": "Sell or transfer any property or assets to, or purchase or acquire any property or assets from, or otherwise engage in any other transactions with, any of its Affiliates (other than any Loan Party), except that any Loan Party or any Subsidiary of a Loan Party may engage in any of the foregoing transactions in the ordinary course of business at prices and on terms and conditions not less favorable to such Loan Party or such Subsidiary than could be obtained on an arm’s‑length basis from unrelated third parties; provided that (i) Parent may issue and distribute to its stockholders that are Affiliates rights to purchase preferred stock and/or common stock of Parent to the extent that such right",
+   "target_snippet": "(a) Declare or pay any Restricted Payment or set aside any amount for any such purpose; provided , however , that (i) any Subsidiary of Parent may make Restricted Payments to Parent, the Borrower or to any other Loan Party; (ii) Parent may declare and distribute to its stockholders a dividend compri",
+   "verdict": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **REFERRING SENTENCE (from §7.07):** \"Sell or transfer any property or assets to, or purchase or acquire any property or assets from, or otherwise engage in any other transactions with, any of its Affiliates (other than any Loan Party), except that any Loan Party or any Subsidiary of a Loan Party may engage in any of the foregoing transa",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.5866799354553223,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::7.10(a)",
+   "to_label": "§7.10(a)",
+   "evidence": "“ Consolidated EBITDA ” means, at any date of determination, an amount equal to Consolidated Net Income of Parent and its Subsidiaries on a consolidated basis for the most recently completed Measurement Period plus (a) the following to the extent deducted in calculating such Consolidated Net Income: (i) Consolidated Interest Expense, (ii) the provision for Federal, state, local and foreign income taxes payable, (iii) depreciation and amortization expense, (iv) other non‑cash charges (including, without limitation, stock compensation expenses, deferred compensation adjustments, impairment charges, restructuring and exit costs, and other non‑operating expenses (income)), (v) the cumulative eff",
+   "target_snippet": "(a) Consolidated Leverage Ratio . Permit the Consolidated Leverage Ratio as of each Measurement Period to be greater than 4.00 to 1.00.",
+   "verdict": "1.  **Analyze User Input:**\n   - **REFERRING SENTENCE (from §1.01):** Defines \"Consolidated EBITDA\" as Consolidated Net Income plus certain add-backs like interest expense, taxes, depreciation/amortization, non-cash charges, etc. It's cut off at the end (\"cumulative eff\").\n   - **TARGET §7.10(a) FULL TEXT:** Contains subsection (a) \"Consolidated Leverage Ratio\" and subsection (b) \"Consolidated Fix",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.5677504539489746,
+   "from": "base::1.01",
+   "from_label": "§1.01",
+   "to": "base::8.01(l)",
+   "to_label": "§8.01(l)",
+   "evidence": "“ Subordination Provisions ” has the meaning specified in Section 8.01(l) . “ Subsidiary ” of a Person means a corporation, partnership, joint venture, limited liability company or other business entity of which a majority of the shares of securities or other interests having ordinary voting power for the election of directors or other governing body (other than securities or interests having such power only by reason of the happening of a contingency) are at the time beneficially owned, or the management of which is otherwise controlled, directly, or indirectly through one or more intermediaries, or both, by such Person.",
+   "target_snippet": "(l) Subordination . (i) The subordination provisions of the documents evidencing or governing any subordinated Indebtedness required to be subordinated hereunder (the “ Subordination Provisions ”) shall, in whole or in part, terminate, cease to be effective or cease to be legally valid, binding and ",
+   "verdict": "SUPPORTED: Section 8.01(l) explicitly defines \"Subordination Provisions\" within subsection (l)(i), confirming that the term's meaning is specified there exactly as attributed by the referring sentence.",
+   "is_mismatch": false
+  },
+  {
+   "kind": "semantic_mismatch_candidate",
+   "score": -3.5442521572113037,
+   "from": "base::2.01",
+   "from_label": "§2.01",
+   "to": "base::2.04",
+   "to_label": "§2.04",
+   "evidence": "Within the limits of each Lender’s Commitment, and subject to the other terms and conditions hereof, the Borrower may borrow under this Section 2.01 , prepay under Section 2.04 , and reborrow under this Section 2.01 .",
+   "target_snippet": "Prepayments .",
+   "verdict": "SUPPORTED: The referring sentence attributes prepayment rights to Section 2.04, which aligns perfectly with the target section’s explicit title (“Prepayments”) and its detailed provisions governing both optional and mandatory loan prepayments.",
+   "is_mismatch": false
+  }
+ ],
+ "precedence_clauses": [
+  {
+   "kind": "precedence_clause",
+   "section": "base::1.01",
+   "label": "§1.01",
+   "clause": "Notwithstanding anything to the contrary contained in this definition, the determination of the Applicable Rate for any period shall be subject to the provisions of Section 2.09(b) . “ Appropriate Lender ” means, at any time, (a) with respect to the Revolving Credit Facility, a Lender that has a Commitment or a Loan at such time, and (b) with respect to the Letter of Credit Sublimit, (i) the L/C Issuer and (ii) if any Letters of Credit have been issued pursuant to Section 2.03(a) , the Lenders. "
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::2.03(h)",
+   "label": "§2.03(h)",
+   "clause": "Notwithstanding anything to the contrary contained herein, upon the request of the Required Lenders, while any Event of Default exists, all Letter of Credit Fees shall accrue at the Default Rate. 38"
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::2.03(j)",
+   "label": "§2.03(j)",
+   "clause": "In the event of any conflict between the terms hereof and the terms of any Issuer Document, the terms hereof shall control."
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::2.10(a)",
+   "label": "§2.10(a)",
+   "clause": "In the event of any conflict between the accounts and records maintained by any Lender and the accounts and records of the Administrative Agent in respect of such matters, the accounts and records of the Administrative Agent shall control in the absence of manifest error."
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::2.10(b)",
+   "label": "§2.10(b)",
+   "clause": "In the event of any conflict between the accounts and records maintained by the Administrative Agent and the accounts and records of any Lender in respect of such matters, the accounts and records of the Administrative Agent shall control in the absence of manifest error."
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::2.14(c)",
+   "label": "§2.14(c)",
+   "clause": "Notwithstanding anything to the contrary contained in this Agreement, Cash Collateral provided under any of this Section 2.14 or Section 2.03 , 2.04 , 2.15 or 8.02 in respect of Letters of Credit shall be held and applied to the satisfaction of the specific L/C Obligations, obligations to fund participations therein (including, as to Cash Collateral provided by a Defaulting Lender, any interest accrued on such obligation) and other obligations for which the Cash Collateral was so provided, prior"
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::2.15(a)",
+   "label": "§2.15(a)",
+   "clause": "Notwithstanding anything to the contrary contained in this Agreement, if any Lender becomes a Defaulting Lender, then, until such time as that Lender is no longer a Defaulting Lender, to the extent permitted by applicable Law: (i) Waivers and Amendments ."
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::3.01(e)",
+   "label": "§3.01(e)",
+   "clause": "Notwithstanding anything to the contrary in the preceding two sentences, the completion, execution and submission of such documentation (other than such documentation set forth in Sections 3.01(e)(ii)(A) , (ii)(B) and (ii)(D) below) shall not be required if in the Lender’s reasonable judgment such completion, execution or submission would subject such Lender to any material unreimbursed cost or expense or would materially prejudice the legal or commercial position of such Lender. (ii) Without li"
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::3.01(f)",
+   "label": "§3.01(f)",
+   "clause": "Notwithstanding anything to the contrary in this paragraph (f), in no event will the indemnified party be required to pay any amount to an indemnifying party pursuant to this paragraph (f) the payment of which would place the indemnified party in a less favorable net after-Tax position than the indemnified party would have been in if the Tax subject to indemnification and giving rise to such refund had 53 not been deducted, withheld or otherwise imposed and the indemnification payments or additi"
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::10.01(i)",
+   "label": "§10.01(i)",
+   "clause": "Notwithstanding anything to the contrary herein, no Defaulting Lender shall have any right to approve or disapprove any amendment, waiver or consent hereunder (and any amendment, waiver or consent which by its terms requires the consent of all Lenders or each affected Lender may be effected with the consent of the applicable Lenders other than Defaulting Lenders), except that (x) the Commitment of any Defaulting Lender may not be increased or extended without the consent of such Lender and (y) a"
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::10.03",
+   "label": "§10.03",
+   "clause": "Notwithstanding anything to the contrary contained herein or in any other Loan Document, the authority to enforce rights and remedies hereunder and under the other Loan Documents against the Loan Parties or any of them shall be vested exclusively in, and all actions and proceedings at law in connection 96 with such enforcement shall be instituted and maintained exclusively by, the Administrative Agent in accordance with Section 8.02 for the benefit of all the Lenders and the L/C Issuer; provided"
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::10.06(f)",
+   "label": "§10.06(f)",
+   "clause": "Notwithstanding anything to the contrary contained herein, if at any time Wells Fargo assigns all of its Commitment and Loans pursuant to Section 10.06(b) , Wells Fargo may, upon 30 days’ notice to the Borrower and the Lenders, resign as L/C Issuer."
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::10.09",
+   "label": "§10.09",
+   "clause": "Notwithstanding anything to the contrary contained in any Loan Document, the interest paid or agreed to be paid under the Loan Documents shall not exceed the maximum rate of non‑usurious interest permitted by applicable Law (the “ Maximum Rate ”)."
+  },
+  {
+   "kind": "precedence_clause",
+   "section": "base::10.22",
+   "label": "§10.22",
+   "clause": "Solely to the extent any Lender or L/C Issuer that is an EEA Financial Institution is a party to this Agreement and notwithstanding anything to the contrary in any Loan Document or in any other agreement, arrangement or understanding among any such parties, each party hereto acknowledges that any liability of any Lender or L/C Issuer that is an EEA Financial Institution arising under any Loan Document, to the extent such liability is unsecured, may be subject to the Write-Down and Conversion Pow"
+  }
+ ]
+}
