@@ -1,0 +1,289 @@
+[
+  {
+    "id": "q1",
+    "entry": [
+      "base::10.14"
+    ],
+    "gold": [
+      "base::10.14",
+      "base::10.14(a)",
+      "base::10.14(b)"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "New York law governs (§10.14(a)); exclusive jurisdiction of NY state courts sitting in New York County and SDNY (§10.14(b)).",
+    "text": "What is the governing law of the agreement, and the agreed forum for disputes?"
+  },
+  {
+    "id": "q2",
+    "entry": [
+      "base::def::Maturity Date"
+    ],
+    "gold": [
+      "base::def::Maturity Date"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "No term loan facility exists; this is a $400M revolving credit facility. Maturity Date as originally executed: October 26, 2022 (§1.01).",
+    "text": "What is the final maturity date of the term loan facility as originally executed?"
+  },
+  {
+    "id": "q3",
+    "entry": [
+      "base"
+    ],
+    "gold": [
+      "party::CADENCE BANK, N.A.",
+      "party::CITIZENS BANK, NATIONAL ASSOCIATION",
+      "party::Certain Subsidiaries of Parent",
+      "party::DENNY’S CORPORATION",
+      "party::DENNY’S, INC.",
+      "party::FIFTH THIRD BANK",
+      "party::REGIONS BANK",
+      "party::The Other Lenders Party Hereto",
+      "party::WELLS FARGO BANK, NATIONAL ASSOCIATION"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "Denny's Inc (Borrower); Denny's Corporation (Parent/Guarantor); certain subsidiaries (Guarantors); Wells Fargo (Administrative Agent AND L/C Issuer); Regions Bank + Citizens Bank (Co-Syndication Agents); Cadence Bank + Fifth Third (Co-Documentation Agents); other Lenders.",
+    "text": "Who are the parties to the original agreement, and what role does each hold?"
+  },
+  {
+    "id": "q4",
+    "entry": [
+      "base::def::Borrowing"
+    ],
+    "gold": [
+      "base::def::Borrowing",
+      "base::10.22(b)",
+      "base::2.01",
+      "base::2.02(a)",
+      "base::2.02(b)",
+      "base::2.03(c)",
+      "base::2.11(b)",
+      "base::3.03",
+      "base::8.01(d)"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "\"Borrowing\" (§1.01) means a borrowing consisting of simultaneous Loans of the same Type and, in the case of Eurodollar Rate Loans, having the same Interest Period, made by each of the Lenders pursuant to §2.01. Dependent sections: 2.01, 2.02(a), 2.02(b), 2.03(c), 2.11(b), 3.03, 8.01(d), 10.22(b). Four §1.01 definitions also depend on it (Committed Loan Notice, Credit Extension, L/C Borrowing, Request for Credit Extension); answers that additionally list these are correct. Answers may not omit any of the 8 dependent sections. (Gold verified against the graph inbound REFERENCES/DEPENDS_ON edges 2026-09-26; earlier gold paraphrased the definition and omitted the 4 dependent definitions.)",
+    "text": "Define the term used for permitted borrowings, and list every section of the agreement that depends on that definition."
+  },
+  {
+    "id": "q5",
+    "entry": [
+      "base::7.01",
+      "base::def::Permitted Liens"
+    ],
+    "gold": [
+      "base::7.01",
+      "base::def::Permitted Liens",
+      "base::7.01(a)",
+      "base::7.01(b)",
+      "base::7.01(c)",
+      "base::7.01(d)",
+      "base::7.01(e)",
+      "base::7.01(f)"
+    ],
+    "edge_asserts": [
+      [
+        "base::7.01(a)",
+        "EXCEPTION_TO",
+        "base::7.01"
+      ],
+      [
+        "base::7.01(b)",
+        "EXCEPTION_TO",
+        "base::7.01"
+      ],
+      [
+        "base::7.01(c)",
+        "EXCEPTION_TO",
+        "base::7.01"
+      ],
+      [
+        "base::7.01(d)",
+        "EXCEPTION_TO",
+        "base::7.01"
+      ],
+      [
+        "base::7.01(e)",
+        "EXCEPTION_TO",
+        "base::7.01"
+      ],
+      [
+        "base::7.01(f)",
+        "EXCEPTION_TO",
+        "base::7.01"
+      ]
+    ],
+    "version_checks": [],
+    "gold_answer": "§7.01 (Liens) prohibits Liens on any property including IP, other than exceptions §7.01(a)-(f) incl. Permitted Liens (§1.01). No IP-specific carve-out: a lien over IP is only permissible if it fits an exception.",
+    "text": "May the Borrower grant a lien over its intellectual property? Cite the covenant, the operative defined term, and every exception that applies."
+  },
+  {
+    "id": "q6",
+    "entry": [
+      "base::7.05",
+      "base::def::Restricted Payment"
+    ],
+    "gold": [
+      "base::7.05",
+      "base::7.05(a)",
+      "base::7.05(b)",
+      "base::def::Restricted Payment"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "§7.05(a) prohibits Restricted Payments (§1.01 definition) with carve-outs: (i) Subsidiary-to-Parent/Borrower distributions permitted, plus clauses (ii)-(iv); post-Second-Amendment proviso suspends (ii)-(iv) until covenant compliance is demonstrated.",
+    "text": "A subsidiary wants to make a distribution to its parent. Is it permitted? Walk the chain from covenant to definition to carve outs."
+  },
+  {
+    "id": "q7",
+    "entry": [
+      "base::7.10"
+    ],
+    "gold": [
+      "base::7.10",
+      "base::7.10(a)",
+      "base::7.10(b)",
+      "base::8.01",
+      "base::8.01(b)",
+      "base::8.02"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "Breach of §7.10 financial covenants is an immediate Event of Default under §8.01(b) (no cure/grace period for §7.10, unlike other covenants which get 30 days under §8.01(c)); remedies in §8.02: terminate commitments, accelerate, demand cash collateral.",
+    "text": "What happens if the principal financial covenant is breached? Trace cure rights, grace periods and consequences through to the events of default."
+  },
+  {
+    "id": "q8",
+    "entry": [
+      "base::7.05",
+      "base::7.01"
+    ],
+    "gold": [],
+    "edge_asserts": [
+      [
+        "base::7.05(a)",
+        "REFERENCES",
+        "base::7.05"
+      ]
+    ],
+    "version_checks": [],
+    "gold_answer": "Verified ground truth (exhaustive offline audit of all 234 section cross-references, 2026-09-26): the agreement contains NO broken cross-references — every checked reference points to a section that says what the referrer implies. Genuine section-vs-section conflicts DO exist and are acknowledged and resolved by explicit precedence clauses. The clearest example: §2.13(g), literally titled \"Conflicting Provisions\", states \"This Section shall supersede any provisions in Section 2.12 or 10.01 to the contrary\" — §2.13 (maturity-date extension payments to extending Lenders) conflicts with §2.12 (pro-rata sharing of payments among all Lenders) and §10.01 (amendment/consent requirements). Other acceptable pairs: §2.15(a) Defaulting Lender adjustments overriding pro-rata provisions (\"Notwithstanding anything to the contrary\"); §10.09 usury savings overriding any interest provision; §10.03 exclusive-enforcement paragraph overriding individual Lender remedies. A correct answer identifies one such pair, describes both sides of the conflict, and cites the controlling clause. Incorrect: claiming no conflicts exist at all, or fabricating an unacknowledged conflict without textual support.",
+    "text": "Find one place in the agreement where two sections conflict, or where a cross reference points to a section that does not say what the referring section implies."
+  },
+  {
+    "id": "q9",
+    "entry": [
+      "base::7.05(a)"
+    ],
+    "gold": [
+      "base::7.05(a)",
+      "base::def::Restricted Payment"
+    ],
+    "edge_asserts": [],
+    "version_checks": [
+      {
+        "node": "base::7.05(a)",
+        "as_of": "2018-01-01",
+        "status": "original"
+      }
+    ],
+    "gold_answer": "As of 2018-01-01: §7.05(a) as originally executed — Restricted Payments prohibited subject to carve-outs (i)-(iv); no Second Amendment proviso.",
+    "text": "As of the date given in the question set, what is the maximum permitted restricted payment? Cite the operative version of the operative section."
+  },
+  {
+    "id": "q10",
+    "entry": [
+      "base::7.05(a)"
+    ],
+    "gold": [
+      "base::7.05(a)",
+      "base::def::Restricted Payment"
+    ],
+    "edge_asserts": [],
+    "version_checks": [
+      {
+        "node": "base::7.05(a)",
+        "as_of": "2020-06-01",
+        "status": "amended"
+      }
+    ],
+    "gold_answer": "As of 2020-06-01: §7.05(a) as amended by Second Amendment (2020-05-13) — proviso suspends Restricted Payments under clauses (ii)-(iv) until financial covenant compliance is demonstrated.",
+    "text": "As of the later date given in the question set, answer the same question. Explain what changed, and when."
+  },
+  {
+    "id": "q11",
+    "entry": [
+      "amendment_1",
+      "amendment_2"
+    ],
+    "gold": [
+      "base::1.01",
+      "base::1.03(b)",
+      "base::1.08",
+      "base::10.22",
+      "base::10.23",
+      "base::2.15(a)",
+      "base::5.05(c)",
+      "base::5.23",
+      "base::6.01",
+      "base::7.03",
+      "base::7.04(e)",
+      "base::7.05(a)",
+      "base::7.10",
+      "base::7.10(a)",
+      "base::7.10(b)",
+      "base::7.19",
+      "base::def::Applicable Rate",
+      "base::def::Bail-In Action",
+      "base::def::Bail-In Legislation",
+      "base::def::Base Rate",
+      "base::def::Consolidated EBITDA",
+      "base::def::Consolidated Leverage Ratio",
+      "base::def::Eurodollar Rate",
+      "base::def::Eurodollar Rate Loan",
+      "base::def::Write-Down and Conversion Powers",
+      "base::exhibit::C"
+    ],
+    "edge_asserts": [],
+    "version_checks": [],
+    "gold_answer": "68 amendment operations from the graph's AMENDS edges: First Amendment 4 (2018-06-26); Second Amendment 30 (2020-05-13); Third Amendment 34 (2020-12-15). List every target, the instrument, the effective date, and the operation type. The catalog is exhaustive — do not invent operations that are not on an AMENDS edge.",
+    "text": "List every section of the original agreement that has been amended, when, and by which instrument."
+  },
+  {
+    "id": "q12",
+    "entry": [
+      "base::def::Consolidated Leverage Ratio"
+    ],
+    "gold": [
+      "base::def::Consolidated Leverage Ratio",
+      "base::def::Consolidated EBITDA",
+      "base::def::Consolidated Funded Indebtedness",
+      "base::7.10(a)"
+    ],
+    "edge_asserts": [
+      [
+        "base::def::Consolidated Leverage Ratio",
+        "DEPENDS_ON",
+        "base::def::Consolidated EBITDA"
+      ],
+      [
+        "base::def::Consolidated Leverage Ratio",
+        "DEPENDS_ON",
+        "base::def::Consolidated Funded Indebtedness"
+      ]
+    ],
+    "version_checks": [
+      {
+        "node": "base::def::Consolidated Leverage Ratio",
+        "as_of": "2020-06-01",
+        "status": "amended"
+      }
+    ],
+    "gold_answer": "Yes: Second Amendment (2020-05-13) amended the Consolidated Leverage Ratio definition; Consolidated EBITDA was amended by First Amendment (2018-06-26). Affects §7.10(a) covenant, §7.05(a), pricing (Applicable Rate) and other sections that use the ratio.",
+    "text": "Has the definition of the leverage ratio changed over the life of the agreement? If so, how does that change affect the sections that rely on it?"
+  }
+]

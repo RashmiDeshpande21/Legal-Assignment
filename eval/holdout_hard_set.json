@@ -1,0 +1,224 @@
+[
+  {
+    "id": "hh_01",
+    "category": "amendment_evolution",
+    "question": "What specific exclusion was added to the Consolidated EBITDA definition's subtraction clause for non-cash items increasing Consolidated Net Income, which amending instrument made this change, and when did it take effect?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::def::Consolidated EBITDA"
+    ],
+    "gold_answer": "The First Amendment (effective 2018-06-26) restated clause (b)(iv) of the Consolidated EBITDA definition to add a parenthetical exclusion: non-cash items increasing Consolidated Net Income pursuant to FASB ASC 606 relating to the recognition of franchise fee revenue are excluded from the subtraction. This means such ASC 606-driven franchise fee revenue recognition gains are no longer deducted when computing Consolidated EBITDA."
+  },
+  {
+    "id": "hh_02",
+    "category": "amendment_evolution",
+    "question": "Describe how the definition of 'Eurodollar Rate' was restructured by amendment, identifying the specific amending instrument, its effective date, and the substantive difference between the original and amended formulations.",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::def::Eurodollar Rate"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) restated the Eurodollar Rate definition. Originally, it was defined in two sub-clauses: (a) for Eurodollar Rate Loans, the rate was determined from Reuters Screen LIBOR01 Page for the applicable Interest Period (with a fallback to an arithmetic average from London interbank quotes), and (b) for Base Rate Loans, a similar one-month LIBOR screen rate with the same fallback. The amended definition replaced this with a single formula: Eurodollar Rate = LIBOR / (1.00 – Eurodollar Reserve Percentage), eliminating the detailed screen-rate and fallback mechanics."
+  },
+  {
+    "id": "hh_03",
+    "category": "amendment_evolution",
+    "question": "What new monthly reporting obligations were imposed on the Loan Parties under Section 6.01, which amendment introduced them, and what are the specific deadlines and content requirements for each reporting stream?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::6.01"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) added Section 6.01(d) ('Monthly Reports') with two reporting streams: (i) From the Second Amendment Effective Date through March 31, 2021, within eight (8) Business Days after each fiscal month-end, the Loan Parties must deliver (x) a summary of same-store sales and (y) a report of restaurant closures and openings, covering both Loan Party/Subsidiary restaurants and franchisee restaurants, in form consistent with the Parent's customary public filings. (ii) From the Second Amendment Effective Date through May 26, 2021, within eight (8) Business Days after each fiscal month-end, a calculation of Liquidity and demonstration of compliance with Section 7.10(c), in form reasonably acceptable to the Administrative Agent."
+  },
+  {
+    "id": "hh_04",
+    "category": "amendment_evolution",
+    "question": "How were the Restricted Payment permissions under Section 7.05(a) modified by amendment, which instrument made the change, and precisely what conditions must be satisfied before the suspended Restricted Payment baskets are restored?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::7.05(a)"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) inserted a proviso at the end of Section 7.05(a) prohibiting Restricted Payments under clauses (ii) (stock-rights dividends), (iii) (Stockholder Dividend Amount basket), and (iv) (the $50,000,000/unlimited leverage-based basket) during a suspension period. This period commences on the Second Amendment Effective Date (May 13, 2020) and ends on the date the Loan Parties demonstrate compliance with the financial covenants in Section 7.10 for the fiscal quarter of the Parent ending on or about June 30, 2021, as determined based on the Compliance Certificate delivered pursuant to Section 6.02(a) for that fiscal quarter. Until that compliance is demonstrated, those three Restricted Payment baskets are fully suspended."
+  },
+  {
+    "id": "hh_05",
+    "category": "as_of_temporal",
+    "question": "As of March 1, 2018, when computing Consolidated EBITDA, how are non-cash items that increase Consolidated Net Income (such as stock compensation benefits and deferred compensation adjustments) treated in the subtraction clause (b)(iv)?",
+    "as_of": "2018-03-01",
+    "gold": [
+      "base::def::Consolidated EBITDA"
+    ],
+    "gold_answer": "Under the original 2017 text in force as of March 1, 2018 (before the First Amendment), clause (b)(iv) requires subtracting all other non-cash items (including, without limitation, stock compensation benefits, deferred compensation adjustments, restructuring and exit cost reversals, and other non-operating income) increasing Consolidated Net Income, in each case of or by Parent and its Subsidiaries for such Measurement Period. There is no exclusion for non-cash items arising from FASB ASC 606 franchise fee revenue recognition."
+  },
+  {
+    "id": "hh_06",
+    "category": "as_of_temporal",
+    "question": "As of January 15, 2020, does the definition of Consolidated EBITDA exclude any non-cash items increasing Consolidated Net Income related to FASB ASC 606 franchise fee revenue recognition when applying the subtraction in clause (b)(iv)?",
+    "as_of": "2020-01-15",
+    "gold": [
+      "base::def::Consolidated EBITDA"
+    ],
+    "gold_answer": "Yes. As of January 15, 2020, the First Amendment (effective 2018-06-26) is in force. Under the restated clause (b)(iv), non-cash items increasing Consolidated Net Income pursuant to FASB ASC 606 relating to the recognition of franchise fee revenue are expressly excluded from the subtraction. This means such ASC 606-related non-cash franchise fee revenue items are not deducted from Consolidated EBITDA."
+  },
+  {
+    "id": "hh_07",
+    "category": "as_of_temporal",
+    "question": "As of September 23, 2020, is the Consolidated Fixed Charge Coverage Ratio covenant under Section 7.10(b) required to be tested, and if so, what is the minimum ratio?",
+    "as_of": "2020-09-23",
+    "gold": [
+      "base::7.10(b)"
+    ],
+    "gold_answer": "No. Under the Second Amendment (effective 2020-05-13), the covenant in Section 7.10(b) is not tested as of the end of the fiscal quarter ending on or about September 23, 2020. However, the covenant is otherwise deemed to be in effect with respect to that fiscal quarter end for all provisions under the Agreement and other Loan Documents that refer to compliance or pro forma compliance with Section 7.10."
+  },
+  {
+    "id": "hh_08",
+    "category": "as_of_temporal",
+    "question": "As of June 30, 2021, what is the maximum permitted Consolidated Leverage Ratio under Section 7.10(a), and over what period is the Consolidated Fixed Charge Coverage Ratio under Section 7.10(b) measured?",
+    "as_of": "2021-06-30",
+    "gold": [
+      "base::7.10(a)",
+      "base::7.10(b)"
+    ],
+    "gold_answer": "Under the Third Amendment text in force as of June 30, 2021 (Third Amendment effective 2020-12-15, which superseded the Second Amendment's §7.10(a)/(b) step-downs): (1) the maximum Consolidated Leverage Ratio for the fiscal quarter ending on or about June 30, 2021 is 5.25 to 1.00; and (2) the Consolidated Fixed Charge Coverage Ratio minimum for that same quarter is 1.00 to 1.00, and the ratio is determined for only the single fiscal quarter of the Parent then ended (rather than four consecutive fiscal quarters). (For context, the Third Amendment's later steps are 4.75:1.00 / 1.25:1.00 for ≈September 29, 2021 and 4.00:1.00 / 1.50:1.00 for ≈December 29, 2021 and thereafter.)"
+  },
+  {
+    "id": "hh_09",
+    "category": "multi_amendment_aggregation",
+    "question": "Trace every amendment-driven change to the Consolidated Leverage Ratio testing regime across the First, Second, and Third Amendments. For each instrument, identify (a) the specific provisions modified, (b) the nature of each change, and (c) the effective date. If an amendment did not touch this regime, state that explicitly.",
+    "as_of": null,
+    "gold": [
+      "base::7.10(a)",
+      "base::def::Consolidated Leverage Ratio"
+    ],
+    "gold_answer": "The First Amendment (effective 2018-06-26) did NOT modify the Consolidated Leverage Ratio testing regime. The Second Amendment (effective 2020-05-13) made two changes: (1) Section 7.10(a) was restated to suspend testing for the fiscal quarters ending on or about June 24, 2020, September 23, 2020, and December 30, 2020, and to introduce stepped-down maximum ratios of 4.50:1.00 (≈March 31, 2021), 4.25:1.00 (≈June 30, 2021), and 4.00:1.00 (≈September 29, 2021 and thereafter); (2) the definition of Consolidated Leverage Ratio in §1.01 was amended by inserting an annualization mechanism for the three fiscal quarters ending ≈March 31, June 30, and September 29, 2021 (EBITDA divided by 21.2% / 48.1% / 73.6%). The Third Amendment (effective 2020-12-15) then restated both again: (1) §7.10(a) extends the no-test window through ≈March 31, 2021 and replaces the step-downs with 5.25:1.00 (≈June 30, 2021), 4.75:1.00 (≈September 29, 2021), and 4.00:1.00 (≈December 29, 2021 and thereafter); (2) the Consolidated Leverage Ratio annualization proviso is replaced to cover ≈June 30, September 29, and December 29, 2021 with divisors 26.9% / 52.4% / 78.8%."
+  },
+  {
+    "id": "hh_10",
+    "category": "multi_amendment_aggregation",
+    "question": "Considering the First, Second, and Third Amendments, describe every change made to the benchmark interest-rate definitions (Eurodollar Rate, Base Rate, and Eurodollar Rate Loan). For each change, specify which amendment introduced it, its effective date, and the substance of the modification. If an amendment did not touch a definition, state that explicitly.",
+    "as_of": null,
+    "gold": [
+      "base::def::Eurodollar Rate",
+      "base::def::Base Rate",
+      "base::def::Eurodollar Rate Loan"
+    ],
+    "gold_answer": "The First Amendment (effective 2018-06-26) did NOT modify Eurodollar Rate, Base Rate, or Eurodollar Rate Loan. The Second Amendment (effective 2020-05-13) changed all three of the Second Amendment's benchmark package that touches these terms: (1) Eurodollar Rate was restated from a detailed Reuters Screen LIBOR01 Page formulation (separate clauses for Eurodollar Rate Loans and Base Rate Loans, with fallback quotes) to a simplified formula Eurodollar Rate = LIBOR / (1.00 – Eurodollar Reserve Percentage); (2) Base Rate clause (c) was replaced to reference 'LIBOR for an Interest Period of one month plus 1.00%' with a proviso that clause (c) is inapplicable while LIBOR is unavailable or unascertainable; (3) Eurodollar Rate Loan was restated to mean a Loan bearing interest based on clause (a) of the definition of LIBOR. The Third Amendment (effective 2020-12-15) did not further amend Eurodollar Rate or Base Rate, but restated Eurodollar Rate Loan so that it also covers interest based on the Benchmark Replacement when then applicable."
+  },
+  {
+    "id": "hh_11",
+    "category": "multi_amendment_aggregation",
+    "question": "Across the First, Second, and Third Amendments, identify all changes affecting the capacity to make Restricted Payments (§7.05(a)) and Investments (§7.03). For each change, state which amendment made it, its effective date, and the restriction or modification introduced. Also explain how the EBITDA-related change in the First Amendment interacts with the restricted-payments framework.",
+    "as_of": null,
+    "gold": [
+      "base::7.05(a)",
+      "base::7.03",
+      "base::def::Consolidated EBITDA"
+    ],
+    "gold_answer": "The First Amendment (effective 2018-06-26) did not directly amend §7.05(a) or §7.03, but it restated Consolidated EBITDA clause (b)(iv) to exclude non-cash items increasing Consolidated Net Income pursuant to FASB ASC 606 relating to franchise fee revenue recognition. Because Restricted Payments under §7.05(a)(iii) require pro forma compliance with §7.10 (which tests the Consolidated Leverage Ratio using Consolidated EBITDA), and §7.05(a)(iv) conditions unlimited payments on a Consolidated Leverage Ratio below 3.50:1.00, this EBITDA adjustment indirectly affects restricted-payment capacity. The Second Amendment (effective 2020-05-13) directly restricted both baskets: (1) §7.05(a) gained a proviso suspending clauses (ii), (iii), and (iv) from the Second Amendment Effective Date until compliance with §7.10 for the fiscal quarter ending on or about June 30, 2021 (via the §6.02(a) Compliance Certificate); (2) §7.03 gained a parallel proviso suspending Investments under clauses (d) (except intercompany Restricted Payments under §7.05(a)(i)), (f) (except up to $250,000), (g), (h), and (i) for the same period, with a carve-out for Guarantees of franchisee/licensee or Purchasing Coop obligations consistent with past practices up to $10,000,000. The Third Amendment (effective 2020-12-15) replaced both provisos: the Restricted Payment and Investment suspensions now run from the Third Amendment Effective Date until compliance with §7.10 for the fiscal quarter ending on or about September 29, 2021 (again via the §6.02(a) Compliance Certificate), rather than June 30, 2021."
+  },
+  {
+    "id": "hh_12",
+    "category": "definition_dependents",
+    "question": "Which operative provisions of the Credit Agreement reference or depend on the defined term \"Threshold Amount\" (defined as $10,000,000)? Provide the complete list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Threshold Amount",
+      "base::6.04",
+      "base::8.01(e)",
+      "base::8.01(h)",
+      "base::8.01(i)"
+    ],
+    "gold_answer": "The defined term \"Threshold Amount\" is referenced by exactly four operative provisions: §6.04, §8.01(e), §8.01(h), and §8.01(i). No other provisions in the agreement depend on this defined term."
+  },
+  {
+    "id": "hh_13",
+    "category": "definition_dependents",
+    "question": "Identify every section of the Credit Agreement that relies on or is governed by the defined term \"Default Rate.\" For each, provide the section number.",
+    "as_of": null,
+    "gold": [
+      "base::def::Default Rate",
+      "base::10.01(d)",
+      "base::2.03(c)",
+      "base::2.03(h)",
+      "base::2.07(b)"
+    ],
+    "gold_answer": "The complete set of provisions that reference or depend on the \"Default Rate\" definition is: §2.03(c), §2.03(h), §2.07(b), and §10.01(d). These four provisions are the exhaustive list of dependents."
+  },
+  {
+    "id": "hh_14",
+    "category": "definition_dependents",
+    "question": "The \"Letter of Credit Sublimit\" is defined as $30,000,000 and is stated to be part of, and not in addition to, the Revolving Credit Facility. List all provisions and defined terms in the Credit Agreement that reference or depend on the \"Letter of Credit Sublimit\" definition.",
+    "as_of": null,
+    "gold": [
+      "base::def::Letter of Credit Sublimit",
+      "base::2.03(a)",
+      "base::2.05(a)",
+      "base::2.05(b)",
+      "base::2.05(c)",
+      "base::def::Appropriate Lender"
+    ],
+    "gold_answer": "The \"Letter of Credit Sublimit\" is referenced by the following five provisions/definitions: §2.03(a), §2.05(a), §2.05(b), §2.05(c), and the definition of \"Appropriate Lender\" in §1.01. This is the exhaustive list of dependents."
+  },
+  {
+    "id": "hh_15",
+    "category": "false_premise",
+    "question": "Under the Fourth Amendment to Denny's 2017 Credit Agreement, what changes were made to the Minimum Liquidity thresholds originally introduced by the Second Amendment?",
+    "as_of": null,
+    "gold": [
+      "base::7.10"
+    ],
+    "gold_answer": "The premise is false. There is no Fourth Amendment. The instruments are the First Amendment (2018-06-26), Second Amendment (2020-05-13), and Third Amendment (2020-12-15). Minimum Liquidity was introduced by the Second Amendment as §7.10(c); no Fourth Amendment modified those thresholds."
+  },
+  {
+    "id": "hh_16",
+    "category": "false_premise",
+    "question": "What is the minimum Consolidated Net Worth that Denny's must maintain under §7.10 of the Credit Agreement?",
+    "as_of": "2020-06-01",
+    "gold": [
+      "base::7.10",
+      "base::7.10(a)",
+      "base::7.10(b)"
+    ],
+    "gold_answer": "The premise is false. There is no Consolidated Net Worth covenant in §7.10 of the Credit Agreement, and 'Consolidated Net Worth' is not a defined term in the agreement. Section 7.10 contains only three financial covenants: (a) a Consolidated Leverage Ratio covenant (§7.10(a)), (b) a Consolidated Fixed Charge Coverage Ratio covenant (§7.10(b)), and (c) a Minimum Liquidity covenant (§7.10(c), added by the Second Amendment effective 2020-05-13). No minimum net worth requirement exists anywhere in the financial covenants section."
+  },
+  {
+    "id": "hh_17",
+    "category": "false_premise",
+    "question": "How does the ESG Margin Adjustment defined in the Credit Agreement interact with the Consolidated Leverage Ratio step-downs introduced by the Second Amendment in §7.10(a)?",
+    "as_of": "2021-03-31",
+    "gold": [
+      "base::7.10(a)"
+    ],
+    "gold_answer": "The premise is false. 'ESG Margin Adjustment' is not a defined term anywhere in the 2017 Credit Agreement or its amendments. No ESG-related pricing or margin mechanism exists in the agreement. As of March 31, 2021, §7.10(a) is governed by the Third Amendment (effective 2020-12-15): testing of the Consolidated Leverage Ratio is suspended for the fiscal quarter ending on or about March 31, 2021 (along with the mid/late-2020 quarters), and when testing resumes the maximum permitted ratios are 5.25:1.00 (≈June 30, 2021), 4.75:1.00 (≈September 29, 2021), and 4.00:1.00 (≈December 29, 2021 and each fiscal quarter thereafter), with no ESG-related adjustment of any kind."
+  },
+  {
+    "id": "hh_18",
+    "category": "conflict_precedence",
+    "question": "If a provision of the Credit Agreement or any other Loan Document would permit interest to be charged at a rate exceeding the maximum non-usurious rate under applicable law, which provision controls, and what remedy does it prescribe for any excess interest collected?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::10.09"
+    ],
+    "gold_answer": "Section 10.09 (Interest Rate Limitation) controls. It opens with 'Notwithstanding anything to the contrary contained in any Loan Document,' thereby overriding any conflicting provision in the Credit Agreement or any other Loan Document. It provides that interest paid or agreed to be paid shall not exceed the Maximum Rate, and if the Administrative Agent or any Lender receives interest exceeding the Maximum Rate, the excess interest shall be applied to the principal of the Loans or, if it exceeds such unpaid principal, refunded to the Borrower."
+  },
+  {
+    "id": "hh_19",
+    "category": "conflict_precedence",
+    "question": "Section 10.01(i) states that certain amendments require the consent of 'all Lenders' or 'each affected Lender.' If a Defaulting Lender withholds consent to such an amendment, does the Defaulting Lender's vote count? Which provision takes precedence, and what are the two exceptions?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::10.01(i)",
+      "base::2.15(a)"
+    ],
+    "gold_answer": "Section 10.01(i)'s explicit 'Notwithstanding anything to the contrary herein' language controls: a Defaulting Lender has no right to approve or disapprove any amendment, waiver, or consent, and any such action requiring the consent of all Lenders or each affected Lender may be effected without the Defaulting Lender's consent. This overrides the general all-Lender consent requirement. The two exceptions are: (x) the Commitment of a Defaulting Lender may not be increased or extended without that Lender's consent, and (y) any waiver, amendment, or modification requiring all-Lender or each-affected-Lender consent that affects a Defaulting Lender more adversely than other affected Lenders still requires that Defaulting Lender's consent. Section 2.15(a)(i) cross-references this same rule, confirming that a Defaulting Lender's approval rights are restricted as set forth in the definition of 'Required Lenders' and Section 10.01."
+  },
+  {
+    "id": "hh_20",
+    "category": "conflict_precedence",
+    "question": "Under the Credit Agreement, individual Lenders generally have rights and remedies under the Loan Documents. However, Section 10.03 contains a 'Notwithstanding' clause regarding enforcement authority. When Section 10.03's enforcement-authority provision conflicts with an individual Lender's general right to pursue remedies, which provision controls, and what carve-outs exist for individual Lenders?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::10.03"
+    ],
+    "gold_answer": "Section 10.03's second paragraph controls, opening with 'Notwithstanding anything to the contrary contained herein or in any other Loan Document.' It vests the authority to enforce rights and remedies against the Loan Parties exclusively in the Administrative Agent (acting in accordance with Section 8.02 for the benefit of all Lenders and the L/C Issuer), overriding any individual Lender's general right to independently enforce remedies. The carve-outs permitting individual action are: (a) the Administrative Agent may exercise rights inuring to its benefit solely as Administrative Agent; (b) the L/C Issuer may exercise rights inuring to its benefit solely as L/C Issuer; (c) any Lender may exercise setoff rights under Section 10.08 (subject to Section 2.12); and (d) any Lender may file proofs of claim or appear and file pleadings on its own behalf during a proceeding under any Debtor Relief Law relative to any Loan Party."
+  }
+]

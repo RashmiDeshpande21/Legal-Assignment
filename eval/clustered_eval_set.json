@@ -1,0 +1,1124 @@
+[
+  {
+    "category": "amendment_evolution",
+    "question": "In Section 10.22, what specific terminology replacements were made by the Second Amendment (effective 2020-05-13) with respect to the types of financial institutions and resolution authorities referenced?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::10.22"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) restated Section 10.22, making the following key terminology changes: (1) 'EEA Financial Institution' was replaced throughout with 'Affected Financial Institution'; (2) 'EEA Resolution Authority' was replaced with 'the applicable Resolution Authority'; and (3) the section title was changed from 'Acknowledgement and Consent to Bail-In of EEA Financial Institutions' to 'Acknowledgement and Consent to Bail-In of Affected Financial Institutions.' These changes broadened the scope of the bail-in acknowledgement provision beyond EEA-specific institutions and resolution authorities to cover a wider set of affected financial institutions and their applicable resolution authorities.",
+    "id": "cl_001"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "Section 1.08 ('Divisions') was not present in the original 2017 Credit Agreement. Which amending instrument introduced this section, on what effective date, and what does it provide regarding the treatment of assets, rights, obligations, or liabilities that become those of a different Person as a result of a division under Delaware law?",
+    "as_of": "2020-05-14",
+    "gold": [
+      "base::1.08"
+    ],
+    "gold_answer": "Section 1.08 was inserted by the Second Amendment, effective 2020-05-13. It provides that, for all purposes under the Loan Documents, in connection with any division or plan of division under Delaware law (or any comparable event under a different jurisdiction's laws): (a) if any asset, right, obligation, or liability of any Person becomes the asset, right, obligation, or liability of a different Person, it shall be deemed to have been transferred from the original Person to the subsequent Person; and (b) if any new Person comes into existence, such new Person shall be deemed to have been organized on the first date of its existence by the holders of its Equity Interests at such time.",
+    "id": "cl_002"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "Section 10.23, which addresses acknowledgements regarding Supported QFCs and the resolution power of the FDIC under U.S. Special Resolution Regimes, was not part of the original 2017 Credit Agreement. Which amending instrument added this section, what was its effective date, and what type of modification was it (e.g., insertion, deletion, replacement)?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::10.23"
+    ],
+    "gold_answer": "Section 10.23 ('Acknowledgement Regarding Any Supported QFCs') was added by the Second Amendment, effective 2020-05-13, as an insertion (it did not exist in the original agreement). The section addresses the resolution power of the FDIC under the Federal Deposit Insurance Act and Title II of the Dodd-Frank Wall Street Reform and Consumer Protection Act (collectively, the 'U.S. Special Resolution Regimes') with respect to Supported QFCs and QFC Credit Support provided through the Loan Documents.",
+    "id": "cl_003"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "Under the Second Amendment (effective 2020-05-13), what is the maximum aggregate amount of Investments permitted under clause (f) of Section 7.03 during the restricted period, and when does that restricted period end?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::7.03"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) inserted a proviso restricting certain Investments during a specified period. Under that proviso, clause (f) Investments are limited to an aggregate amount not to exceed $250,000 during the restricted period. The restricted period commences on the Second Amendment Effective Date (May 13, 2020) and ends on the date the Loan Parties demonstrate compliance with the financial covenants in Section 7.10 for the fiscal quarter of the Parent ending on or about June 30, 2021, as determined based on the Compliance Certificate delivered pursuant to Section 6.02(a) for that fiscal quarter.",
+    "id": "cl_004"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "What change was made to Section 5.05(c) by the Second Amendment, and until what date does the COVID-19 carve-out remain in effect?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::5.05(c)"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) inserted a proviso into Section 5.05(c) creating a COVID-19 carve-out. Under this proviso, from the Second Amendment Effective Date until the date on which the Loan Parties are required to deliver the financial statements and Compliance Certificate for the fiscal quarter of the Parent ending on or about June 30, 2021 (pursuant to Section 6.01(b) and Section 6.02(a) respectively), the impacts of the COVID-19 pandemic on the business, assets, operations, properties, condition (financial or otherwise), liabilities, or material agreements of Parent and its Subsidiaries are disregarded for purposes of the Material Adverse Effect representation in Section 5.05(c), provided that such impacts (x) occurred prior to the Second Amendment Effective Date and (y) were disclosed in writing to the Administrative Agent and the Lenders prior to the Second Amendment Effective Date, and only to the extent the scope of such impacts are not greater than so disclosed.",
+    "id": "cl_005"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "What new monthly reporting obligations were added to Section 6.01 of the Credit Agreement, which amendment introduced them, and through what dates were they required?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::6.01"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) added a new subsection (d) 'Monthly Reports' to Section 6.01, imposing two new reporting obligations: (i) From the Second Amendment Effective Date through March 31, 2021, within eight Business Days after each fiscal month-end, the Borrower must deliver a summary of same-store sales and a report of restaurant closures and openings for restaurants of the Loan Parties and their Subsidiaries and franchisees, in form consistent with the Parent's customary public filings; and (ii) from the Second Amendment Effective Date through May 26, 2021, within eight Business Days after each fiscal month-end, a calculation of Liquidity and demonstration of compliance with Section 7.10(c), in form reasonably acceptable to the Administrative Agent.",
+    "id": "cl_006"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "What specific accounting standard was added to Section 1.03(b) by the First Amendment, what was its subject matter, and from what date were financial statements and ratio calculations required to give effect to it?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(b)"
+    ],
+    "gold_answer": "The First Amendment (effective 2018-06-26) inserted language into Section 1.03(b) requiring that, commencing January 1, 2018, financial statements and other documents required under the Agreement be prepared, and financial ratios and other requirements under the Loan Documents be calculated, after giving effect to FASB ASC 606 relating to the recognition of franchise fee revenue.",
+    "id": "cl_007"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "What substantive provision was added to Section 2.15(a) by the Second Amendment (effective 2020-05-13) regarding the reallocation of Defaulting Lender obligations, and what does it preserve?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::2.15(a)"
+    ],
+    "gold_answer": "The Second Amendment (effective 2020-05-13) restated Section 2.15(a) to add a provision (subject to Section 10.22) stating that no reallocation under that section shall constitute a waiver or release of any claim of any party against a Defaulting Lender arising from that Lender having become a Defaulting Lender, including any claim of a Non-Defaulting Lender as a result of such Non-Defaulting Lender's increased exposure following such reallocation.",
+    "id": "cl_008"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "What was the original title and substance of Section 5.23 in the 2017 Credit Agreement, and how was it modified by a subsequent amendment? Identify the amending instrument and its effective date.",
+    "as_of": null,
+    "gold": [
+      "base::5.23"
+    ],
+    "gold_answer": "As originally executed on 2017-10-26, Section 5.23 was titled 'EEA Financial Institutions' and provided: 'No Loan Party is an EEA Financial Institution.' The Second Amendment, effective 2020-05-13, restated Section 5.23, changing its title to 'Affected Financial Institutions' and its substance to: 'No Loan Party is an Affected Financial Institution.' Thus, the reference to 'EEA Financial Institution' was replaced with the broader term 'Affected Financial Institution.'",
+    "id": "cl_009"
+  },
+  {
+    "category": "amendment_evolution",
+    "question": "Which new defined terms were introduced into §1.01 by the Second Amendment (effective 2020-05-13), and what instrument added them?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::1.01"
+    ],
+    "gold_answer": "The Second Amendment, effective 2020-05-13, inserted at least three new defined terms into §1.01: (1) \"Affected Financial Institution,\" defined as (a) any EEA Financial Institution or (b) any UK Financial Institution; (2) \"Consolidated Cash on Hand,\" defined as the sum of cash and Permitted Investments of the Loan Parties and their Subsidiaries on a consolidated basis (excluding cash and Permitted Investments identified as \"restricted\" on the balance sheets or subject to a security interest in favor of any Person other than the Administrative Agent); and (3) \"LIBOR,\" which for Eurodollar Rate Loans is determined based on the ICE Benchmark Administration Limited rate for Dollar deposits for the applicable Interest Period at approximately 11:00 a.m. London time two London Banking Days prior to the first day of the Interest Period, and for Base Rate Loans is separately specified.",
+    "id": "cl_010"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of 2019-01-15, does the Credit Agreement contain a provision acknowledging the resolution power of the FDIC under U.S. Special Resolution Regimes with respect to Supported QFCs?",
+    "as_of": "2019-01-15",
+    "gold": [
+      "base::10.23"
+    ],
+    "gold_answer": "No. As of 2019-01-15, Section 10.23 (Acknowledgement Regarding Any Supported QFCs) did not yet exist in the Credit Agreement. That provision was inserted by the Second Amendment, which became effective on 2020-05-13. Between the First Amendment (effective 2018-06-26) and the Second Amendment, the agreement contained no such QFC-related acknowledgement.",
+    "id": "cl_011"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of 2019-03-15, does the Credit Agreement contain a defined term 'Consolidated Cash on Hand' in Section 1.01?",
+    "as_of": "2019-03-15",
+    "gold": [
+      "base::1.01"
+    ],
+    "gold_answer": "No. As of 2019-03-15, the defined term 'Consolidated Cash on Hand' did not exist in Section 1.01 of the Credit Agreement. That definition was introduced by the Second Amendment, which became effective on 2020-05-13. On 2019-03-15, only the original 2017 definitions (as modified by the First Amendment effective 2018-06-26) were in force, and 'Consolidated Cash on Hand' was not among them.",
+    "id": "cl_012"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of December 30, 2020, what is the maximum Consolidated Leverage Ratio that Denny's is required to maintain under Section 7.10(a) of the Credit Agreement?",
+    "as_of": "2020-12-30",
+    "gold": [
+      "base::7.10(a)"
+    ],
+    "gold_answer": "As of December 30, 2020, the Consolidated Leverage Ratio covenant under Section 7.10(a) is not tested, pursuant to the Second Amendment (effective 2020-05-13), which restated Section 7.10(a) to provide that the covenant shall not be tested as of the end of the fiscal quarters ending on or about June 24, 2020, September 23, 2020, and December 30, 2020. However, the covenant is still deemed to be in effect with respect to that fiscal quarter end for all provisions under the Agreement and other Loan Documents that refer to compliance or pro forma compliance with Section 7.10.",
+    "id": "cl_013"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of January 15, 2019, what does Section 5.23 of the Credit Agreement require with respect to Loan Parties?",
+    "as_of": "2019-01-15",
+    "gold": [
+      "base::5.23"
+    ],
+    "gold_answer": "As of January 15, 2019, Section 5.23 (titled 'EEA Financial Institutions') provides that no Loan Party is an EEA Financial Institution. This is the original 2017 version of the provision, which had not yet been restated by the Second Amendment (effective 2020-05-13). The Second Amendment later changed the section title to 'Affected Financial Institutions' and replaced the representation so that no Loan Party is an 'Affected Financial Institution,' but that change was not yet in effect on January 15, 2019.",
+    "id": "cl_014"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of January 15, 2020, what type of financial institutions does Section 10.22 of the Credit Agreement address with respect to bail-in acknowledgement and consent, and which resolution authority's Write-Down and Conversion Powers are referenced?",
+    "as_of": "2020-01-15",
+    "gold": [
+      "base::10.22"
+    ],
+    "gold_answer": "As of January 15, 2020 — before the Second Amendment took effect on May 13, 2020 — the original version of Section 10.22 was in force. That version is titled 'Acknowledgement and Consent to Bail-In of EEA Financial Institutions' and addresses Lenders or L/C Issuers that are 'EEA Financial Institutions.' It references the Write-Down and Conversion Powers of an 'EEA Resolution Authority.' The Second Amendment later restated this section to replace 'EEA Financial Institution' with 'Affected Financial Institution' and 'EEA Resolution Authority' with 'the applicable Resolution Authority,' but those changes were not yet effective as of January 15, 2020.",
+    "id": "cl_015"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of July 1, 2018, what does Section 1.03(b) of the Credit Agreement require regarding the treatment of FASB ASC 606 relating to franchise fee revenue recognition?",
+    "as_of": "2018-07-01",
+    "gold": [
+      "base::1.03(b)"
+    ],
+    "gold_answer": "As of July 1, 2018, following the First Amendment (effective 2018-06-26), Section 1.03(b) requires that, notwithstanding the general GAAP-change provisions, commencing January 1, 2018, the financial statements and other documents required under the Agreement shall be prepared and the financial ratios and other requirements under the Loan Documents shall be calculated after giving effect to FASB ASC 606 relating to the recognition of franchise fee revenue. This provision was added by the First Amendment's insertion into Section 1.03(b).",
+    "id": "cl_016"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of July 1, 2020, what monthly reporting obligations does Section 6.01 impose on the Borrower with respect to same-store sales and Liquidity calculations, and within what timeframe must such reports be delivered?",
+    "as_of": "2020-07-01",
+    "gold": [
+      "base::6.01"
+    ],
+    "gold_answer": "As of July 1, 2020, under Section 6.01(d) as replaced by the Second Amendment (effective 2020-05-13), the Borrower must deliver two categories of monthly reports: (i) from the Second Amendment Effective Date through March 31, 2021, within eight (8) Business Days after the end of each fiscal month, a summary of same-store sales and a report of restaurant closures and openings for restaurants of the Loan Parties and their Subsidiaries and franchisees of the Loan Parties, in form and detail consistent with the customary public filings of the Parent; and (ii) from the Second Amendment Effective Date through May 26, 2021, within eight (8) Business Days after the end of each fiscal month, a calculation of Liquidity and demonstrating compliance with Section 7.10(c) as of the end of such month, in form and detail reasonably acceptable to the Administrative Agent.",
+    "id": "cl_017"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of July 1, 2020, what restrictions, if any, apply to Investments made under clause (f) of Section 7.03, and under which instrument were those restrictions introduced?",
+    "as_of": "2020-07-01",
+    "gold": [
+      "base::7.03"
+    ],
+    "gold_answer": "As of July 1, 2020, under the Second Amendment (effective 2020-05-13), Investments under clause (f) of Section 7.03 are restricted during the period commencing on the Second Amendment Effective Date and ending on the date the Loan Parties demonstrate compliance with the financial covenants in Section 7.10 for the fiscal quarter ending on or about June 30, 2021 (as determined from the Compliance Certificate under Section 6.02(a)). During that period, clause (f) Investments are only permitted in an aggregate amount not to exceed $250,000. Before the Second Amendment, no such specific cap on clause (f) Investments existed in Section 7.03's general proviso.",
+    "id": "cl_018"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of March 1, 2019, under Section 7.04(e) of the Credit Agreement, is a Loan Party permitted to dispose of the Restaurant Business located at 5751 Sunset Blvd., Los Angeles, California 90028, and if so, under what conditions?",
+    "as_of": "2019-03-01",
+    "gold": [
+      "base::7.04(e)"
+    ],
+    "gold_answer": "Yes. As restated by the First Amendment (effective 2018-06-26), Section 7.04(e)(ii) specifically permits any Loan Party to sell, transfer, sell a franchise in, or otherwise dispose of the Restaurant Business located at 5751 Sunset Blvd., Los Angeles, California 90028, provided the consideration is equal to the Fair Market Value of the applicable Restaurant Business sold, transferred, or otherwise disposed of. This disposition falls under clause (e)(ii) and is not subject to the $25,000,000 annual aggregate Fair Market Value cap, which applies only to dispositions under clause (e)(i).",
+    "id": "cl_019"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of May 20, 2020, does Section 2.15(a) of the Credit Agreement include any language addressing whether reallocation of a Defaulting Lender's obligations constitutes a waiver or release of claims against that Defaulting Lender?",
+    "as_of": "2020-05-20",
+    "gold": [
+      "base::2.15(a)"
+    ],
+    "gold_answer": "Yes. Following the Second Amendment (effective 2020-05-13), Section 2.15(a) was restated to include language providing that, subject to Section 10.22, no reallocation under Section 2.15(a) shall constitute a waiver or release of any claim of any party against a Defaulting Lender arising from that Lender having become a Defaulting Lender, including any claim of a Non-Defaulting Lender as a result of such Non-Defaulting Lender's increased exposure following such reallocation. This provision was not present in the original 2017 version of Section 2.15(a).",
+    "id": "cl_020"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of May 20, 2020, how does the Credit Agreement treat a division or plan of division under Delaware law with respect to assets, rights, obligations, or liabilities that become those of a different Person?",
+    "as_of": "2020-05-20",
+    "gold": [
+      "base::1.08"
+    ],
+    "gold_answer": "Under Section 1.08, inserted by the Second Amendment (effective 2020-05-13), if any asset, right, obligation, or liability of any Person becomes the asset, right, obligation, or liability of a different Person in connection with any division or plan of division under Delaware law (or any comparable event under a different jurisdiction's laws), it shall be deemed to have been transferred from the original Person to the subsequent Person. Additionally, if any new Person comes into existence, such new Person shall be deemed to have been organized on the first date of its existence by the holders of its Equity Interests at such time.",
+    "id": "cl_021"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of May 20, 2020, what does Section 5.05(c) of the Credit Agreement require regarding Material Adverse Effect, and does it include any carve-out for COVID-19 impacts?",
+    "as_of": "2020-05-20",
+    "gold": [
+      "base::5.05(c)"
+    ],
+    "gold_answer": "As of May 20, 2020 (after the Second Amendment effective date of 2020-05-13), Section 5.05(c) requires a representation that since the date of the Audited Financial Statements there has been no event or circumstance, individually or in the aggregate, that has had or could reasonably be expected to have a Material Adverse Effect. However, as amended by the Second Amendment, it includes a proviso: from the Second Amendment Effective Date until the date the Loan Parties must deliver financial statements and a Compliance Certificate for the fiscal quarter ending on or about June 30, 2021 (per Sections 6.01(b) and 6.02(a)), the impacts of the COVID-19 pandemic on the business, assets, operations, properties, condition, liabilities, or material agreements of Parent and its Subsidiaries that (x) occurred prior to the Second Amendment Effective Date and (y) were disclosed in writing to the Administrative Agent and Lenders prior to the Second Amendment Effective Date shall be disregarded, to the extent the scope of such impacts are not greater than so disclosed.",
+    "id": "cl_022"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of October 15, 2020, what is the minimum Liquidity that Denny's must maintain as of the last day of the most recently ended fiscal month under Section 7.10?",
+    "as_of": "2020-10-15",
+    "gold": [
+      "base::7.10"
+    ],
+    "gold_answer": "As of October 15, 2020, the Second Amendment (effective 2020-05-13) is in force. Under Section 7.10(c), inserted by the Second Amendment, for the period from September 24, 2020 through November 18, 2020, Denny's must not permit Liquidity as of the last day of any fiscal month to be less than $65,000,000.",
+    "id": "cl_023"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of September 1, 2020, under Section 7.05(a), are the Loan Parties permitted to declare and distribute to stockholders a dividend comprised of rights to purchase preferred stock and/or common stock of Parent pursuant to clause (ii)?",
+    "as_of": "2020-09-01",
+    "gold": [
+      "base::7.05(a)"
+    ],
+    "gold_answer": "No. As amended by the Second Amendment (effective 2020-05-13), an additional proviso was inserted into Section 7.05(a) prohibiting Restricted Payments under clauses (ii), (iii), and (iv) during the period commencing on the Second Amendment Effective Date and ending on the date the Loan Parties demonstrate compliance with the financial covenants in Section 7.10 for the fiscal quarter ending on or about June 30, 2021, as determined based on the Compliance Certificate delivered pursuant to Section 6.02(a). Since September 1, 2020 falls within that suspension period, clause (ii) Restricted Payments (dividends of rights to purchase preferred or common stock) are not permitted.",
+    "id": "cl_024"
+  },
+  {
+    "category": "as_of_temporal",
+    "question": "As of September 23, 2020, what does Section 7.10(b) require with respect to the Consolidated Fixed Charge Coverage Ratio for the fiscal quarter then ending?",
+    "as_of": "2020-09-23",
+    "gold": [
+      "base::7.10(b)"
+    ],
+    "gold_answer": "Under the Second Amendment (effective 2020-05-13), which restated Section 7.10(b), the Consolidated Fixed Charge Coverage Ratio covenant is not tested as of the end of the fiscal quarter ending on or about September 23, 2020. However, the covenant is otherwise deemed to be in effect with respect to that fiscal quarter end for all provisions under the Agreement and other Loan Documents that refer to compliance or pro forma compliance with Section 7.10. The underlying minimum ratio remains 1.50 to 1.00, but actual testing is suspended for that quarter.",
+    "id": "cl_025"
+  },
+  {
+    "category": "conflict_precedence",
+    "question": "If a term in a Letter of Credit Application conflicts with a corresponding term in the Credit Agreement, which document's terms control, and what provision establishes that precedence?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.03(j)",
+      "base::def::Issuer Documents"
+    ],
+    "gold_answer": "Section 2.03(j) of the Credit Agreement provides that in the event of any conflict between the terms of the Credit Agreement and the terms of any Issuer Document (which, per the definition in §1.01, includes Letter of Credit Applications and any other documents entered into by the L/C Issuer and the Borrower relating to a Letter of Credit), the terms of the Credit Agreement shall control. Thus, the Credit Agreement's provisions prevail over conflicting Issuer Document provisions, as established by the explicit 'notwithstanding'-style precedence language in §2.03(j).",
+    "id": "cl_026"
+  },
+  {
+    "category": "conflict_precedence",
+    "question": "Under Section 1.03(a), when there is a conflict between GAAP treatment of financial liabilities (specifically FASB ASC 825 and FASB ASC 470-20) and the covenant compliance calculations, which provision controls and what is the effect?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.03(a)"
+    ],
+    "gold_answer": "The 'Notwithstanding the foregoing' clause in Section 1.03(a) controls over the general GAAP-conformity requirement in the first sentence of that same section. Specifically, the general rule requires all financial data to be prepared in conformity with GAAP as applied consistently with the Audited Financial Statements; however, the controlling 'notwithstanding' clause overrides this for covenant compliance purposes by requiring that (1) Indebtedness be deemed carried at 100% of outstanding principal amount, and (2) the effects of FASB ASC 825 and FASB ASC 470-20 on financial liabilities be disregarded. Thus the GAAP fair-value and debt-discount accounting standards are subordinated to the explicit covenant-calculation rule.",
+    "id": "cl_027"
+  },
+  {
+    "category": "conflict_precedence",
+    "question": "Under the original 2017 Credit Agreement, when Section 2.03(e) states that the Borrower's reimbursement obligation is absolute and unconditional regardless of the circumstances listed in clauses (i) through (v), and Section 2.03(f) addresses the L/C Issuer's liability, which provision controls regarding the Borrower's ability to assert a claim against the L/C Issuer, and what specific precedence language resolves the conflict?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.03(f)",
+      "base::2.03(e)"
+    ],
+    "gold_answer": "Section 2.03(f) controls over Section 2.03(e) with respect to the Borrower's ability to assert a claim against the L/C Issuer. Section 2.03(e) clauses (i) through (v) establish that the Borrower's reimbursement obligation is absolute and unconditional regardless of various circumstances (including lack of validity, existence of claims/defenses, forged documents, non-compliant presentations, etc.). However, Section 2.03(f) contains explicit 'notwithstanding' language — 'anything in such clauses to the contrary notwithstanding' — which overrides Section 2.03(e) clauses (i)–(v) and preserves the Borrower's right to have a claim against the L/C Issuer. Thus, Section 2.03(f)'s 'notwithstanding' proviso is the controlling clause.",
+    "id": "cl_028"
+  },
+  {
+    "category": "conflict_precedence",
+    "question": "When computing the daily amount available to be drawn under a Letter of Credit for purposes of Letter of Credit Fees, which provision controls the determination of the Letter of Credit amount, and what language establishes that precedence?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.03(h)",
+      "base::1.06"
+    ],
+    "gold_answer": "Section 1.06 (Letter of Credit Amounts) controls the determination. Section 2.03(h) states: 'For purposes of computing the daily amount available to be drawn under any Letter of Credit, the amount of such Letter of Credit shall be determined in accordance with Section 1.06.' Section 1.06 provides that the amount is the stated amount in effect at such time, except that for Letters of Credit with automatic increase provisions, the amount is deemed to be the maximum stated amount after giving effect to all such increases. Thus §1.06 governs over any other general interpretation of Letter of Credit amounts, as §2.03(h) explicitly defers to it for fee-computation purposes.",
+    "id": "cl_029"
+  },
+  {
+    "category": "conflict_precedence",
+    "question": "When determining the amount of a Letter of Credit that provides for automatic increases in its stated amount, which provision controls — the general rule that the amount equals the current stated amount, or the proviso addressing automatic increases — and what is the controlling language?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.06"
+    ],
+    "gold_answer": "Section 1.06 first states the general rule that the amount of a Letter of Credit 'shall be deemed to be the stated amount of such Letter of Credit in effect at such time.' However, the 'provided, however' clause in the same section overrides this for Letters of Credit with automatic-increase provisions: for such Letters of Credit, the amount 'shall be deemed to be the maximum stated amount of such Letter of Credit after giving effect to all such increases, whether or not such maximum stated amount is in effect at such time.' The proviso (the 'provided, however' clause of §1.06) is the controlling provision, as it expressly carves out and supersedes the general stated-amount rule for auto-increasing Letters of Credit.",
+    "id": "cl_030"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and defined terms in the Credit Agreement reference or depend on the defined term \"Defaulting Lender\"? Provide an exhaustive list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Defaulting Lender",
+      "base::10.01(i)",
+      "base::10.06(b)",
+      "base::10.06(c)",
+      "base::10.06(d)",
+      "base::10.08",
+      "base::10.13",
+      "base::10.22(b)",
+      "base::2.03(a)",
+      "base::2.03(h)",
+      "base::2.12",
+      "base::2.14(a)",
+      "base::2.14(b)",
+      "base::2.14(c)",
+      "base::2.14(d)",
+      "base::2.15(a)",
+      "base::2.15(b)",
+      "base::9.03(b)",
+      "base::def::Fronting Exposure",
+      "base::def::Minimum Collateral Amount",
+      "base::def::Non-Defaulting Lender",
+      "base::def::Required Lenders"
+    ],
+    "gold_answer": "The defined term \"Defaulting Lender\" is referenced or depended upon by the following 21 provisions and definitions: §2.03(a), §2.03(h), §2.12, §2.14(a), §2.14(b), §2.14(c), §2.14(d), §2.15(a), §2.15(b), §9.03(b), §10.01(i), §10.06(b), §10.06(c), §10.06(d), §10.08, §10.13, §10.22(b), and the definitions of \"Fronting Exposure\" (§1.01), \"Minimum Collateral Amount\" (§1.01), \"Non-Defaulting Lender\" (§1.01), and \"Required Lenders\" (§1.01).",
+    "id": "cl_031"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and defined terms in the Credit Agreement reference or depend on the defined term \"Eurodollar Rate\"? Please provide an exhaustive list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Eurodollar Rate",
+      "base::10.22(b)",
+      "base::2.01",
+      "base::2.02(a)",
+      "base::2.02(c)",
+      "base::2.02(d)",
+      "base::2.04(a)",
+      "base::2.07(a)",
+      "base::2.11(b)",
+      "base::3.02",
+      "base::3.03",
+      "base::3.04",
+      "base::3.04(a)",
+      "base::3.04(e)",
+      "base::3.05(c)",
+      "base::4.02",
+      "base::4.02(c)",
+      "base::def::Base Rate",
+      "base::def::Borrowing",
+      "base::def::Business Day",
+      "base::def::Committed Loan Notice",
+      "base::def::Eurodollar Rate Loan"
+    ],
+    "gold_answer": "The defined term \"Eurodollar Rate\" is referenced or depended upon by the following exhaustive list of provisions and definitions:\n\nOperative provisions:\n• §10.22(b)\n• §2.01\n• §2.02(a)\n• §2.02(c)\n• §2.02(d)\n• §2.04(a)\n• §2.07(a)\n• §2.11(b)\n• §3.02\n• §3.03\n• §3.04\n• §3.04(a)\n• §3.04(e)\n• §3.05(c)\n• §4.02\n• §4.02(c)\n\nDefined terms (§1.01):\n• \"Base Rate\"\n• \"Borrowing\"\n• \"Business Day\"\n• \"Committed Loan Notice\"\n• \"Eurodollar Rate Loan\"",
+    "id": "cl_032"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and other defined terms in the Credit Agreement depend on or reference the defined term \"Code\" (Internal Revenue Code of 1986)? Please provide an exhaustive list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Code",
+      "base::10.19(a)",
+      "base::10.21",
+      "base::2.09(b)",
+      "base::3.01(a)",
+      "base::3.01(e)",
+      "base::4.01(a)",
+      "base::5.12(a)",
+      "base::5.12(c)",
+      "base::5.12(e)",
+      "base::6.12(a)",
+      "base::6.12(b)",
+      "base::7.01",
+      "base::8.02(d)",
+      "base::8.04(a)",
+      "base::def::CFC",
+      "base::def::Debtor Relief Laws",
+      "base::def::ERISA Affiliate",
+      "base::def::ERISA Event",
+      "base::def::Excluded Taxes",
+      "base::def::FATCA",
+      "base::def::Pension Funding Rules",
+      "base::def::Pension Plan",
+      "base::def::UCC"
+    ],
+    "gold_answer": "The defined term \"Code\" is referenced or depended upon by the following operative sections and defined terms (exhaustive list):\n\nOperative Sections:\n• §10.19(a)\n• §10.21\n• §2.09(b)\n• §3.01(a)\n• §3.01(e)\n• §4.01(a)\n• §5.12(a)\n• §5.12(c)\n• §5.12(e)\n• §6.12(a)\n• §6.12(b)\n• §7.01\n• §8.02(d)\n• §8.04(a)\n\nDefined Terms (all in §1.01):\n• \"CFC\"\n• \"Debtor Relief Laws\"\n• \"ERISA Affiliate\"\n• \"ERISA Event\"\n• \"Excluded Taxes\"\n• \"FATCA\"\n• \"Pension Funding Rules\"\n• \"Pension Plan\"\n• \"UCC\"",
+    "id": "cl_033"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and other defined terms in the Credit Agreement depend on or reference the defined term \"Revolving Credit Facility\"? Please provide an exhaustive list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Revolving Credit Facility",
+      "base::10.01(c)",
+      "base::10.06(b)",
+      "base::2.01",
+      "base::2.02(e)",
+      "base::2.03(a)",
+      "base::2.04(b)",
+      "base::2.05(a)",
+      "base::2.05(b)",
+      "base::2.05(c)",
+      "base::2.08(a)",
+      "base::2.13",
+      "base::2.13(a)",
+      "base::2.13(d)",
+      "base::2.13(f)",
+      "base::4.01(d)",
+      "base::7.03(i)",
+      "base::7.05(a)",
+      "base::def::Applicable Percentage",
+      "base::def::Appropriate Lender",
+      "base::def::Letter of Credit Expiration Date",
+      "base::def::Letter of Credit Sublimit"
+    ],
+    "gold_answer": "The defined term \"Revolving Credit Facility\" is referenced or depended upon by the following 21 provisions and definitions:\n\n**Operative Sections:**\n1. §2.01 (base::2.01)\n2. §2.02(e) (base::2.02(e))\n3. §2.03(a) (base::2.03(a))\n4. §2.04(b) (base::2.04(b))\n5. §2.05(a) (base::2.05(a))\n6. §2.05(b) (base::2.05(b))\n7. §2.05(c) (base::2.05(c))\n8. §2.08(a) (base::2.08(a))\n9. §2.13 (base::2.13)\n10. §2.13(a) (base::2.13(a))\n11. §2.13(d) (base::2.13(d))\n12. §2.13(f) (base::2.13(f))\n13. §4.01(d) (base::4.01(d))\n14. §7.03(i) (base::7.03(i))\n15. §7.05(a) (base::7.05(a))\n16. §10.01(c) (base::10.01(c))\n17. §10.06(b) (base::10.06(b))\n\n**Defined Terms (§1.01):**\n18. Definition of \"Applicable Percentage\" (base::def::Applicable Percentage)\n19. Definition of \"Appropriate Lender\" (base::def::Appropriate Lender)\n20. Definition of \"Letter of Credit Expiration Date\" (base::def::Letter of Credit Expiration Date)\n21. Definition of \"Letter of Credit Sublimit\" (base::def::Letter of Credit Sublimit)",
+    "id": "cl_034"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and other defined terms in the Credit Agreement depend on or reference the defined term \"United States\" (or \"U.S.\")? Please provide an exhaustive list.",
+    "as_of": null,
+    "gold": [
+      "base::def::United States",
+      "base::10.02(d)",
+      "base::10.06(d)",
+      "base::10.07",
+      "base::2.09(b)",
+      "base::3.01(a)",
+      "base::3.01(e)",
+      "base::6.02(d)",
+      "base::8.02(d)",
+      "base::8.04(a)",
+      "base::9.06",
+      "base::def::Anti-Corruption Laws",
+      "base::def::Change in Law",
+      "base::def::Debtor Relief Laws",
+      "base::def::Defaulting Lender",
+      "base::def::Dollar",
+      "base::def::Excluded Taxes",
+      "base::def::FRB",
+      "base::def::Foreign Lender",
+      "base::def::GAAP",
+      "base::def::Governmental Authority",
+      "base::def::Permitted Investments"
+    ],
+    "gold_answer": "The defined term \"United States\" / \"U.S.\" is referenced or depended upon by the following provisions and definitions (21 total):\n\nOperative sections:\n1. §2.09(b)\n2. §3.01(a)\n3. §3.01(e)\n4. §6.02(d)\n5. §8.02(d)\n6. §8.04(a)\n7. §9.06\n8. §10.02(d)\n9. §10.06(d)\n10. §10.07\n\nDefinitions in §1.01:\n11. \"Anti-Corruption Laws\"\n12. \"Change in Law\"\n13. \"Debtor Relief Laws\"\n14. \"Defaulting Lender\"\n15. \"Dollar\"\n16. \"Excluded Taxes\"\n17. \"FRB\"\n18. \"Foreign Lender\"\n19. \"GAAP\"\n20. \"Governmental Authority\"\n21. \"Permitted Investments\"",
+    "id": "cl_035"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and other defined terms in the Credit Agreement reference or depend on the defined term \"Disclosure Schedules\"? Provide the complete list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Disclosure Schedules",
+      "base::1.02(a)",
+      "base::10.02(a)",
+      "base::2.13(d)",
+      "base::5.03",
+      "base::5.05(a)",
+      "base::5.08(b)",
+      "base::5.08(d)",
+      "base::5.12(d)",
+      "base::5.13",
+      "base::5.17",
+      "base::6.02(c)",
+      "base::6.02(d)",
+      "base::7.01(a)",
+      "base::7.02(a)",
+      "base::7.03(a)",
+      "base::7.05(b)",
+      "base::def::Administrative Agent’s Office",
+      "base::def::Applicable Percentage",
+      "base::def::Commitment",
+      "base::def::Existing Letters of Credit",
+      "base::def::Loan Documents"
+    ],
+    "gold_answer": "The defined term \"Disclosure Schedules\" is referenced or depended upon by the following 21 provisions and definitions: (1) §1.02(a), (2) §10.02(a), (3) §2.13(d), (4) §5.03, (5) §5.05(a), (6) §5.08(b), (7) §5.08(d), (8) §5.12(d), (9) §5.13, (10) §5.17, (11) §6.02(c), (12) §6.02(d), (13) §7.01(a), (14) §7.02(a), (15) §7.03(a), (16) §7.05(b), and the following §1.01 definitions: (17) \"Administrative Agent's Office\", (18) \"Applicable Percentage\", (19) \"Commitment\", (20) \"Existing Letters of Credit\", and (21) \"Loan Documents\".",
+    "id": "cl_036"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and other defined terms in the Credit Agreement reference or depend on the defined term \"GAAP\"? Provide the complete list.",
+    "as_of": null,
+    "gold": [
+      "base::def::GAAP",
+      "base::1.03(a)",
+      "base::1.03(b)",
+      "base::10.22(b)",
+      "base::5.05(a)",
+      "base::5.05(b)",
+      "base::5.11",
+      "base::6.01(a)",
+      "base::6.01(b)",
+      "base::6.02(a)",
+      "base::6.04",
+      "base::6.09",
+      "base::6.13",
+      "base::def::Attributable Indebtedness",
+      "base::def::Capitalized Leases",
+      "base::def::Consolidated Capital Expenditures",
+      "base::def::Consolidated Cash Interest Expense",
+      "base::def::Consolidated Cash Taxes",
+      "base::def::Consolidated Interest Expense",
+      "base::def::Consolidated Lease Expense",
+      "base::def::Consolidated Scheduled Funded Debt Payments",
+      "base::def::Consolidated Total Assets",
+      "base::def::Indebtedness",
+      "base::def::Permitted Liens",
+      "base::def::Synthetic Debt"
+    ],
+    "gold_answer": "The defined term \"GAAP\" is referenced or depended upon by the following provisions and definitions (exhaustive list):\n\nOperative sections: §1.03(a), §1.03(b), §10.22(b), §5.05(a), §5.05(b), §5.11, §6.01(a), §6.01(b), §6.02(a), §6.04, §6.09, and §6.13.\n\nDefined terms (all in §1.01): \"Attributable Indebtedness,\" \"Capitalized Leases,\" \"Consolidated Capital Expenditures,\" \"Consolidated Cash Interest Expense,\" \"Consolidated Cash Taxes,\" \"Consolidated Interest Expense,\" \"Consolidated Lease Expense,\" \"Consolidated Scheduled Funded Debt Payments,\" \"Consolidated Total Assets,\" \"Indebtedness,\" \"Permitted Liens,\" and \"Synthetic Debt.\"\n\nIn total, 12 operative sections and 12 other defined terms depend on \"GAAP.\"",
+    "id": "cl_037"
+  },
+  {
+    "category": "definition_dependents",
+    "question": "Which operative provisions and other defined terms in the Credit Agreement reference or depend on the defined term \"Governmental Authority\"? Provide the complete list.",
+    "as_of": null,
+    "gold": [
+      "base::def::Governmental Authority",
+      "base::10.13",
+      "base::2.03(a)",
+      "base::3.01(a)",
+      "base::3.01(b)",
+      "base::3.01(c)",
+      "base::3.01(d)",
+      "base::3.01(f)",
+      "base::3.02",
+      "base::3.06(a)",
+      "base::3.06(b)",
+      "base::4.01(a)",
+      "base::5.02",
+      "base::5.03",
+      "base::5.06",
+      "base::5.12(b)",
+      "base::6.03(b)",
+      "base::7.03(i)",
+      "base::def::Change in Law",
+      "base::def::Defaulting Lender",
+      "base::def::Laws",
+      "base::def::Organization Documents",
+      "base::def::Permitted Liens",
+      "base::def::Person",
+      "base::def::SEC",
+      "base::def::Taxes"
+    ],
+    "gold_answer": "The defined term \"Governmental Authority\" is referenced or depended upon by the following 24 provisions and definitions: (1) §10.13, (2) §2.03(a), (3) §3.01(a), (4) §3.01(b), (5) §3.01(c), (6) §3.01(d), (7) §3.01(f), (8) §3.02, (9) §3.06(a), (10) §3.06(b), (11) §4.01(a), (12) §5.02, (13) §5.03, (14) §5.06, (15) §5.12(b), (16) §6.03(b), (17) §7.03(i), and the following definitions in §1.01: (18) \"Change in Law\", (19) \"Defaulting Lender\", (20) \"Laws\", (21) \"Organization Documents\", (22) \"Permitted Liens\", (23) \"Person\", (24) \"SEC\", and (25) \"Taxes\".",
+    "id": "cl_038"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "According to the Second Amendment, at what time and in which city's time zone is the LIBOR rate for a Eurodollar Rate Loan determined based on the rate for deposits in Dollars?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::1.01"
+    ],
+    "gold_answer": "Approximately 11:00 a.m. London time, two (2) London Banking Days prior to the first day of the applicable Interest Period.",
+    "id": "cl_039"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "At approximately what time of day is the Spot Rate quoted for determining currency equivalents under Section 1.07 of the Credit Agreement?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.07"
+    ],
+    "gold_answer": "Approximately 11:00 a.m. on the date two Business Days prior to the date of determination.",
+    "id": "cl_040"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 1.03(a) of the Credit Agreement, at what percentage of outstanding principal amount is Indebtedness of Parent and its Subsidiaries deemed to be carried for purposes of determining covenant compliance?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.03(a)"
+    ],
+    "gold_answer": "100% of the outstanding principal amount thereof.",
+    "id": "cl_041"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 1.06 of the 2017 Credit Agreement, how is the amount of a Letter of Credit that provides for automatic increases in its stated amount deemed to be calculated?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.06"
+    ],
+    "gold_answer": "The amount of such a Letter of Credit is deemed to be the maximum stated amount after giving effect to all such automatic increases, whether or not such maximum stated amount is in effect at that time.",
+    "id": "cl_042"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 2.10(a) of the Credit Agreement, whose accounts and records control in the event of a conflict between a Lender's records and the Administrative Agent's records regarding Credit Extensions?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.10(a)"
+    ],
+    "gold_answer": "The accounts and records of the Administrative Agent shall control in the absence of manifest error.",
+    "id": "cl_043"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 2.11(e) of the Credit Agreement, is any Lender obligated to obtain funds for a Loan in a particular place or manner?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.11(e)"
+    ],
+    "gold_answer": "No. Section 2.11(e) states that nothing in the agreement shall be deemed to obligate any Lender to obtain the funds for any Loan in any particular place or manner, nor shall it constitute a representation by any Lender that it has obtained or will obtain the funds for any Loan in any particular place or manner.",
+    "id": "cl_044"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 5.07 of the original 2017 Credit Agreement, what standard is used to determine whether a Loan Party's default under a Contractual Obligation is material enough to require disclosure?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.07"
+    ],
+    "gold_answer": "The standard is whether the default under or with respect to any Contractual Obligation could, either individually or in the aggregate, reasonably be expected to have a Material Adverse Effect.",
+    "id": "cl_045"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 5.10 of the 2017 Credit Agreement, what restriction is placed on the insurance companies with which the Loan Parties and their Subsidiaries must insure their properties?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.10"
+    ],
+    "gold_answer": "The insurance companies must not be Affiliates of the Loan Parties. Specifically, the properties must be insured with financially sound and reputable insurance companies that are not Affiliates of the Loan Parties.",
+    "id": "cl_046"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under Section 7.03(e) of the original 2017 Credit Agreement, what type of consideration is permitted as an exclusion, and from what kinds of transactions must it arise?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::7.03(e)"
+    ],
+    "gold_answer": "Non-cash consideration received from any sale, lease, transfer, or other disposition of assets permitted under Section 7.04.",
+    "id": "cl_047"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "Under the First Amendment to the 2017 Credit Agreement, from what date must financial statements and financial ratios be prepared and calculated after giving effect to FASB ASC 606 relating to franchise fee revenue recognition?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(b)"
+    ],
+    "gold_answer": "Commencing January 1, 2018.",
+    "id": "cl_048"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "What are the Published CUSIP Number and Revolving Credit CUSIP Number listed in the Credit Agreement?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::preamble"
+    ],
+    "gold_answer": "The Published CUSIP Number is 248693AS2 and the Revolving Credit CUSIP Number is 248693AT0.",
+    "id": "cl_049"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "What is the section number in the 2017 Credit Agreement that addresses ERISA Compliance?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.12"
+    ],
+    "gold_answer": "Section 5.12 of the Credit Agreement is titled 'ERISA Compliance.'",
+    "id": "cl_050"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "What is the section number in the original 2017 Credit Agreement that addresses Financial Statements and No Material Adverse Effect?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.05"
+    ],
+    "gold_answer": "Section 5.05 is the provision addressing Financial Statements; No Material Adverse Effect.",
+    "id": "cl_051"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "What is the title of Section 2.10 of the 2017 Credit Agreement?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.10"
+    ],
+    "gold_answer": "Section 2.10 is titled \"Evidence of Debt.\"",
+    "id": "cl_052"
+  },
+  {
+    "category": "fact_lookup",
+    "question": "What was the title of Section 5.23 of the Credit Agreement as originally executed on 2017-10-26, and how was it changed by the Second Amendment?",
+    "as_of": null,
+    "gold": [
+      "base::5.23"
+    ],
+    "gold_answer": "As originally executed, Section 5.23 was titled 'EEA Financial Institutions' and represented that no Loan Party is an EEA Financial Institution. The Second Amendment (effective 2020-05-13) restated the section, retitling it 'Affected Financial Institutions' and changing the representation to state that no Loan Party is an Affected Financial Institution.",
+    "id": "cl_053"
+  },
+  {
+    "category": "false_premise",
+    "question": "How does the 'ESG Margin Adjustment' defined term interact with the financial covenants in Section 7.10 after the Second Amendment?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::7.10",
+      "base::7.10(a)",
+      "base::7.10(b)"
+    ],
+    "gold_answer": "The premise is false. 'ESG Margin Adjustment' is not a defined term anywhere in the Credit Agreement or its amendments. Section 7.10, as amended by the Second Amendment, contains three financial covenants — the Consolidated Leverage Ratio (§7.10(a)), the Consolidated Fixed Charge Coverage Ratio (§7.10(b)), and the Minimum Liquidity covenant (§7.10(c)) — none of which reference or incorporate any ESG-related margin adjustment. See base::7.10, base::7.10(a), and base::7.10(b).",
+    "id": "cl_054"
+  },
+  {
+    "category": "false_premise",
+    "question": "How does the ESG Margin Adjustment defined in the Credit Agreement affect the applicable interest rate margins when the Consolidated Leverage Ratio exceeds 4.00 to 1.00 during the covenant relief period?",
+    "as_of": "2020-06-24",
+    "gold": [
+      "base::7.10(a)"
+    ],
+    "gold_answer": "The premise is false. 'ESG Margin Adjustment' is not a defined term in the Credit Agreement or any of its amendments. No such pricing mechanism exists in the agreement. During the covenant relief period introduced by the Second Amendment, the Consolidated Leverage Ratio covenant in Section 7.10(a) is not tested as of the fiscal quarters ending on or about June 24, 2020, September 23, 2020, and December 30, 2020, but there is no ESG-related margin adjustment tied to this or any other provision. See base::7.10(a).",
+    "id": "cl_055"
+  },
+  {
+    "category": "false_premise",
+    "question": "Under the Fourth Amendment to the Credit Agreement, what changes were made to the Minimum Liquidity covenant thresholds in Section 7.10(c)?",
+    "as_of": null,
+    "gold": [
+      "base::7.10",
+      "base::7.10(a)"
+    ],
+    "gold_answer": "The premise is false. There is no Fourth Amendment to the Credit Agreement. The amendment instruments are the First Amendment (effective 2018-06-26), the Second Amendment (effective 2020-05-13), and the Third Amendment (effective 2020-12-15). The Minimum Liquidity covenant in Section 7.10(c) was introduced by the Second Amendment; no Fourth Amendment exists to modify it.",
+    "id": "cl_056"
+  },
+  {
+    "category": "false_premise",
+    "question": "What is the 'Consolidated Net Worth' minimum required under Section 7.10 of the Credit Agreement as amended?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::7.10",
+      "base::7.10(a)",
+      "base::7.10(b)"
+    ],
+    "gold_answer": "The premise is false. 'Consolidated Net Worth' is not a defined term in the Credit Agreement or any of its amendments, and no minimum Consolidated Net Worth covenant exists. Section 7.10, as amended by the Second Amendment, contains only three financial covenants: (a) a Consolidated Leverage Ratio covenant (base::7.10(a)), (b) a Consolidated Fixed Charge Coverage Ratio covenant (base::7.10(b)), and (c) a Minimum Liquidity covenant (base::7.10). There is no Consolidated Net Worth requirement. See base::7.10, base::7.10(a), and base::7.10(b).",
+    "id": "cl_057"
+  },
+  {
+    "category": "false_premise",
+    "question": "What is the defined term 'Consolidated Net Worth' set to under Section 7.10, and how does it interact with the financial covenants after the Second Amendment?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::7.10",
+      "base::7.10(a)",
+      "base::7.10(b)"
+    ],
+    "gold_answer": "The premise is false. 'Consolidated Net Worth' is not a defined term anywhere in the Credit Agreement or its amendments. Section 7.10 contains three financial covenants after the Second Amendment: (a) a Consolidated Leverage Ratio covenant (base::7.10(a)), (b) a Consolidated Fixed Charge Coverage Ratio covenant (base::7.10(b)), and (c) a Minimum Liquidity covenant (base::7.10). None of these reference or rely on a 'Consolidated Net Worth' definition. See base::7.10, base::7.10(a), and base::7.10(b).",
+    "id": "cl_058"
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "If a GAAP change caused a restatement of the Borrower's financial statements that both re-characterized operating leases as Capitalized Leases and altered the Consolidated Leverage Ratio calculation, what procedural rights does the Borrower have regarding the lease re-characterization, and what retroactive payment obligation arises if the corrected Consolidated Leverage Ratio would have resulted in higher pricing? In computing any such corrected ratio, what rounding convention applies?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(b)",
+      "base::2.09(b)",
+      "base::1.04"
+    ],
+    "gold_answer": "Under §1.03(b), the Borrower may elect, by written notice to the Administrative Agent, to ignore the re-characterization of operating leases as Capitalized Leases for purposes of calculating financial ratios and the definition of Indebtedness. Under §2.09(b), if a restatement or adjustment reveals that the Consolidated Leverage Ratio was inaccurate and a proper calculation would have resulted in higher pricing, the Borrower must immediately and retroactively pay the excess of the interest and fees that should have been paid over those actually paid, promptly on demand by the Administrative Agent (this obligation survives for one year after termination of Commitments and repayment of Obligations). Under §1.04, any such recalculated financial ratio must be computed by dividing the appropriate component by the other, carrying the result to one place more than the number of places by which the ratio is expressed in the Agreement, and rounding up or down to the nearest number (rounding up if there is no nearest number).",
+    "id": "cl_059",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the 2017 Credit Agreement, if a conflict arises between a Lender's records and the Administrative Agent's records regarding both (i) the amount of Credit Extensions and payments thereon and (ii) purchases and sales of participations in Letters of Credit, whose records control in each case, and what is the common qualification on that control? Additionally, if a Lender that is asked to increase its Commitment fails to respond within the specified time period, what is the deemed outcome, and what recourse does the Borrower have to still achieve the full requested increase amount?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.10(a)",
+      "base::2.10(b)",
+      "base::2.13(b)",
+      "base::2.13(c)"
+    ],
+    "gold_answer": "In both cases — conflicts over Credit Extension amounts/payments (§2.10(a)) and conflicts over Letter of Credit participation purchases and sales (§2.10(b)) — the accounts and records of the Administrative Agent control, subject in each case to the qualification 'in the absence of manifest error.' A Lender that does not respond within the specified time period is deemed to have declined to increase its Commitment (§2.13(b)). To still achieve the full requested increase, the Borrower may invite additional Eligible Assignees to become Lenders (as 'Increasing Lenders') pursuant to a joinder agreement, subject to the approval of the Administrative Agent and the L/C Issuer, which approvals shall not be unreasonably withheld (§2.13(c)).",
+    "id": "cl_060",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the 2017 Credit Agreement, what are the two borrowing-capacity constraints that must be satisfied after giving effect to any Borrowing of Loans under Section 2.01, and how does the treatment of Letters of Credit with automatic increase provisions (per Section 1.06) potentially affect one of those constraints?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.01",
+      "base::1.06"
+    ],
+    "gold_answer": "Section 2.01 imposes two constraints after giving effect to any Borrowing: (a) Total Revolving Credit Outstandings must not exceed the Revolving Credit Facility, and (b) the aggregate Outstanding Amount of a Lender's Loans plus its Applicable Percentage of all L/C Obligations must not exceed that Lender's Commitment. Because constraint (b) includes L/C Obligations, and Section 1.06 provides that a Letter of Credit with automatic increase provisions is deemed to have an amount equal to its maximum stated amount (after giving effect to all such increases, whether or not the maximum is then in effect), the deemed L/C amount used in calculating L/C Obligations under constraint (b) could be higher than the Letter of Credit's current stated amount, thereby reducing the remaining borrowing capacity available to each Lender under its Commitment.",
+    "id": "cl_061",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the Credit Agreement, which representations reference the 'Material Adverse Effect' standard, and how did the Second Amendment modify the application of that standard specifically for the representation concerning no material adverse change since the Audited Financial Statements?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::5.05(c)",
+      "base::5.06",
+      "base::5.09(a)"
+    ],
+    "gold_answer": "Three representations invoke the Material Adverse Effect standard: (1) Section 5.05(c) (no event since the Audited Financial Statements that has had or could reasonably be expected to have a Material Adverse Effect), (2) Section 5.06 (Litigation — no pending or threatened actions that could reasonably be expected to have a Material Adverse Effect), and (3) Section 5.09(a) (Environmental Laws — no claims that could reasonably be expected to have a Material Adverse Effect). The Second Amendment (effective 2020-05-13) modified only Section 5.05(c) by inserting a proviso stating that, from the Second Amendment Effective Date until the date the Loan Parties must deliver financial statements and a Compliance Certificate for the fiscal quarter ending on or about June 30, 2021, the impacts of the COVID-19 pandemic on the business, assets, operations, properties, condition, liabilities, or material agreements of Parent and its Subsidiaries shall be disregarded for purposes of that representation, provided such impacts (x) occurred prior to the Second Amendment Effective Date and (y) were disclosed in writing to the Administrative Agent and Lenders prior to that date, and only to the extent the scope of such impacts is not greater than so disclosed.",
+    "id": "cl_062",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the Second Amendment, when calculating Consolidated Cash on Hand, is cash held in the blocked deposit accounts used for Cash Collateral under Section 2.14(b) excluded from the calculation, and why?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::1.01",
+      "base::2.14(b)"
+    ],
+    "gold_answer": "Cash in the blocked Cash Collateral deposit accounts at Wells Fargo would generally NOT be excluded from Consolidated Cash on Hand, because the definition excludes only cash 'restricted' on the balance sheet or subject to a security interest in favor of a Person other than the Administrative Agent. Under Section 2.14(b), the first priority security interest in those blocked accounts is granted to and held by the Administrative Agent for the benefit of the Agent, L/C Issuer, and Lenders. Since the Consolidated Cash on Hand definition carves out 'cash or Permitted Investments restricted in favor of the Administrative Agent' and 'security interests under the Loan Documents' from its exclusions, cash collateral held under Section 2.14(b) would remain included in Consolidated Cash on Hand.",
+    "id": "cl_063",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the Third Amended and Restated Credit Agreement dated October 26, 2017, identify the Borrower's state of incorporation and explain whether, per the interpretive provisions, a reference to the Borrower in a Loan Document would also encompass the Borrower's successors and assigns.",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::preamble",
+      "base::1.02(a)"
+    ],
+    "gold_answer": "The Borrower, Denny's, Inc., is a Florida corporation. Under Section 1.02(a)(ii), any reference to any Person in a Loan Document shall be construed to include such Person's successors and assigns. Therefore, references to the Borrower in the Agreement and other Loan Documents encompass Denny's, Inc.'s successors and assigns.",
+    "id": "cl_064",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the original 2017 Credit Agreement's ERISA representations, what is the minimum funding target attainment percentage threshold for Pension Plans, and what restrictions apply to the Loan Parties' maintenance of or contributions to Pension Plans beyond those listed on Schedule 5.12(d)?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.12(c)",
+      "base::5.12(d)"
+    ],
+    "gold_answer": "Section 5.12(c)(iii) requires that the funding target attainment percentage (as defined in Section 430(d)(2) of the Code) be 60% or higher as of the most recent valuation date for any Pension Plan, and neither the Loan Parties nor any ERISA Affiliate may know of facts or circumstances that could reasonably be expected to cause it to drop below 60%. Separately, Section 5.12(d) restricts the Loan Parties and ERISA Affiliates from maintaining, contributing to, or having any unsatisfied obligation to contribute to or liability under any active or terminated Pension Plan other than (A) on the Closing Date, those listed on Schedule 5.12(d) of the Disclosure Schedules, and (B) thereafter, Pension Plans not otherwise prohibited by the Agreement.",
+    "id": "cl_065",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the original 2017 Credit Agreement, if a Loan Party sells equipment in the ordinary course of business consistent with past practices and receives non-cash consideration in return, which specific provisions collectively permit both the disposition of the equipment and the retention of that non-cash consideration as a permitted investment?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::7.04(a)",
+      "base::7.03(e)",
+      "base::7.04"
+    ],
+    "gold_answer": "Section 7.04(a) permits any Loan Party to sell equipment in the ordinary course of business consistent with past practices (as an exception to the general prohibition on asset dispositions in Section 7.04). Section 7.03(e) then separately permits the non-cash consideration received from any such sale or disposition allowed under Section 7.04 to be treated as a permitted investment. Together, these two provisions authorize both the equipment sale and the holding of the resulting non-cash consideration.",
+    "id": "cl_066",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the original 2017 Credit Agreement, if the Borrower wishes to draw a Eurodollar Rate Loan and the Administrative Agent needs to determine a currency equivalent under §1.07, what is the common reference time of day used for both the Spot Rate determination and the deadline for the Borrower's notice to the Administrative Agent, and how do the respective look-back periods differ?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.07",
+      "base::2.02(a)"
+    ],
+    "gold_answer": "Both use 11:00 a.m. as the relevant time of day. However, the look-back periods differ: under §1.07, the Spot Rate is determined at approximately 11:00 a.m. on the date two Business Days prior to the date of determination, whereas under §2.02(a), the Borrower's irrevocable notice for a Eurodollar Rate Loan Borrowing must be received by the Administrative Agent not later than 11:00 a.m. three Business Days prior to the requested Borrowing date.",
+    "id": "cl_067",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_cluster",
+    "question": "Under the original 2017 Credit Agreement, what disclosure schedules must the Loan Parties provide regarding encumbrances on their assets and existing investment holdings, and how does the agreement ensure the Administrative Agent can track the corresponding debt obligations evidenced under the facility?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.08(b)",
+      "base::5.08(d)",
+      "base::2.10"
+    ],
+    "gold_answer": "Loan Parties must provide Schedule 5.08(b), which sets forth a complete and accurate list of all Liens on property or assets of each Loan Party and its Subsidiaries (showing the lienholder, principal amount of obligations secured, and the property subject thereto), and Schedule 5.08(d), which sets forth a complete and accurate list of all Investments held by any Loan Party or Subsidiary (showing amount, obligor or issuer, and maturity). Property is subject to no Liens other than those listed on Schedule 5.08(b) or otherwise permitted by Section 7.01. Separately, Section 2.10 (Evidence of Debt) governs how the debt obligations under the facility are evidenced, providing the mechanism for the Administrative Agent to maintain records of borrowings and repayments.",
+    "id": "cl_068",
+    "contrast_set": true
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "If Wells Fargo resigns as L/C Issuer after assigning all of its Commitment and Loans, and a Lender is subsequently required to fund its participation in an Unreimbursed Amount under the cross-referenced provision, by what time must the Borrower have failed to reimburse the L/C Issuer for the deemed automatic Base Rate Loan borrowing to be triggered, and what minimum/multiple requirements from Section 2.02 apply to that deemed borrowing?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::10.06(f)",
+      "base::2.03(c)",
+      "base::2.02"
+    ],
+    "gold_answer": "The Borrower must fail to reimburse the L/C Issuer by 11:00 a.m. on the Honor Date. If it fails to do so, the Borrower is deemed to have requested a Base Rate Loan borrowing equal to the Unreimbursed Amount, and the minimum and multiples specified in Section 2.02 for the principal amount of Base Rate Loans are disregarded (i.e., they do not apply to this deemed borrowing). Section 10.06(f) confirms that even after Wells Fargo's resignation as L/C Issuer, it retains the right to require Lenders to make Base Rate Loans or fund risk participations in Unreimbursed Amounts pursuant to Section 2.03(c).",
+    "id": "cl_069"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under Section 10.01(g), releasing all or substantially all of the Collateral requires the written consent of each Lender. Given the definition of 'Collateral' in Section 1.01, what category of assets owned by the Loan Parties is explicitly excluded from the scope of property whose release would trigger that unanimous-consent requirement?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Collateral",
+      "base::10.01(g)"
+    ],
+    "gold_answer": "All real property assets owned by the Loan Parties are explicitly excluded from the definition of Collateral, so their release would not trigger the unanimous-lender-consent requirement under Section 10.01(g).",
+    "id": "cl_070"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under Section 10.01(h), releasing the Guarantee requires each Lender's written consent except in two circumstances. One exception permits the Administrative Agent to act alone when a Subsidiary is released under Section 9.10. If Parent is required to consolidate a variable interest entity under FASB ASC 810, does that entity qualify as a 'Subsidiary' whose Guarantee could potentially be released under that Section 9.10 exception, and what provisions establish this chain of reasoning?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Subsidiary",
+      "base::1.03(c)",
+      "base::10.01(h)"
+    ],
+    "gold_answer": "Yes. Section 1.03(c) provides that all references to Parent's Subsidiaries on a consolidated basis are deemed to include each variable interest entity that Parent is required to consolidate under FASB ASC 810 'as if such variable interest entity were a Subsidiary as defined herein.' Because the variable interest entity is treated as a Subsidiary under the defined term in §1.01, it falls within the scope of Section 10.01(h)(ii), which permits the Administrative Agent acting alone to release a Subsidiary from its obligations under the Guarantee and Collateral Agreement to the extent such release is permitted pursuant to Section 9.10.",
+    "id": "cl_071"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under Section 10.01(h), the release of substantially all of the Guarantee value requires the written consent of each Lender, subject to certain exceptions. One exception references enforcement of remedies against the 'Loan Parties.' Which specific entities are encompassed by the term 'Loan Parties' as used in that exception, and what is the other exception to the consent requirement stated in Section 10.01(h)?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Loan Parties",
+      "base::10.01(h)"
+    ],
+    "gold_answer": "'Loan Parties' means, collectively, the Borrower and each Guarantor. The two exceptions to the requirement of each Lender's written consent for releasing substantially all of the Guarantee value are: (i) in connection with the enforcement of remedies against the Loan Parties (i.e., the Borrower and each Guarantor) under the Credit Agreement, and (ii) to the extent the release of any Subsidiary from its obligations under the Guarantee and Collateral Agreement is permitted pursuant to Section 9.10, in which case such release may be made by the Administrative Agent acting alone.",
+    "id": "cl_072"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under Section 10.01, what consent is required to postpone a scheduled payment of interest due to a Lender, and how is the term 'Lender' defined in the Agreement?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::10.01(c)",
+      "base::def::Lender"
+    ],
+    "gold_answer": "Under Section 10.01(c)(i), postponing any date fixed for payment of interest due to the Lenders requires the written consent of each Lender entitled to such payment. The term 'Lender' is defined in Section 1.01 as having the meaning specified in the introductory paragraph of the Agreement.",
+    "id": "cl_073"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under Section 2.01, Loans may be borrowed, prepaid, and reborrowed subject to each Lender's Commitment. If a Lender wishes to assign a portion of its Commitment and outstanding Loans to a non-affiliated assignee that is not an Approved Fund, what is the minimum aggregate amount that must be assigned, and what entity's consent (besides the Administrative Agent) is required to waive that minimum if no Event of Default is continuing?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::2.01",
+      "base::10.06(b)"
+    ],
+    "gold_answer": "The minimum aggregate amount of the Commitment (or, if the Commitment is not then in effect, the principal outstanding balance of the Loans) subject to such assignment must be at least $3,000,000. To waive this minimum, the consent of both the Administrative Agent and the Borrower is required (so long as no Event of Default has occurred and is continuing), with each such consent not to be unreasonably withheld or delayed.",
+    "id": "cl_074"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under Section 6.12(a), when a new Subsidiary is formed by a Loan Party and must be joined as a guarantor, the representation in Section 5.13 states that charter copies of each Loan Party were provided pursuant to which closing-condition subsection, and what was the required form of those deliverables under that subsection?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::5.13",
+      "base::4.01(a)"
+    ],
+    "gold_answer": "Section 5.13 states that the copy of the charter of each Loan Party provided pursuant to Section 4.01(a) is a true and correct copy. Under Section 4.01(a), all such deliverables were required to be originals or telecopies (followed promptly by originals), each properly executed by a Responsible Officer of the signing Loan Party, dated the Closing Date, and each in form and substance satisfactory to the Administrative Agent and each of the Lenders.",
+    "id": "cl_075"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the 2017 Credit Agreement, what must occur before the L/C Issuer's obligation to issue Letters of Credit begins, and what is the effect of that same event on the Existing Credit Agreement?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Closing Date",
+      "base::2.03(a)",
+      "base::10.20"
+    ],
+    "gold_answer": "The L/C Issuer's obligation to issue Letters of Credit begins on the Closing Date, which is defined as the first date all conditions precedent in Section 4.01 are satisfied or waived in accordance with Section 10.01. On that same Closing Date, the Credit Agreement amends, restates, and supersedes the Existing Credit Agreement in its entirety (except as provided in Section 10.20), with the rights and obligations previously evidenced by the Existing Credit Agreement thereafter governed by the new Agreement and Loan Documents, without constituting a novation of the outstanding obligations.",
+    "id": "cl_076"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement as amended by the First Amendment, if a GAAP change re-characterizes operating leases as Capitalized Leases, and the Borrower elects to ignore that re-characterization for purposes of the definition of Indebtedness, how must the resulting Indebtedness nonetheless be carried for purposes of determining covenant compliance, and what accounting standard change is separately required to be given effect in financial statement preparation and ratio calculations notwithstanding the freeze mechanism in §1.03(b)?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(b)",
+      "base::1.03(a)",
+      "base::def::Indebtedness"
+    ],
+    "gold_answer": "If the Borrower exercises its right under §1.03(b) to ignore the re-characterization of operating leases as Capitalized Leases, such items are excluded from the definition of Indebtedness (which includes Attributable Indebtedness in respect of Capitalized Leases under clause (f)) for financial ratio and covenant purposes. However, under §1.03(a), any Indebtedness that is recognized must be deemed carried at 100% of outstanding principal amount (disregarding the effects of FASB ASC 825 and FASB ASC 470-20). Separately, notwithstanding the GAAP-freeze mechanism in §1.03(b), the First Amendment requires that commencing January 1, 2018, financial statements and ratio calculations must be prepared after giving effect to FASB ASC 606 relating to the recognition of franchise fee revenue.",
+    "id": "cl_077"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement as amended by the First Amendment, if a GAAP change re-characterizes operating leases as Capitalized Leases, who has the right to elect to ignore that re-characterization for financial ratio calculations, and what formal requirement governs any amendment to the ratio-preservation negotiation process described in the same section?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(b)",
+      "base::def::Borrower",
+      "base::10.01"
+    ],
+    "gold_answer": "The Borrower (as defined in the introductory paragraph of the Agreement per §1.01) has the right to elect to ignore the re-characterization by providing written notice to the Administrative Agent. Any amendment to the ratio-preservation negotiation process in §1.03(b) must comply with §10.01, which requires the amendment to be in writing signed by the Required Lenders and the Borrower and acknowledged by the Administrative Agent.",
+    "id": "cl_078"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement as amended by the First Amendment, when computing financial ratios for covenant compliance, how is Indebtedness of Parent and its Subsidiaries deemed to be carried, and what specific GAAP standard relating to revenue recognition must be given effect starting January 1, 2018?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(a)",
+      "base::1.03(b)",
+      "base::def::Parent"
+    ],
+    "gold_answer": "For purposes of determining compliance with any covenant (including financial covenants), Indebtedness of Parent and its Subsidiaries is deemed to be carried at 100% of the outstanding principal amount thereof (with the effects of FASB ASC 825 and FASB ASC 470-20 on financial liabilities disregarded). Additionally, commencing January 1, 2018, financial statements and financial ratios must be calculated after giving effect to FASB ASC 606 relating to the recognition of franchise fee revenue.",
+    "id": "cl_079"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement as amended by the First Amendment, when the Borrower exercises its right under §1.03(b) to elect to ignore the re-characterization of operating leases as Capitalized Leases, to whom must the Borrower provide written notice, and what entity fills that role according to the defined terms?",
+    "as_of": "2018-06-26",
+    "gold": [
+      "base::1.03(b)",
+      "base::def::Administrative Agent"
+    ],
+    "gold_answer": "The Borrower must provide written notice to the Administrative Agent, which is defined in §1.01 as Wells Fargo in its capacity as administrative agent and collateral agent under any of the Loan Documents, or any successor administrative agent.",
+    "id": "cl_080"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement's interpretive provisions, if a clause refers to a 'Loan' in the plural form ('Loans'), does the defined meaning of 'Loan' still apply, and which specific provisions establish this?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Loan",
+      "base::1.02(a)"
+    ],
+    "gold_answer": "Yes. The definition of 'Loan' in §1.01 assigns it the meaning specified in Section 2.01. Section 1.02(a) then provides that 'the definitions of terms herein shall apply equally to the singular and plural forms of the terms defined.' Therefore, any reference to 'Loans' (plural) carries the same defined meaning as 'Loan' (singular). Both provisions must be read together to reach this conclusion.",
+    "id": "cl_081"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement, if a Lender fails to exercise a right under a Collateral Document, does that failure operate as a waiver of that right, and what is the basis for the Collateral Document being subject to this rule?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Loan Documents",
+      "base::10.03"
+    ],
+    "gold_answer": "No. Under §10.03, no failure by any Lender to exercise any right under any Loan Document operates as a waiver thereof. Collateral Documents are subject to this rule because they are included in the definition of 'Loan Documents' under §1.01(d), and §10.03 expressly applies to rights provided 'under each other Loan Document,' which encompasses Collateral Documents.",
+    "id": "cl_082"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement, if a change in GAAP affects the computation of a financial ratio and the Required Lenders request a negotiation to amend that ratio, what voting threshold is needed both to initiate that negotiation request and to approve the resulting amendment, and are Defaulting Lenders counted toward that threshold?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Required Lenders",
+      "base::1.03(b)",
+      "base::10.01(d)"
+    ],
+    "gold_answer": "Both the request to negotiate under §1.03(b) and the approval of the resulting amendment require the consent of the Required Lenders, defined as Lenders holding more than 50% of the sum of Total Revolving Credit Outstandings and aggregate unused Commitments. Defaulting Lenders are excluded from this calculation: the unused Commitment of, and the portion of Total Revolving Credit Outstandings held or deemed held by, any Defaulting Lender is disregarded when determining whether the more-than-50% threshold is met. Section 10.01(d) further confirms that only Required Lenders' consent (not each Lender's consent) is necessary to amend any financial covenant or any defined term used therein, even if the amendment would reduce the interest rate or fees.",
+    "id": "cl_083"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Credit Agreement, when the Administrative Agent determines a Spot Rate for currency conversion under Section 1.07, and the entity acting in that capacity lacks a spot buying rate, the Agreement permits obtaining the rate from another designated financial institution. What type of entity is that institution classified as under the Agreement's definitions, and does a reference to such an entity in the Loan Documents also encompass its successors and assigns?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::1.07",
+      "base::def::Person",
+      "base::1.02(a)"
+    ],
+    "gold_answer": "The financial institution is classified as a 'Person' under Section 1.01, which means any natural person, corporation, limited liability company, trust, joint venture, association, company, partnership, Governmental Authority or other entity. Under Section 1.02(a)(ii), any reference to any Person in the Loan Documents shall be construed to include such Person's successors and assigns. Therefore, yes, a reference to that designated financial institution also encompasses its successors and assigns.",
+    "id": "cl_084"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the Second Amendment, the definition of 'Consolidated Cash on Hand' excludes certain restricted cash but carves out cash restricted in favor of a specific party. Who is that party, and what role does that party serve as defined in §1.01 of the original Agreement?",
+    "as_of": "2020-05-13",
+    "gold": [
+      "base::1.01"
+    ],
+    "gold_answer": "The carve-out is for cash or Permitted Investments restricted in favor of the Administrative Agent. Under §1.01 of the original Agreement, the 'Administrative Agent' is defined as Wells Fargo in its capacity as administrative agent and collateral agent under any of the Loan Documents, or any successor administrative agent.",
+    "id": "cl_085"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the interpretive provisions of the Credit Agreement, if a defined term such as 'Agreement' is used in its plural form elsewhere in a Loan Document, and that Loan Document contains a section heading referencing 'Agreements,' what legal effect does that section heading have on the interpretation of the defined term, and why?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::Agreement",
+      "base::1.02(a)",
+      "base::1.02(c)"
+    ],
+    "gold_answer": "Under §1.02(a), the definition of 'Agreement' applies equally to both its singular and plural forms, so any use of 'Agreements' carries the same defined meaning. However, under §1.02(c), section headings in the Loan Documents—including any heading referencing 'Agreements'—are included for convenience of reference only and have no effect on the interpretation of the Agreement or any other Loan Document. Therefore, a section heading using the plural 'Agreements' cannot alter or expand the defined meaning of 'Agreement.'",
+    "id": "cl_086"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under the original 2017 Credit Agreement, if the L/C Issuer wishes to opt out of receiving Article II notices by electronic communication, what entity must it notify, and what additional protection does Section 10.01(i) provide regarding amendments affecting the L/C Issuer's rights?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::def::L/C Issuer",
+      "base::10.02(b)",
+      "base::10.01(i)"
+    ],
+    "gold_answer": "The L/C Issuer (defined as Wells Fargo in its capacity as issuer of Letters of Credit) must notify the Administrative Agent that it is incapable of receiving Article II notices by electronic communication in order to opt out (§10.02(b)). Additionally, under §10.01(i), no amendment, waiver, or consent may affect the rights or duties of the L/C Issuer under the Agreement or any Issuer Document relating to any Letter of Credit issued or to be issued by it unless such amendment, waiver, or consent is in writing and signed by the L/C Issuer in addition to the Lenders otherwise required.",
+    "id": "cl_087"
+  },
+  {
+    "category": "multi_hop_graph",
+    "question": "Under §10.05 (Payments Set Aside), the obligations of the Lenders and L/C Issuer to repay amounts recovered from the Administrative Agent survive 'the payment in full of the Obligations.' Tracing through the defined term 'Obligations' in §1.01, what specific carve-out applies when determining whether a Subsidiary Loan Party's swap-related liabilities are included in the scope of those survived obligations?",
+    "as_of": "2017-10-26",
+    "gold": [
+      "base::10.05",
+      "base::def::Obligations"
+    ],
+    "gold_answer": "Under the definition of 'Obligations' in §1.01, with respect to a Subsidiary Loan Party, 'Obligations' excludes any Excluded Swap Obligation with respect to such Subsidiary Loan Party. Therefore, the survival clause in §10.05—which references 'payment in full of the Obligations'—would measure full payment against a scope of Obligations that already carves out any Excluded Swap Obligation attributable to a Subsidiary Loan Party.",
+    "id": "cl_088"
+  }
+]

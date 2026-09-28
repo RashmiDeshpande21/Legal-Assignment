@@ -1,0 +1,7322 @@
+{
+ "lattice": {
+  "dates_tested": [
+   "2017-12-31",
+   "2018-06-25",
+   "2018-06-26",
+   "2018-06-27",
+   "2019-01-01",
+   "2020-05-12",
+   "2020-05-13",
+   "2020-05-14",
+   "2020-08-01",
+   "2020-12-14",
+   "2020-12-15",
+   "2020-12-16",
+   "2021-01-01"
+  ],
+  "nodes_tested": 57,
+  "assertions": 2223,
+  "failures": [],
+  "timeline": {
+   "amendment_2::def::Affected Financial Institution": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::Consolidated Cash on Hand": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::LIBOR": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::Liquidity": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::Resolution Authority": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::Second Amendment Effective Date": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::UK Financial Institution": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_2::def::UK Resolution Authority": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 4201
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 8459
+    }
+   ],
+   "amendment_3::def::Benchmark Replacement": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Benchmark Replacement Adjustment": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Benchmark Replacement Conforming Changes": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Benchmark Replacement Date": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Benchmark Transition Event": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Benchmark Transition Start Date": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Benchmark Unavailability Period": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Early Opt-in Election": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Federal Reserve Bank of New York's Website": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::LIBOR": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2690
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2745
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2745
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2745
+    }
+   ],
+   "amendment_3::def::Relevant Governmental Body": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Term SOFR": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Third Amendment Effective Date": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "amendment_3::def::Unadjusted Benchmark Replacement": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 7959
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 15974
+    }
+   ],
+   "base::1.01": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 98519
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 98519
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 98519
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 98519
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 98519
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 98519
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102777
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102777
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102777
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102777
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 110737
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 110737
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 110737
+    }
+   ],
+   "base::1.03(b)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1559
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1559
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1984
+    }
+   ],
+   "base::1.08": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 677
+    }
+   ],
+   "base::1.09": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 539
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 539
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 539
+    }
+   ],
+   "base::10.01": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 564
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2619
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2619
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2619
+    }
+   ],
+   "base::10.22": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 677
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 677
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 677
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 677
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 677
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1757
+    }
+   ],
+   "base::10.23": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 3461
+    }
+   ],
+   "base::2.13": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 39
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 102
+    }
+   ],
+   "base::2.15(a)(iv)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 409
+    }
+   ],
+   "base::3.03": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1616
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1679
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1679
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1679
+    }
+   ],
+   "base::5.05(c)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 217
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 217
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 217
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 217
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 217
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 217
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1096
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1096
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1096
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1096
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2047
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2047
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2047
+    }
+   ],
+   "base::5.23": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 75
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 75
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 75
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 75
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 75
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 75
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 236
+    }
+   ],
+   "base::6.01": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 161
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 161
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 161
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 161
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 161
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 161
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1090
+    }
+   ],
+   "base::6.01(d)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1531
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1531
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1531
+    }
+   ],
+   "base::7.03": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 51
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 51
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 51
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 51
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 51
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 51
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1308
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1308
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1308
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1308
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2652
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2652
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2652
+    }
+   ],
+   "base::7.04(e)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 591
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 591
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 855
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2627
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2627
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2627
+    }
+   ],
+   "base::7.05(a)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2064
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2064
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2064
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2064
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2064
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2064
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2645
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2645
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2645
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2645
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 3317
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 3317
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 3317
+    }
+   ],
+   "base::7.10": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 21
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 21
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 21
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 21
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 21
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 21
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 543
+    }
+   ],
+   "base::7.10(a)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 135
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 135
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 135
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 135
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 135
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 135
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1022
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1022
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1022
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1022
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 1041
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 1041
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 1041
+    }
+   ],
+   "base::7.10(b)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 157
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 157
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 157
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 157
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 157
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 157
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1602
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1602
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1602
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1602
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 1994
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 1994
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 1994
+    }
+   ],
+   "base::7.10(c)": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 593
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 593
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 593
+    }
+   ],
+   "base::7.19": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 491
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 491
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 491
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "added",
+     "ops_applied": 1,
+     "len_text": 491
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 919
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 919
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 919
+    }
+   ],
+   "base::def::Applicable Rate": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1641
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1641
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1641
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1641
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1641
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 1641
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2547
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2547
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2547
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 2547
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 3457
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 3457
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 3457
+    }
+   ],
+   "base::def::Bail-In Action": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 181
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 181
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 181
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 181
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 181
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 181
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 425
+    }
+   ],
+   "base::def::Bail-In Legislation": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 312
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 312
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 312
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 312
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 312
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 312
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 799
+    }
+   ],
+   "base::def::Base Rate": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 852
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 852
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 852
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 852
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 852
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 852
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1078
+    }
+   ],
+   "base::def::Consolidated EBITDA": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2652
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 2652
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3166
+    }
+   ],
+   "base::def::Consolidated Interest Expense": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 749
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1073
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1073
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1073
+    }
+   ],
+   "base::def::Consolidated Leverage Ratio": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 379
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 379
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 379
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 379
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 379
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 379
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1286
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1286
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1286
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1286
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2197
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2197
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 2197
+    }
+   ],
+   "base::def::Consolidated Maintenance Capital Expenditures": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 177
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 589
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 589
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 589
+    }
+   ],
+   "base::def::Eurodollar Rate": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 3074
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 3074
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 3074
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 3074
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 3074
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 3074
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 3314
+    }
+   ],
+   "base::def::Eurodollar Rate Loan": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 127
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 127
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 127
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 127
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 127
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 127
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 306
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 306
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 306
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 306
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 543
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 543
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 2,
+     "len_text": 543
+    }
+   ],
+   "base::def::Revolving Credit Facility": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 183
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 462
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 462
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 462
+    }
+   ],
+   "base::def::Write-Down and Conversion Powers": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 339
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 339
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 339
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 339
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 339
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 339
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 1069
+    }
+   ],
+   "base::exhibit::C": [
+    {
+     "as_of": "2017-12-31",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-25",
+     "status": "original",
+     "ops_applied": 0,
+     "len_text": 0
+    },
+    {
+     "as_of": "2018-06-26",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2018-06-27",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2019-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-05-12",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-05-13",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-05-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-08-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-12-14",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-12-15",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2020-12-16",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    },
+    {
+     "as_of": "2021-01-01",
+     "status": "amended",
+     "ops_applied": 1,
+     "len_text": 431
+    }
+   ]
+  }
+ },
+ "windows": {
+  "windows": [
+   {
+    "window_id": "mid_a1",
+    "as_of": "2019-01-01",
+    "amended": 4,
+    "still_original": 53,
+    "failures": [],
+    "rows": [
+     {
+      "node_id": "amendment_2::def::Affected Financial Institution",
+      "label": "definition of \u201cAffected Financial Institution\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cAffected Financial Institution\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::Consolidated Cash on Hand",
+      "label": "definition of \u201cConsolidated Cash on Hand\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cConsolidated Cash on Hand\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::LIBOR",
+      "label": "definition of \u201cLIBOR\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cLIBOR\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::Liquidity",
+      "label": "definition of \u201cLiquidity\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cLiquidity\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::Resolution Authority",
+      "label": "definition of \u201cResolution Authority\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cResolution Authority\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::Second Amendment Effective Date",
+      "label": "definition of \u201cSecond Amendment Effective Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cSecond Amendment Effective Date\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::UK Financial Institution",
+      "label": "definition of \u201cUK Financial Institution\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cUK Financial Institution\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_2::def::UK Resolution Authority",
+      "label": "definition of \u201cUK Resolution Authority\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cUK Resolution Authority\u201d (\u00a71.01), dated 2020-05-13"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement",
+      "label": "definition of \u201cBenchmark Replacement\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement Adjustment",
+      "label": "definition of \u201cBenchmark Replacement Adjustment\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Adjustment\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement Conforming Changes",
+      "label": "definition of \u201cBenchmark Replacement Conforming Changes\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Conforming Changes\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement Date",
+      "label": "definition of \u201cBenchmark Replacement Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Date\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Transition Event",
+      "label": "definition of \u201cBenchmark Transition Event\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Transition Event\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Transition Start Date",
+      "label": "definition of \u201cBenchmark Transition Start Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Transition Start Date\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Unavailability Period",
+      "label": "definition of \u201cBenchmark Unavailability Period\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Unavailability Period\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Early Opt-in Election",
+      "label": "definition of \u201cEarly Opt-in Election\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cEarly Opt-in Election\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Federal Reserve Bank of New York's Website",
+      "label": "definition of \u201cFederal Reserve Bank of New York's Website\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cFederal Reserve Bank of New York's Website\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::LIBOR",
+      "label": "definition of \u201cLIBOR\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cLIBOR\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Relevant Governmental Body",
+      "label": "definition of \u201cRelevant Governmental Body\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cRelevant Governmental Body\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Term SOFR",
+      "label": "definition of \u201cTerm SOFR\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cTerm SOFR\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Third Amendment Effective Date",
+      "label": "definition of \u201cThird Amendment Effective Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cThird Amendment Effective Date\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Unadjusted Benchmark Replacement",
+      "label": "definition of \u201cUnadjusted Benchmark Replacement\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cUnadjusted Benchmark Replacement\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "base::1.01",
+      "label": "\u00a71.01",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a71.01, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::1.03(b)",
+      "label": "\u00a71.03(b)",
+      "instruments": [
+       "First Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a71.03(b), as amended by First Amendment (effective 2018-06-26)"
+     },
+     {
+      "node_id": "base::1.08",
+      "label": "\u00a71.08",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a71.08, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::1.09",
+      "label": "\u00a71.09",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a71.09, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::10.01",
+      "label": "\u00a710.01",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a710.01, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::10.22",
+      "label": "\u00a710.22",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a710.22, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::10.23",
+      "label": "\u00a710.23",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a710.23, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::2.13",
+      "label": "\u00a72.13",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a72.13, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::2.15(a)(iv)",
+      "label": "\u00a72.15(a)(iv)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a72.15(a)(iv), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::3.03",
+      "label": "\u00a73.03",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a73.03, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::5.05(c)",
+      "label": "\u00a75.05(c)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a75.05(c), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::5.23",
+      "label": "\u00a75.23",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a75.23, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::6.01",
+      "label": "\u00a76.01",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a76.01, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::6.01(d)",
+      "label": "\u00a76.01(d)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a76.01(d), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.03",
+      "label": "\u00a77.03",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.03, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.04(e)",
+      "label": "\u00a77.04(e)",
+      "instruments": [
+       "First Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.04(e), as amended by First Amendment (effective 2018-06-26)"
+     },
+     {
+      "node_id": "base::7.05(a)",
+      "label": "\u00a77.05(a)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.05(a), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.10",
+      "label": "\u00a77.10",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.10(a)",
+      "label": "\u00a77.10(a)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10(a), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.10(b)",
+      "label": "\u00a77.10(b)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10(b), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.10(c)",
+      "label": "\u00a77.10(c)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10(c), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.19",
+      "label": "\u00a77.19",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.19, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Applicable Rate",
+      "label": "definition of \u201cApplicable Rate\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cApplicable Rate\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Bail-In Action",
+      "label": "definition of \u201cBail-In Action\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cBail-In Action\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Bail-In Legislation",
+      "label": "definition of \u201cBail-In Legislation\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cBail-In Legislation\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Base Rate",
+      "label": "definition of \u201cBase Rate\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cBase Rate\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Consolidated EBITDA",
+      "label": "definition of \u201cConsolidated EBITDA\u201d (\u00a71.01)",
+      "instruments": [
+       "First Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cConsolidated EBITDA\u201d (\u00a71.01), as amended by First Amendment (effective 2018-06-26)"
+     },
+     {
+      "node_id": "base::def::Consolidated Interest Expense",
+      "label": "definition of \u201cConsolidated Interest Expense\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cConsolidated Interest Expense\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Consolidated Leverage Ratio",
+      "label": "definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Consolidated Maintenance Capital Expenditures",
+      "label": "definition of \u201cConsolidated Maintenance Capital Expenditures\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cConsolidated Maintenance Capital Expenditures\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Eurodollar Rate",
+      "label": "definition of \u201cEurodollar Rate\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cEurodollar Rate\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Eurodollar Rate Loan",
+      "label": "definition of \u201cEurodollar Rate Loan\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cEurodollar Rate Loan\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Revolving Credit Facility",
+      "label": "definition of \u201cRevolving Credit Facility\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cRevolving Credit Facility\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Write-Down and Conversion Powers",
+      "label": "definition of \u201cWrite-Down and Conversion Powers\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cWrite-Down and Conversion Powers\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::exhibit::C",
+      "label": "Exhibit C",
+      "instruments": [
+       "First Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement Exhibit C, as amended by First Amendment (effective 2018-06-26)"
+     }
+    ]
+   },
+   {
+    "window_id": "mid_a2",
+    "as_of": "2020-08-01",
+    "amended": 34,
+    "still_original": 23,
+    "failures": [],
+    "rows": [
+     {
+      "node_id": "amendment_2::def::Affected Financial Institution",
+      "label": "definition of \u201cAffected Financial Institution\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cAffected Financial Institution\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::Consolidated Cash on Hand",
+      "label": "definition of \u201cConsolidated Cash on Hand\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cConsolidated Cash on Hand\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::LIBOR",
+      "label": "definition of \u201cLIBOR\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cLIBOR\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::Liquidity",
+      "label": "definition of \u201cLiquidity\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cLiquidity\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::Resolution Authority",
+      "label": "definition of \u201cResolution Authority\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cResolution Authority\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::Second Amendment Effective Date",
+      "label": "definition of \u201cSecond Amendment Effective Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cSecond Amendment Effective Date\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::UK Financial Institution",
+      "label": "definition of \u201cUK Financial Institution\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cUK Financial Institution\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_2::def::UK Resolution Authority",
+      "label": "definition of \u201cUK Resolution Authority\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cUK Resolution Authority\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement",
+      "label": "definition of \u201cBenchmark Replacement\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement Adjustment",
+      "label": "definition of \u201cBenchmark Replacement Adjustment\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Adjustment\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement Conforming Changes",
+      "label": "definition of \u201cBenchmark Replacement Conforming Changes\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Conforming Changes\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Replacement Date",
+      "label": "definition of \u201cBenchmark Replacement Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Date\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Transition Event",
+      "label": "definition of \u201cBenchmark Transition Event\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Transition Event\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Transition Start Date",
+      "label": "definition of \u201cBenchmark Transition Start Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Transition Start Date\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Benchmark Unavailability Period",
+      "label": "definition of \u201cBenchmark Unavailability Period\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Unavailability Period\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Early Opt-in Election",
+      "label": "definition of \u201cEarly Opt-in Election\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cEarly Opt-in Election\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Federal Reserve Bank of New York's Website",
+      "label": "definition of \u201cFederal Reserve Bank of New York's Website\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cFederal Reserve Bank of New York's Website\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::LIBOR",
+      "label": "definition of \u201cLIBOR\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cLIBOR\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Relevant Governmental Body",
+      "label": "definition of \u201cRelevant Governmental Body\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cRelevant Governmental Body\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Term SOFR",
+      "label": "definition of \u201cTerm SOFR\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cTerm SOFR\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Third Amendment Effective Date",
+      "label": "definition of \u201cThird Amendment Effective Date\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cThird Amendment Effective Date\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "amendment_3::def::Unadjusted Benchmark Replacement",
+      "label": "definition of \u201cUnadjusted Benchmark Replacement\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cUnadjusted Benchmark Replacement\u201d (\u00a71.01), dated 2020-12-15"
+     },
+     {
+      "node_id": "base::1.01",
+      "label": "\u00a71.01",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a71.01, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::1.03(b)",
+      "label": "\u00a71.03(b)",
+      "instruments": [
+       "First Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a71.03(b), as amended by First Amendment (effective 2018-06-26)"
+     },
+     {
+      "node_id": "base::1.08",
+      "label": "\u00a71.08",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "added",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a71.08, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::1.09",
+      "label": "\u00a71.09",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a71.09, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::10.01",
+      "label": "\u00a710.01",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a710.01, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::10.22",
+      "label": "\u00a710.22",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a710.22, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::10.23",
+      "label": "\u00a710.23",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "added",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a710.23, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::2.13",
+      "label": "\u00a72.13",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a72.13, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::2.15(a)(iv)",
+      "label": "\u00a72.15(a)(iv)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a72.15(a)(iv), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::3.03",
+      "label": "\u00a73.03",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a73.03, as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::5.05(c)",
+      "label": "\u00a75.05(c)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a75.05(c), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::5.23",
+      "label": "\u00a75.23",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a75.23, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::6.01",
+      "label": "\u00a76.01",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a76.01, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::6.01(d)",
+      "label": "\u00a76.01(d)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a76.01(d), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.03",
+      "label": "\u00a77.03",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.03, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::7.04(e)",
+      "label": "\u00a77.04(e)",
+      "instruments": [
+       "First Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.04(e), as amended by First Amendment (effective 2018-06-26)"
+     },
+     {
+      "node_id": "base::7.05(a)",
+      "label": "\u00a77.05(a)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.05(a), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::7.10",
+      "label": "\u00a77.10",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement \u00a77.10, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::7.10(a)",
+      "label": "\u00a77.10(a)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10(a), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::7.10(b)",
+      "label": "\u00a77.10(b)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10(b), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::7.10(c)",
+      "label": "\u00a77.10(c)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.10(c), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::7.19",
+      "label": "\u00a77.19",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "added",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement \u00a77.19, as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Applicable Rate",
+      "label": "definition of \u201cApplicable Rate\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cApplicable Rate\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Bail-In Action",
+      "label": "definition of \u201cBail-In Action\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cBail-In Action\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Bail-In Legislation",
+      "label": "definition of \u201cBail-In Legislation\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cBail-In Legislation\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Base Rate",
+      "label": "definition of \u201cBase Rate\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cBase Rate\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Consolidated EBITDA",
+      "label": "definition of \u201cConsolidated EBITDA\u201d (\u00a71.01)",
+      "instruments": [
+       "First Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cConsolidated EBITDA\u201d (\u00a71.01), as amended by First Amendment (effective 2018-06-26)"
+     },
+     {
+      "node_id": "base::def::Consolidated Interest Expense",
+      "label": "definition of \u201cConsolidated Interest Expense\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cConsolidated Interest Expense\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Consolidated Leverage Ratio",
+      "label": "definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Consolidated Maintenance Capital Expenditures",
+      "label": "definition of \u201cConsolidated Maintenance Capital Expenditures\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cConsolidated Maintenance Capital Expenditures\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Eurodollar Rate",
+      "label": "definition of \u201cEurodollar Rate\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cEurodollar Rate\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Eurodollar Rate Loan",
+      "label": "definition of \u201cEurodollar Rate Loan\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment",
+       "Third Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cEurodollar Rate Loan\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::def::Revolving Credit Facility",
+      "label": "definition of \u201cRevolving Credit Facility\u201d (\u00a71.01)",
+      "instruments": [
+       "Third Amendment"
+      ],
+      "instruments_in_force": [],
+      "in_force": false,
+      "ops_expected": 0,
+      "ops_applied": 0,
+      "status": "original",
+      "equals_pre": true,
+      "equals_post": false,
+      "citation": "Credit Agreement definition of \u201cRevolving Credit Facility\u201d (\u00a71.01), as originally executed (2017-10-26)"
+     },
+     {
+      "node_id": "base::def::Write-Down and Conversion Powers",
+      "label": "definition of \u201cWrite-Down and Conversion Powers\u201d (\u00a71.01)",
+      "instruments": [
+       "Second Amendment"
+      ],
+      "instruments_in_force": [
+       "Second Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement definition of \u201cWrite-Down and Conversion Powers\u201d (\u00a71.01), as amended by Second Amendment (effective 2020-05-13)"
+     },
+     {
+      "node_id": "base::exhibit::C",
+      "label": "Exhibit C",
+      "instruments": [
+       "First Amendment"
+      ],
+      "instruments_in_force": [
+       "First Amendment"
+      ],
+      "in_force": true,
+      "ops_expected": 1,
+      "ops_applied": 1,
+      "status": "amended",
+      "equals_pre": false,
+      "equals_post": true,
+      "citation": "Credit Agreement Exhibit C, as amended by First Amendment (effective 2018-06-26)"
+     }
+    ]
+   }
+  ],
+  "failures": []
+ },
+ "mixed_vintage": {
+  "as_of": "2019-01-01",
+  "chains": [
+   {
+    "input": "base::def::Consolidated EBITDA",
+    "input_status_at_mid": "amended",
+    "dependent": "base::def::Consolidated EBITDAR",
+    "dependent_status_at_mid": "original",
+    "dependent_status_after_all": "original",
+    "mixed_vintage_at_mid": true,
+    "dependent_citation_at_mid": "Credit Agreement definition of \u201cConsolidated EBITDAR\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "input": "base::def::Consolidated EBITDA",
+    "input_status_at_mid": "amended",
+    "dependent": "base::def::Consolidated Leverage Ratio",
+    "dependent_status_at_mid": "original",
+    "dependent_status_after_all": "amended",
+    "mixed_vintage_at_mid": true,
+    "dependent_citation_at_mid": "Credit Agreement definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   }
+  ],
+  "mixed_vintage_chains": 2,
+  "failures": []
+ },
+ "mid_window": {
+  "mid_date": "2019-01-01",
+  "amended_at_mid": 4,
+  "still_original_at_mid": 53,
+  "failures": [],
+  "rows": [
+   {
+    "node_id": "amendment_2::def::Affected Financial Institution",
+    "label": "definition of \u201cAffected Financial Institution\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cAffected Financial Institution\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::Consolidated Cash on Hand",
+    "label": "definition of \u201cConsolidated Cash on Hand\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cConsolidated Cash on Hand\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::LIBOR",
+    "label": "definition of \u201cLIBOR\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cLIBOR\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::Liquidity",
+    "label": "definition of \u201cLiquidity\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cLiquidity\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::Resolution Authority",
+    "label": "definition of \u201cResolution Authority\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cResolution Authority\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::Second Amendment Effective Date",
+    "label": "definition of \u201cSecond Amendment Effective Date\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cSecond Amendment Effective Date\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::UK Financial Institution",
+    "label": "definition of \u201cUK Financial Institution\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cUK Financial Institution\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_2::def::UK Resolution Authority",
+    "label": "definition of \u201cUK Resolution Authority\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Second Amendment to Third Amended and Restated Credit Agreement definition of \u201cUK Resolution Authority\u201d (\u00a71.01), dated 2020-05-13"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Replacement",
+    "label": "definition of \u201cBenchmark Replacement\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Replacement Adjustment",
+    "label": "definition of \u201cBenchmark Replacement Adjustment\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Adjustment\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Replacement Conforming Changes",
+    "label": "definition of \u201cBenchmark Replacement Conforming Changes\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Conforming Changes\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Replacement Date",
+    "label": "definition of \u201cBenchmark Replacement Date\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Replacement Date\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Transition Event",
+    "label": "definition of \u201cBenchmark Transition Event\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Transition Event\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Transition Start Date",
+    "label": "definition of \u201cBenchmark Transition Start Date\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Transition Start Date\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Benchmark Unavailability Period",
+    "label": "definition of \u201cBenchmark Unavailability Period\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cBenchmark Unavailability Period\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Early Opt-in Election",
+    "label": "definition of \u201cEarly Opt-in Election\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cEarly Opt-in Election\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Federal Reserve Bank of New York's Website",
+    "label": "definition of \u201cFederal Reserve Bank of New York's Website\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cFederal Reserve Bank of New York's Website\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::LIBOR",
+    "label": "definition of \u201cLIBOR\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cLIBOR\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Relevant Governmental Body",
+    "label": "definition of \u201cRelevant Governmental Body\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cRelevant Governmental Body\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Term SOFR",
+    "label": "definition of \u201cTerm SOFR\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cTerm SOFR\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Third Amendment Effective Date",
+    "label": "definition of \u201cThird Amendment Effective Date\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cThird Amendment Effective Date\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "amendment_3::def::Unadjusted Benchmark Replacement",
+    "label": "definition of \u201cUnadjusted Benchmark Replacement\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Third Amendment to Third Amended and Restated Credit Agreement definition of \u201cUnadjusted Benchmark Replacement\u201d (\u00a71.01), dated 2020-12-15"
+   },
+   {
+    "node_id": "base::1.01",
+    "label": "\u00a71.01",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a71.01, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::1.03(b)",
+    "label": "\u00a71.03(b)",
+    "instruments": [
+     "First Amendment"
+    ],
+    "instruments_in_force": [
+     "First Amendment"
+    ],
+    "in_force": true,
+    "ops_expected": 1,
+    "ops_applied": 1,
+    "status": "amended",
+    "equals_pre": false,
+    "equals_post": true,
+    "citation": "Credit Agreement \u00a71.03(b), as amended by First Amendment (effective 2018-06-26)"
+   },
+   {
+    "node_id": "base::1.08",
+    "label": "\u00a71.08",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a71.08, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::1.09",
+    "label": "\u00a71.09",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a71.09, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::10.01",
+    "label": "\u00a710.01",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a710.01, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::10.22",
+    "label": "\u00a710.22",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a710.22, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::10.23",
+    "label": "\u00a710.23",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a710.23, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::2.13",
+    "label": "\u00a72.13",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a72.13, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::2.15(a)(iv)",
+    "label": "\u00a72.15(a)(iv)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a72.15(a)(iv), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::3.03",
+    "label": "\u00a73.03",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a73.03, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::5.05(c)",
+    "label": "\u00a75.05(c)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a75.05(c), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::5.23",
+    "label": "\u00a75.23",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a75.23, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::6.01",
+    "label": "\u00a76.01",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a76.01, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::6.01(d)",
+    "label": "\u00a76.01(d)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a76.01(d), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.03",
+    "label": "\u00a77.03",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.03, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.04(e)",
+    "label": "\u00a77.04(e)",
+    "instruments": [
+     "First Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [
+     "First Amendment"
+    ],
+    "in_force": true,
+    "ops_expected": 1,
+    "ops_applied": 1,
+    "status": "amended",
+    "equals_pre": false,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.04(e), as amended by First Amendment (effective 2018-06-26)"
+   },
+   {
+    "node_id": "base::7.05(a)",
+    "label": "\u00a77.05(a)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.05(a), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.10",
+    "label": "\u00a77.10",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.10, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.10(a)",
+    "label": "\u00a77.10(a)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.10(a), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.10(b)",
+    "label": "\u00a77.10(b)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.10(b), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.10(c)",
+    "label": "\u00a77.10(c)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.10(c), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::7.19",
+    "label": "\u00a77.19",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement \u00a77.19, as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Applicable Rate",
+    "label": "definition of \u201cApplicable Rate\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cApplicable Rate\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Bail-In Action",
+    "label": "definition of \u201cBail-In Action\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cBail-In Action\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Bail-In Legislation",
+    "label": "definition of \u201cBail-In Legislation\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cBail-In Legislation\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Base Rate",
+    "label": "definition of \u201cBase Rate\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cBase Rate\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Consolidated EBITDA",
+    "label": "definition of \u201cConsolidated EBITDA\u201d (\u00a71.01)",
+    "instruments": [
+     "First Amendment"
+    ],
+    "instruments_in_force": [
+     "First Amendment"
+    ],
+    "in_force": true,
+    "ops_expected": 1,
+    "ops_applied": 1,
+    "status": "amended",
+    "equals_pre": false,
+    "equals_post": true,
+    "citation": "Credit Agreement definition of \u201cConsolidated EBITDA\u201d (\u00a71.01), as amended by First Amendment (effective 2018-06-26)"
+   },
+   {
+    "node_id": "base::def::Consolidated Interest Expense",
+    "label": "definition of \u201cConsolidated Interest Expense\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cConsolidated Interest Expense\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Consolidated Leverage Ratio",
+    "label": "definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cConsolidated Leverage Ratio\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Consolidated Maintenance Capital Expenditures",
+    "label": "definition of \u201cConsolidated Maintenance Capital Expenditures\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cConsolidated Maintenance Capital Expenditures\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Eurodollar Rate",
+    "label": "definition of \u201cEurodollar Rate\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cEurodollar Rate\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Eurodollar Rate Loan",
+    "label": "definition of \u201cEurodollar Rate Loan\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment",
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cEurodollar Rate Loan\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Revolving Credit Facility",
+    "label": "definition of \u201cRevolving Credit Facility\u201d (\u00a71.01)",
+    "instruments": [
+     "Third Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cRevolving Credit Facility\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::def::Write-Down and Conversion Powers",
+    "label": "definition of \u201cWrite-Down and Conversion Powers\u201d (\u00a71.01)",
+    "instruments": [
+     "Second Amendment"
+    ],
+    "instruments_in_force": [],
+    "in_force": false,
+    "ops_expected": 0,
+    "ops_applied": 0,
+    "status": "original",
+    "equals_pre": true,
+    "equals_post": false,
+    "citation": "Credit Agreement definition of \u201cWrite-Down and Conversion Powers\u201d (\u00a71.01), as originally executed (2017-10-26)"
+   },
+   {
+    "node_id": "base::exhibit::C",
+    "label": "Exhibit C",
+    "instruments": [
+     "First Amendment"
+    ],
+    "instruments_in_force": [
+     "First Amendment"
+    ],
+    "in_force": true,
+    "ops_expected": 1,
+    "ops_applied": 1,
+    "status": "amended",
+    "equals_pre": false,
+    "equals_post": true,
+    "citation": "Credit Agreement Exhibit C, as amended by First Amendment (effective 2018-06-26)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,922 @@
+{
+ "grades": {
+  "primary": {
+   "graph": {
+    "q1": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The system answer correctly identifies New York law as governing and the NY state courts in New York County and SDNY as the exclusive forum, matching the gold answer, with all claims fully supported by the retrieved context."
+    },
+    "q2": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The system correctly identifies the October 26, 2022 maturity date but fails to note the critical distinction that this is a revolving credit facility (not a term loan facility), which is the key point of the gold answer."
+    },
+    "q3": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.4,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The system correctly identifies Wells Fargo as Administrative Agent and describes roles of Lenders, L/C Issuer, and Guarantors, but fails to name the Borrower (Denny's Inc), Parent/Guarantor (Denny's Corporation), or the specific co-syndication and co-documentation agents, which are not present in the retrieved context."
+    },
+    "q4": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 1.0,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The system answer exactly matches the gold answer, correctly defining 'Borrowing' per \u00a71.01 and listing all 8 dependent sections plus all 4 dependent definitions, fully supported by the retrieved context."
+    },
+    "q5": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.85,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The system answer correctly identifies \u00a77.01 as the operative covenant, defines 'Lien' and 'IP Rights', and lists the main exceptions (a), (b), (d), (e), including the IP Security Agreement carve-out under Loan Documents; it omits \u00a77.01(c) and \u00a77.01(f) if they exist, but otherwise aligns well with the gold answer's substance that IP liens are only permissible under enumerated exceptions."
+    },
+    "q6": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 1.0,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The system answer correctly traces the full chain from \u00a77.05(a) prohibition \u2192 Restricted Payment definition \u2192 carve-out (i) permitting subsidiary-to-parent distributions \u2192 post-Third-Amendment proviso suspending clauses (ii)-(iv) but not (i), matching the gold answer's substance; minor issue is the system incorrectly states the suspension period ends at the quarter ending ~September 29, 2021 while also mentioning June 30, 2021 (the Second Amendment version), but correctly identifies the Third Amendment's operative text."
+    },
+    "q7": {
+     "citation_accuracy": 0.6,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.3,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The system correctly identifies \u00a78.01(c)'s 30-day grace period for 'other' covenant defaults but fails to establish the key gold-answer point that \u00a77.10 financial covenant breaches fall under \u00a78.01(b) with no cure period, and omits \u00a78.02 remedies entirely; the retrieved context did not include \u00a78.01(b) or \u00a78.02, making a complete answer impossible."
+    },
+    "q8": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.6,
+     "note": "The answer correctly identifies \u00a72.13(g) as the key conflict-resolution clause superseding \u00a72.12 and \u00a710.01, matching the gold answer's primary example, though it muddies the analysis with a speculative \u00a72.03(j) conflict and a questionable \u00a72.14 cross-reference claim (\u00a72.14 may have substantive content not shown in the retrieved snippet)."
+    },
+    "q9": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The system answer correctly identifies \u00a77.05(a) as originally executed as the operative provision as of 2018-01-01, accurately describes all four carve-outs including the $50M cap and unlimited payments below 3.50:1.00 leverage, and correctly notes the Second and Third Amendments are not yet in force; this matches the gold answer's substance though the gold answer is more concise."
+    },
+    "q10": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The system answer correctly identifies the Second Amendment (2020-05-13) proviso suspending Restricted Payments under clauses (ii)-(iv) until financial covenant compliance is demonstrated, matching the gold answer, though it leads with the $50M cap detail before emphasizing the operative suspension."
+    },
+    "q11": {
+     "citation_accuracy": 0.98,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.98,
+     "answer_correct": false,
+     "faithfulness": 0.98,
+     "note": "The system answer omits \u00a75.23 (restated by Second Amendment) which appears in the retrieved context, making the Second Amendment count 24 instead of 25, for a total of 60 out of 61 amendment operations."
+    },
+    "q12": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.75,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The system answer correctly identifies the Second and Third Amendments' changes to the Consolidated Leverage Ratio definition and \u00a77.10(a), but incorrectly labels the Third Amendment as dated 2020-12-15 while the gold answer only references a Second Amendment (2020-05-13) and First Amendment (2018-06-26); the system misses the First Amendment's change to Consolidated EBITDA and the effect on Applicable Rate/pricing sections, and introduces a 'Third Amendment' not mentioned in the gold answer."
+    }
+   },
+   "baseline": {
+    "q1": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The system answer correctly identifies New York law as governing and the exclusive jurisdiction of NY state courts in New York County and SDNY, matching the gold answer, with all claims supported by the retrieved context."
+    },
+    "q2": {
+     "citation_accuracy": 0.5,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The system correctly identifies this as a revolving credit facility and notes the context doesn't specify a term loan, but fails to identify the Maturity Date of October 26, 2022 from \u00a71.01, which was not in the retrieved context."
+    },
+    "q3": {
+     "citation_accuracy": 0.6,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.4,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The system answer fails to identify the specific named parties (Denny's Inc as Borrower, Denny's Corporation as Parent/Guarantor, Wells Fargo as Administrative Agent, Regions Bank and Citizens Bank as Co-Syndication Agents, Cadence Bank and Fifth Third as Co-Documentation Agents) that are required by the gold answer, only identifying Wells Fargo as L/C Issuer and leaving all other parties as generic role descriptions."
+    },
+    "q4": {
+     "citation_accuracy": 0.3,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.2,
+     "answer_correct": false,
+     "faithfulness": 0.5,
+     "note": "The system identifies 'Loan' rather than 'Borrowing' as the key defined term, misses the gold-answer definition of 'Borrowing' (\u00a71.01), and lists only 2 of the 8 required dependent sections (2.01, 2.02), omitting \u00a7\u00a72.02(a), 2.02(b), 2.03(c), 2.11(b), 3.03, 8.01(d), and 10.22(b)."
+    },
+    "q5": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.7,
+     "answer_correct": true,
+     "faithfulness": 0.9,
+     "note": "The system answer correctly identifies \u00a77.01 as the operative covenant, cites 'IP Rights' as the defined term, and lists the main exceptions (a), (b), (d), (e) supported by the retrieved context, but omits exceptions (c) and (f) and the full Permitted Liens definition referenced in the gold answer, and does not note there is no IP-specific carve-out."
+    },
+    "q6": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": false,
+     "version_correct": null,
+     "chain_completeness": 0.7,
+     "answer_correct": false,
+     "faithfulness": 0.85,
+     "note": "The system answer correctly identifies \u00a77.05(a)(i) permitting subsidiary-to-parent distributions and walks through the carve-outs, but critically omits the Second Amendment proviso that suspends clauses (ii)-(iv) until covenant compliance is demonstrated, which is a key element of the gold answer."
+    },
+    "q7": {
+     "citation_accuracy": 0.5,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.4,
+     "answer_correct": false,
+     "faithfulness": 0.6,
+     "note": "The system answer incorrectly applies the 30-day grace period from \u00a78.01(c) to financial covenant breaches; the gold answer specifies that \u00a77.10 breaches are an immediate Event of Default under \u00a78.01(b) with no cure period, and the system fails to identify the key distinction that financial covenants fall under \u00a78.01(b) rather than \u00a78.01(c)."
+    },
+    "q8": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.85,
+     "note": "The system correctly identifies \u00a72.13(g) as the key conflict-resolution clause and names the conflicting sections (2.12 and 10.01), matching the gold answer's primary example, though it hedges excessively by claiming insufficient context to confirm the conflict."
+    },
+    "q9": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": false,
+     "version_correct": false,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The system correctly identifies \u00a77.05(a) as operative but incorrectly concludes the Second and Third Amendments are not yet effective as of 2018-01-01 (they may have been executed before that date); the gold answer confirms the original \u00a77.05(a) applies with carve-outs (i)-(iv) and no amendment proviso, but the system's reasoning about amendment effectiveness is flawed and it over-elaborates on caps rather than simply stating the original provision governs."
+    },
+    "q10": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The system answer correctly identifies that the Second Amendment (effective 2020-05-13) added a proviso suspending Restricted Payments under clauses (ii)-(iv) of \u00a77.05(a), matching the gold answer, with well-supported citations and accurate description of the change."
+    },
+    "q11": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": false,
+     "version_correct": null,
+     "chain_completeness": 0.15,
+     "answer_correct": false,
+     "faithfulness": 0.9,
+     "note": "The system answer only identifies ~9 amendment operations from the retrieved context but the gold answer requires cataloging 61 amendment operations across First, Second, and Third Amendments; the system also misidentifies the base document as a 'Third Amended and Restated Credit Agreement' rather than tracing back to the original agreement, and completely misses the First Amendment (4 operations) and most Second Amendment (25 operations) and Third Amendment (32 operations) entries."
+    },
+    "q12": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.7,
+     "answer_correct": false,
+     "faithfulness": 0.85,
+     "note": "The system answer correctly identifies changes to the Consolidated Leverage Ratio definition and affected sections, but references a 'Third Amendment' which does not appear in the gold answer (which only mentions First and Second Amendments), and misses the First Amendment's change to Consolidated EBITDA definition that the gold answer specifically calls out."
+    }
+   }
+  },
+  "second": {
+   "graph": {
+    "q1": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The answer correctly identifies New York law as governing (\u00a710.14(a)) and exclusive jurisdiction of NY state courts in New York County and SDNY (\u00a710.14(b)), matching the gold answer, with additional accurate detail about amendments and venue waiver."
+    },
+    "q2": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.85,
+     "note": "The system correctly identifies the Maturity Date as October 26, 2022, but fails to note the critical point from the gold answer: there is no term loan facility\u2014this is a $400M revolving credit facility. The system hedges by saying it cannot distinguish facility types, rather than affirmatively stating the correct facility type."
+    },
+    "q3": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.4,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The system answer correctly identifies Wells Fargo as Administrative Agent and describes roles of Lenders, L/C Issuer, Borrower, and Guarantors, but fails to name Denny's Inc as Borrower, Denny's Corporation as Parent/Guarantor, Regions Bank and Citizens Bank as Co-Syndication Agents, and Cadence Bank and Fifth Third as Co-Documentation Agents, missing most of the specific party identifications required by the gold answer."
+    },
+    "q4": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 1.0,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The answer perfectly matches the gold answer, providing the correct definition of 'Borrowing' and listing all 8 required dependent sections plus the 4 dependent \u00a71.01 definitions, all supported by the retrieved context."
+    },
+    "q5": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.75,
+     "answer_correct": true,
+     "faithfulness": 0.9,
+     "note": "The answer correctly identifies \u00a77.01 as the governing covenant, the 'Lien' defined term, and most exceptions, but omits \u00a77.01(c) (Permitted Liens) and \u00a77.01(f); the gold answer references exceptions (a)-(f) including Permitted Liens, while the system answer only lists (a), (b), (d), and (e)."
+    },
+    "q6": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 1.0,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer correctly traces the chain from \u00a77.05(a) covenant to the Restricted Payment definition to the carve-outs including (i) subsidiary-to-parent distributions, and correctly identifies the suspension of clauses (ii)-(iv) per the amendments; the answer goes beyond the gold answer by also covering \u00a77.05(b) but this is additive rather than incorrect, and the gold answer references 'Second Amendment proviso' while the system correctly notes the Third Amendment updated the proviso."
+    },
+    "q7": {
+     "citation_accuracy": 0.4,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.3,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The system failed to identify that \u00a77.10 breach is an immediate Event of Default under \u00a78.01(b) with no cure/grace period, and did not trace the full chain through \u00a78.02 remedies; it hedged extensively due to missing retrieved context for the critical \u00a78.01(a)/(b) and \u00a78.02 provisions."
+    },
+    "q8": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.5,
+     "note": "The system correctly identifies \u00a72.13(g) and its superseding language over \u00a72.12 and \u00a710.01, but then fabricates a conflict between \u00a72.13(g) and \u00a72.03(j) that is not supported by the text, and invents a claim that \u00a72.14 lacks substantive provisions (the retrieved context only shows the heading, but this doesn't mean the section is empty\u2014it's just incomplete retrieval). The gold answer requires identifying the actual conflict between \u00a72.13 and \u00a72.12/\u00a710.01 with the controlling clause, which the system mentions but does not properly frame as the answer."
+    },
+    "q9": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.9,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The answer correctly identifies \u00a77.05(a) as originally executed as the operative provision, correctly notes the Second and Third Amendments are not yet in force as of 2018-01-01, and accurately describes the carve-outs (i)-(iv) with proper citations; it provides more detail than the gold answer but is substantively correct."
+    },
+    "q10": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The system answer correctly identifies that the Second Amendment (2020-05-13) added a proviso suspending Restricted Payments under clauses (ii)-(iv) until financial covenant compliance is demonstrated for the fiscal quarter ending June 30, 2021, matching the gold answer; the initial focus on the $50M cap is somewhat misleading but the answer ultimately reaches the correct operative conclusion."
+    },
+    "q11": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.93,
+     "answer_correct": false,
+     "faithfulness": 0.95,
+     "note": "The system answer lists 4 First Amendment items, 24 Second Amendment items (missing \u00a75.23), and 32 Third Amendment items, totaling 60 instead of the gold's 61; the Second Amendment is missing \u00a75.23 which appears in the retrieved context, giving 24 instead of 25 for that instrument."
+    },
+    "q12": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.7,
+     "answer_correct": false,
+     "faithfulness": 0.85,
+     "note": "The system answer correctly identifies the Second Amendment and Third Amendment changes to the Consolidated Leverage Ratio definition and their effect on \u00a77.10(a), but misses the First Amendment (2018-06-26) change to Consolidated EBITDA and fails to mention the effects on \u00a77.05(a), pricing (Applicable Rate), which are key elements of the gold answer; it also references a Third Amendment not mentioned in the gold answer."
+    }
+   },
+   "baseline": {
+    "q1": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The system answer correctly identifies New York law as governing (\u00a710.14(a)) and exclusive jurisdiction of NY state courts in New York County and SDNY (\u00a710.14(b)), matching the gold answer with additional accurate detail about venue waiver and amendments."
+    },
+    "q2": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.9,
+     "note": "The system correctly identified that there is no term loan facility and that the agreement concerns a Revolving Credit Facility, matching the gold answer's key point, though it did not provide the specific Maturity Date of October 26, 2022 (which was not in the retrieved context)."
+    },
+    "q3": {
+     "citation_accuracy": 0.5,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.3,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The system answer fails to identify the specific named parties (Denny's Inc as Borrower, Denny's Corporation as Parent/Guarantor, Wells Fargo as Administrative Agent, Regions Bank and Citizens Bank as Co-Syndication Agents, Cadence Bank and Fifth Third as Co-Documentation Agents) and instead provides only generic role descriptions, missing most of the key information in the gold answer."
+    },
+    "q4": {
+     "citation_accuracy": 0.2,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.1,
+     "answer_correct": false,
+     "faithfulness": 0.5,
+     "note": "The system identified 'Loan' instead of 'Borrowing' as the key defined term, missing the gold answer's definition from \u00a71.01 and nearly all of the 8+ dependent sections (2.01, 2.02(a), 2.02(b), 2.03(c), 2.11(b), 3.03, 8.01(d), 10.22(b)) plus the 4 dependent definitions."
+    },
+    "q5": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.7,
+     "answer_correct": true,
+     "faithfulness": 0.9,
+     "note": "The answer correctly identifies \u00a77.01 as the prohibiting covenant and lists several exceptions (a, b, d, e) with citations, but misses some exceptions like (c) Permitted Liens and (f), and does not fully enumerate all exceptions (a)-(f) as the gold answer requires; the Permitted Liens defined term from \u00a71.01 is partially referenced but not explicitly called out as the operative defined term."
+    },
+    "q6": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": false,
+     "version_correct": false,
+     "chain_completeness": 0.7,
+     "answer_correct": false,
+     "faithfulness": 0.85,
+     "note": "The answer correctly identifies \u00a77.05(a) prohibition, the \u00a77.05(a)(i) subsidiary-to-parent carve-out, and clauses (ii)-(iv), but critically misses the Second Amendment proviso that suspends clauses (ii)-(iv) until covenant compliance is demonstrated, which is a key element of the gold answer."
+    },
+    "q7": {
+     "citation_accuracy": 0.5,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.4,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The system answer incorrectly applies the 30-day grace period under \u00a78.01(c) to financial covenants; the gold answer states that \u00a77.10 breaches fall under \u00a78.01(b) with no cure/grace period, and the system failed to identify the critical distinction between \u00a78.01(b) and \u00a78.01(c), missing the immediate Event of Default trigger and the specific \u00a78.02 remedies (terminate commitments, accelerate, demand cash collateral)."
+    },
+    "q8": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The system correctly identified \u00a72.13(g) and its superseding language over \u00a72.12 and \u00a710.01, but ultimately concluded it could not verify a conflict due to missing context, whereas the gold answer requires identifying this as a genuine acknowledged conflict with a controlling clause."
+    },
+    "q9": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": false,
+     "version_correct": false,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The gold answer states that as of 2018-01-01, \u00a77.05(a) as originally executed applies with no Second Amendment proviso, meaning the Second Amendment had not yet been executed; the system answer correctly identifies \u00a77.05(a) but incorrectly reasons that the amendments exist but are not yet operative due to future suspension periods, rather than recognizing they were not yet executed, and provides detailed carve-out analysis rather than simply noting the original provision applies without the amendment provisos."
+    },
+    "q10": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 1.0,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The system answer correctly identifies that the Second Amendment (\u00a71.16) added a proviso suspending Restricted Payments under clauses (ii)-(iv) until financial covenant compliance is demonstrated, matching the gold answer, with thorough and well-cited explanation of the changes."
+    },
+    "q11": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.15,
+     "answer_correct": false,
+     "faithfulness": 0.9,
+     "note": "The system answer identifies only about 9-10 amendment operations from the Second and Third Amendments based on retrieved context, far short of the gold answer's 61 total operations (4 from First Amendment, 25 from Second Amendment, 32 from Third Amendment); the First Amendment is entirely missing."
+    },
+    "q12": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.85,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer correctly identifies changes to the Consolidated Leverage Ratio definition and affected sections, though it references a Third Amendment not in the gold answer and misses the First Amendment's change to Consolidated EBITDA and \u00a77.05(a); however, it covers \u00a77.10(a), pricing/Applicable Rate, \u00a72.09(b), and \u00a77.03(g) with strong context support."
+    }
+   }
+  },
+  "gold_blind": {
+   "graph": {
+    "q1": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "All claims are fully supported by the retrieved context; citations are accurate and correctly distinguish original agreement sections from amendment sections, with only a minor issue of referencing a 'Third Amendment' section that appears in the retrieved context as the Second Amendment dated 2020-05-13 vs Third Amendment dated 2020-12-15."
+    },
+    "q2": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The answer correctly identifies October 26, 2022 as the Maturity Date from the original credit agreement, with accurate citations to \u00a71.01 and \u00a72.06, and appropriately notes the Business Day proviso."
+    },
+    "q3": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.6,
+     "note": "The answer correctly identifies roles (Borrower, Administrative Agent as Wells Fargo, Lenders, L/C Issuer, Guarantors) with reasonable citation support, but fails to provide the specific corporate names of the Borrower, Lenders, or Guarantors because the retrieved context does not include the introductory paragraph of the agreement where party names are listed, making the answer incomplete on the core question of who the named parties are."
+    },
+    "q4": {
+     "citation_accuracy": 1.0,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 1.0,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The answer accurately reproduces the definition of 'Borrowing' and lists all dependent sections and definitions exactly as shown in the retrieved context, with correct citations throughout."
+    },
+    "q5": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.9,
+     "answer_correct": true,
+     "faithfulness": 0.88,
+     "note": "The answer correctly identifies \u00a77.01 as the operative covenant, uses 'IP Rights' and 'Lien' as the defined terms, and accurately cites exceptions (a), (b), (d), and (e), all supported by retrieved context; however, exception (b) is slightly mischaracterized as applying to IP specifically rather than to property acquired with permitted purchase-money indebtedness, and the answer does not note that \u00a77.01(b) Liens on IP would be unusual given the 180-day acquisition window and property-specific requirement."
+    },
+    "q6": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.95,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer correctly traces the full chain from covenant (\u00a77.05(a)) to definition (Restricted Payment) to carve-outs (clause (i) permitting subsidiary-to-parent payments even during suspension), accurately identifies the Third Amendment's suspension of clauses (ii)-(iv), and correctly notes clause (i) remains available; one minor inaccuracy is describing \u00a77.05(b) as a separate 'prohibition on restricting upstream payments' when it actually prohibits the Loan Parties from *permitting* subsidiaries to create such restrictions, not a direct restriction on the distribution itself."
+    },
+    "q7": {
+     "citation_accuracy": 0.8,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.3,
+     "answer_correct": false,
+     "faithfulness": 0.85,
+     "note": "The answer correctly identifies the limits of the retrieved context and accurately cites what is available, but cannot complete the required chain (financial covenant breach \u2192 cure rights/grace periods \u2192 Event of Default \u2192 remedies) because the critical \u00a78.01(a)/(b) provisions governing financial covenant defaults are absent from the retrieved context."
+    },
+    "q8": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.85,
+     "note": "The cross-reference issue identified in the second part of the answer is well-supported: \u00a72.12(ii)(y) references \u00a72.14 for Cash Collateral application rules, but the retrieved \u00a72.14 text contains only a heading with no substantive provisions; the first conflict identified (\u00a72.13(g) vs \u00a72.03(j)) is logically constructed but somewhat speculative since \u00a72.13 and \u00a72.03(j) govern different subject matters."
+    },
+    "q9": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.97,
+     "note": "The answer correctly identifies the operative version (original 2017-10-26 credit agreement) as applicable on 2018-01-01, accurately summarizes \u00a77.05(a)(iii) and (iv) including the $50M cap when CLR \u22653.50:1.00 and unlimited payments when CLR <3.50:1.00, notes the $20M availability requirement, and correctly explains that the Second and Third Amendments are not yet in force as of 2018-01-01."
+    },
+    "q10": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer accurately describes the Second Amendment's suspension of clauses (ii)-(iv) restricted payments from 2020-05-13 through fiscal quarter ending June 30, 2021, correctly identifies the $50M cap and leverage conditions, and properly notes clause (i) remains unaffected; all claims are well-supported by the retrieved context."
+    },
+    "q11": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.95,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer is largely accurate and well-supported by the retrieved context, but omits \u00a75.23 (restated by Second Amendment) and mislabels the Second Amendment as having only two amendments when there are three; also the answer refers to a 'Third Amendment' but the context only shows First, Second, and Third amendments with no fourth instrument."
+    },
+    "q12": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.9,
+     "answer_correct": true,
+     "faithfulness": 0.9,
+     "note": "The answer accurately traces both amendments to the Consolidated Leverage Ratio definition and their downstream effects on Section 7.10(a), with minor imprecision in describing the Second Amendment's EBITDA percentages and the claim about Section 2.13(e) which is not supported by the retrieved context."
+    }
+   },
+   "baseline": {
+    "q1": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "All claims in the answer are directly supported by the retrieved context, with accurate citations to \u00a710.14(a), (b), and (c) for governing law and forum, and correct identification of New York law in the amendments."
+    },
+    "q2": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 1.0,
+     "note": "The system correctly identifies that the retrieved context does not specify a term loan facility or its maturity date; the agreement appears to be a revolving credit facility only, and no term loan maturity date is defined in the excerpts provided."
+    },
+    "q3": {
+     "citation_accuracy": 0.75,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.6,
+     "answer_correct": false,
+     "faithfulness": 0.7,
+     "note": "The answer correctly identifies roles from the retrieved context but fails to name the specific Borrower (Dine Brands or similar entity) and individual Lenders, and conflates the Third Amended and Restated Credit Agreement with an 'original agreement' without clarifying the distinction; the retrieved context does not supply the full party list from the agreement's preamble."
+    },
+    "q4": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.4,
+     "answer_correct": false,
+     "faithfulness": 0.6,
+     "note": "The answer correctly identifies 'Loan' as the defined term and cites \u00a72.01, \u00a72.02, Exhibit A, and Exhibit B, but the retrieved context contains many additional sections (\u00a77.02, \u00a77.05, \u00a78.01, \u00a77.01, etc.) that depend on the Loan definition which the answer largely omits or mischaracterizes, making the list of dependent sections incomplete and the answer only partially supported."
+    },
+    "q5": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.75,
+     "answer_correct": false,
+     "faithfulness": 0.72,
+     "note": "The answer correctly identifies the baseline prohibition (\u00a77.01), the IP Rights defined term (\u00a71.01/\u00a75.17), and the four cited exceptions (a, b, d, e), but misses several exceptions visible in the retrieved context (\u00a77.01(c)-(h) and (i) covering judgment liens, leases, setoff rights, and extensions/renewals), and incorrectly omits the full list of permitted Liens that appear in the \u00a71.01 definition block (items (e)-(i)), making the exception list incomplete."
+    },
+    "q6": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": 0.95,
+     "answer_correct": true,
+     "faithfulness": 0.92,
+     "note": "The answer accurately traces the covenant chain from \u00a77.05(a) prohibition to the key carve-out in \u00a77.05(a)(i) permitting any Subsidiary of Parent to make Restricted Payments to Parent, then through \u00a77.05(b) on upstream payment restrictions, with all major claims well-supported by the retrieved context; minor gap is that 'Restricted Payment' definition is not in the retrieved context but the answer appropriately flags this limitation."
+    },
+    "q7": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.5,
+     "answer_correct": false,
+     "faithfulness": 0.8,
+     "note": "The answer correctly identifies the 30-day cure period under \u00a78.01(c) and downstream remedies, but critically fails to trace the financial covenant breach chain because \u00a77.10 content is absent from retrieved context; financial covenants typically have their own dedicated Event of Default provision (not the general 30-day cure under \u00a78.01(c)), and the answer does not acknowledge this distinction or note that \u00a78.01(b) likely covers financial covenants separately with no cure period, making the chain incomplete and potentially misleading."
+    },
+    "q8": {
+     "citation_accuracy": 0.7,
+     "amendment_status_correct": null,
+     "version_correct": null,
+     "chain_completeness": null,
+     "answer_correct": false,
+     "faithfulness": 0.6,
+     "note": "The answer correctly identifies Section 2.13(g)'s supremacy clause as a potential conflict point but ultimately fails to identify any actual conflict or broken cross-reference, instead concluding the context is insufficient\u2014which is a non-answer to the question; the retrieved context does contain enough to note that Section 2.03(j) references 'Issuer Documents' and Section 2.13(g) references Sections 2.12 and 10.01 as potential conflict sources, but the system does not leverage these to form a substantive finding."
+    },
+    "q9": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.9,
+     "note": "The answer correctly identifies that as of 2018-01-01 the Second and Third Amendments are not yet effective (their suspension periods reference 2021 compliance dates), so the baseline \u00a77.05(a) of the Third Amended and Restated Credit Agreement applies, and accurately describes the tiered structure: unlimited if CLR < 3.50:1.00, $50M cap if CLR \u2265 3.50:1.00 for clause (iv), and Stockholder Dividend Amount for clause (iii), all well-supported by the retrieved context."
+    },
+    "q10": {
+     "citation_accuracy": 0.95,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": null,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer accurately identifies that the Second Amendment prohibits Restricted Payments under clauses (ii), (iii), and (iv) as of June 1, 2020, correctly describes the baseline limits from the original agreement, notes the Third Amendment's extension to September 29, 2021, and properly distinguishes clause (i) as unaffected; all claims are well-supported by the retrieved context."
+    },
+    "q11": {
+     "citation_accuracy": 0.85,
+     "amendment_status_correct": true,
+     "version_correct": null,
+     "chain_completeness": 0.9,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer accurately identifies all sections amended by both the Second and Third Amendments as supported by the retrieved context, correctly notes the base document is the Third Amended and Restated Credit Agreement rather than an 'original' agreement, and appropriately flags the limitation; minor deduction for slightly imprecise citation references (e.g., 'near \u00a71.10' numbering differs between the two amendments) but all substantive claims are well-supported."
+    },
+    "q12": {
+     "citation_accuracy": 0.9,
+     "amendment_status_correct": true,
+     "version_correct": true,
+     "chain_completeness": 0.95,
+     "answer_correct": true,
+     "faithfulness": 0.95,
+     "note": "The answer accurately describes both amendments' changes to the Consolidated Leverage Ratio definition and their downstream effects on Section 7.10(a), pricing tiers, Section 2.09(b), and Section 7.03(g), all well-supported by the retrieved context with only minor imprecision in citation labels."
+    }
+   }
+  }
+ },
+ "comparisons": {
+  "primary__vs__second": {
+   "fields": {
+    "answer_correct": {
+     "n": 24,
+     "agreement": 0.833,
+     "cohen_kappa": 0.664,
+     "kappa_note": "",
+     "primary_true_rate": 0.458,
+     "second_true_rate": 0.458
+    },
+    "amendment_status_correct": {
+     "n": 18,
+     "agreement": 0.944,
+     "cohen_kappa": 0.769,
+     "kappa_note": "",
+     "primary_true_rate": 0.833,
+     "second_true_rate": 0.889
+    },
+    "version_correct": {
+     "n": 10,
+     "agreement": 1.0,
+     "cohen_kappa": 1.0,
+     "kappa_note": "",
+     "primary_true_rate": 0.9,
+     "second_true_rate": 0.9
+    },
+    "citation_accuracy": {
+     "n": 24,
+     "mean_abs_diff": 0.045,
+     "max_abs_diff": 0.2,
+     "pearson_r": 0.934,
+     "primary_mean": 0.793,
+     "second_mean": 0.794,
+     "within_0.1": 0.875
+    },
+    "faithfulness": {
+     "n": 24,
+     "mean_abs_diff": 0.035,
+     "max_abs_diff": 0.2,
+     "pearson_r": 0.907,
+     "primary_mean": 0.839,
+     "second_mean": 0.846,
+     "within_0.1": 0.917
+    },
+    "chain_completeness": {
+     "n": 14,
+     "mean_abs_diff": 0.039,
+     "max_abs_diff": 0.15,
+     "pearson_r": 0.979,
+     "primary_mean": 0.609,
+     "second_mean": 0.591,
+     "within_0.1": 0.857
+    }
+   },
+   "notable_disagreements": [
+    {
+     "item": "graph/q8",
+     "field": "answer_correct",
+     "primary": true,
+     "second": false
+    },
+    {
+     "item": "baseline/q2",
+     "field": "answer_correct",
+     "primary": false,
+     "second": true
+    },
+    {
+     "item": "baseline/q8",
+     "field": "answer_correct",
+     "primary": true,
+     "second": false
+    },
+    {
+     "item": "baseline/q12",
+     "field": "answer_correct",
+     "primary": false,
+     "second": true
+    },
+    {
+     "item": "baseline/q11",
+     "field": "amendment_status_correct",
+     "primary": false,
+     "second": true
+    }
+   ]
+  },
+  "primary__vs__gold_blind": {
+   "fields": {
+    "answer_correct": {
+     "n": 24,
+     "agreement": 0.583,
+     "cohen_kappa": 0.195,
+     "kappa_note": "",
+     "primary_true_rate": 0.458,
+     "gold_blind_true_rate": 0.708
+    },
+    "amendment_status_correct": {
+     "n": 17,
+     "agreement": 0.882,
+     "cohen_kappa": 0.0,
+     "kappa_note": "",
+     "primary_true_rate": 0.882,
+     "gold_blind_true_rate": 1.0
+    },
+    "version_correct": {
+     "n": 12,
+     "agreement": 0.917,
+     "cohen_kappa": 0.0,
+     "kappa_note": "kappa paradox: agreement is high but one label dominates the marginal, which deflates kappa",
+     "primary_true_rate": 0.917,
+     "gold_blind_true_rate": 1.0
+    },
+    "citation_accuracy": {
+     "n": 24,
+     "mean_abs_diff": 0.091,
+     "max_abs_diff": 0.4,
+     "pearson_r": 0.738,
+     "primary_mean": 0.793,
+     "gold_blind_mean": 0.856,
+     "within_0.1": 0.625
+    },
+    "faithfulness": {
+     "n": 24,
+     "mean_abs_diff": 0.099,
+     "max_abs_diff": 0.3,
+     "pearson_r": 0.535,
+     "primary_mean": 0.839,
+     "gold_blind_mean": 0.875,
+     "within_0.1": 0.667
+    },
+    "chain_completeness": {
+     "n": 13,
+     "mean_abs_diff": 0.16,
+     "max_abs_diff": 0.75,
+     "pearson_r": 0.727,
+     "primary_mean": 0.625,
+     "gold_blind_mean": 0.773,
+     "within_0.1": 0.538
+    }
+   },
+   "notable_disagreements": [
+    {
+     "item": "graph/q2",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "graph/q11",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "graph/q12",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q2",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q5",
+     "field": "answer_correct",
+     "primary": true,
+     "gold_blind": false
+    },
+    {
+     "item": "baseline/q6",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q8",
+     "field": "answer_correct",
+     "primary": true,
+     "gold_blind": false
+    },
+    {
+     "item": "baseline/q9",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q11",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q12",
+     "field": "answer_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q9",
+     "field": "amendment_status_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q11",
+     "field": "amendment_status_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q9",
+     "field": "version_correct",
+     "primary": false,
+     "gold_blind": true
+    },
+    {
+     "item": "baseline/q4",
+     "field": "citation_accuracy",
+     "primary": 0.3,
+     "gold_blind": 0.7,
+     "diff": 0.4
+    },
+    {
+     "item": "baseline/q7",
+     "field": "citation_accuracy",
+     "primary": 0.5,
+     "gold_blind": 0.85,
+     "diff": 0.35
+    },
+    {
+     "item": "baseline/q2",
+     "field": "faithfulness",
+     "primary": 0.7,
+     "gold_blind": 1.0,
+     "diff": 0.3
+    },
+    {
+     "item": "baseline/q11",
+     "field": "chain_completeness",
+     "primary": 0.15,
+     "gold_blind": 0.9,
+     "diff": 0.75
+    }
+   ]
+  }
+ }
+}

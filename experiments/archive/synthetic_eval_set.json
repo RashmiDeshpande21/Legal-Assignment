@@ -1,0 +1,362 @@
+[
+  {
+    "id": "syn_01",
+    "category": "fact_lookup",
+    "question": "What is the minimum principal amount for a Borrowing of Eurodollar Rate Loans, and what are the permitted increments above that minimum?",
+    "as_of": null,
+    "gold": [
+      "base::2.02(a)"
+    ],
+    "gold_answer": "Each Borrowing of, conversion to, or continuation of Eurodollar Rate Loans must be in a principal amount of $2,000,000 or a whole multiple of $500,000 in excess thereof."
+  },
+  {
+    "id": "syn_02",
+    "category": "multi_clause",
+    "question": "What three conditions (x, y, z) must be satisfied after giving effect to any L/C Credit Extension with respect to a Letter of Credit under Section 2.03(a)?",
+    "as_of": null,
+    "gold": [
+      "base::2.03(a)"
+    ],
+    "gold_answer": "(x) the Total Revolving Credit Outstandings shall not exceed the Revolving Credit Facility, (y) the aggregate Outstanding Amount of the Loans of any Lender plus such Lender's Applicable Percentage of the Outstanding Amount of all L/C Obligations shall not exceed such Lender's Commitment, and (z) the Outstanding Amount of L/C Obligations shall not exceed the Letter of Credit Sublimit."
+  },
+  {
+    "id": "syn_03",
+    "category": "fact_lookup",
+    "question": "How many Business Days' prior notice must the Borrower provide to the Administrative Agent before terminating or partially reducing the Revolving Credit Facility or the Letter of Credit Sublimit?",
+    "as_of": null,
+    "gold": [
+      "base::2.05(a)"
+    ],
+    "gold_answer": "The notice must be received by the Administrative Agent not later than 11:00 a.m. five Business Days prior to the date of termination or reduction."
+  },
+  {
+    "id": "syn_04",
+    "category": "definition_dependency",
+    "question": "How is the Commitment Fee calculated, and what defined terms determine the base upon which it accrues?",
+    "as_of": null,
+    "gold": [
+      "base::2.08(a)"
+    ],
+    "gold_answer": "The Commitment Fee equals the Applicable Rate for commitment fees multiplied by the actual daily amount by which the Revolving Credit Facility exceeds the sum of (i) the Outstanding Amount of Loans and (ii) the Outstanding Amount of L/C Obligations, subject to adjustment as provided in Section 2.15."
+  },
+  {
+    "id": "syn_05",
+    "category": "covenant_carveout",
+    "question": "Under Section 2.02(a), what is the exception to the three-Business-Day advance notice requirement for converting Eurodollar Rate Loans to Base Rate Loans?",
+    "as_of": null,
+    "gold": [
+      "base::2.02(a)"
+    ],
+    "gold_answer": "A conversion of Eurodollar Rate Loans to Base Rate Loans as of the last day of the Interest Period then in effect with respect to the applicable Eurodollar Rate Loans may be noticed on the same day (i.e., same-day notice is permitted rather than three Business Days' prior notice)."
+  },
+  {
+    "id": "syn_06",
+    "category": "multi_clause",
+    "question": "On what day-count basis are interest computations made for Base Rate Loans when the Base Rate is determined by the Prime Rate, versus all other computations of fees and interest under the agreement, and what practical consequence does the agreement acknowledge for the latter?",
+    "as_of": null,
+    "gold": [
+      "base::2.09(a)"
+    ],
+    "gold_answer": "Base Rate Loans when the Base Rate is determined by the Prime Rate are computed on a 365/366-day year basis with actual days elapsed. All other computations of fees and interest are made on a 360-day year with actual days elapsed, which the agreement acknowledges results in more fees or interest being paid than if computed on a 365/366-day year basis."
+  },
+  {
+    "id": "syn_07",
+    "category": "covenant_carveout",
+    "question": "Under Section 3.04(a), what specific categories of taxes are excluded from the increased costs provision that would otherwise allow a Lender to claim reimbursement from the Borrower for tax-related increased costs?",
+    "as_of": null,
+    "gold": [
+      "base::3.04(a)"
+    ],
+    "gold_answer": "Indemnified Taxes or Other Taxes covered by Section 3.01 and the imposition of, or any change in the rate of, any Excluded Tax payable by such Lender or the L/C Issuer are excluded from the increased costs provision under Section 3.04(a)(ii)."
+  },
+  {
+    "id": "syn_08",
+    "category": "definition_dependency",
+    "question": "Under Section 3.01(a)(ii), when withholding or deduction is made on account of 'Indemnified Taxes' or 'Other Taxes,' what obligation does this trigger for the Borrower with respect to the payment amount?",
+    "as_of": null,
+    "gold": [
+      "base::3.01(a)"
+    ],
+    "gold_answer": "The sum payable by the Borrower or other Loan Party shall be increased as necessary so that after any required withholding or deductions (including deductions applicable to additional sums payable under this Section), the Administrative Agent, Lender, or L/C Issuer receives the full amount it would have received absent such withholding or deductions."
+  },
+  {
+    "id": "syn_09",
+    "category": "covenant_carveout",
+    "question": "Under Section 3.01(e)(i), under what circumstances may a Lender refuse to complete, execute, or submit tax documentation requested by the Borrower or Administrative Agent?",
+    "as_of": null,
+    "gold": [
+      "base::3.01(e)"
+    ],
+    "gold_answer": "A Lender may refuse if, in the Lender's reasonable judgment, such completion, execution, or submission would subject the Lender to any material unreimbursed cost or expense or would materially prejudice the legal or commercial position of the Lender. However, this exception does not apply to the documentation set forth in Sections 3.01(e)(ii)(A), (ii)(B), and (ii)(D)."
+  },
+  {
+    "id": "syn_10",
+    "category": "multi_clause_conditions",
+    "question": "Under Section 4.02, what types of Committed Loan Notices are exempt from the conditions precedent that otherwise apply to all Credit Extensions?",
+    "as_of": null,
+    "gold": [
+      "base::4.02"
+    ],
+    "gold_answer": "A Committed Loan Notice requesting only a conversion of Loans to the other Type, or a continuation of Eurodollar Rate Loans, is exempt from the conditions precedent to all Credit Extensions under Section 4.02."
+  },
+  {
+    "id": "syn_11",
+    "category": "fact_lookup",
+    "question": "Under Section 3.04(a)(i), what specific exception is carved out from the reserve requirements that can trigger increased cost reimbursement by the Borrower?",
+    "as_of": null,
+    "gold": [
+      "base::3.04(a)"
+    ],
+    "gold_answer": "Any reserve requirement contemplated by Section 3.04(e) is excepted from the reserve, special deposit, compulsory loan, insurance charge, or similar requirements that can trigger increased cost reimbursement under Section 3.04(a)(i)."
+  },
+  {
+    "id": "syn_12",
+    "category": "fact_lookup",
+    "question": "As of what specific date does Schedule 5.05 of the Disclosure Schedules set forth all material indebtedness and other liabilities of Parent and its consolidated Subsidiaries?",
+    "as_of": null,
+    "gold": [
+      "base::5.05(a)"
+    ],
+    "gold_answer": "December 28, 2016"
+  },
+  {
+    "id": "syn_13",
+    "category": "covenant_carveout",
+    "question": "Under Section 5.05(a), what exceptions are permitted to the requirement that the Audited Financial Statements were prepared in accordance with GAAP consistently applied throughout the covered period?",
+    "as_of": null,
+    "gold": [
+      "base::5.05(a)"
+    ],
+    "gold_answer": "The exception is for matters 'otherwise expressly noted therein' — i.e., any deviations from GAAP that are expressly noted in the Audited Financial Statements themselves are carved out from the GAAP-consistency requirement."
+  },
+  {
+    "id": "syn_14",
+    "category": "definition_dependency",
+    "question": "In the No Default representation (Section 5.07), what defined-term standard governs whether a Loan Party's default under a Contractual Obligation triggers a breach of this representation, and does the test apply on an individual or aggregate basis?",
+    "as_of": null,
+    "gold": [
+      "base::5.07"
+    ],
+    "gold_answer": "The standard is whether the default could 'reasonably be expected to have a Material Adverse Effect,' and the test applies on both an individual and aggregate basis ('either individually or in the aggregate')."
+  },
+  {
+    "id": "syn_15",
+    "category": "multi_clause",
+    "question": "Section 5.07 addresses two distinct temporal scenarios regarding Defaults. What are they, and how do they differ in scope?",
+    "as_of": null,
+    "gold": [
+      "base::5.07"
+    ],
+    "gold_answer": "First, no Loan Party or Subsidiary is currently in default under any Contractual Obligation that could reasonably be expected to have a Material Adverse Effect. Second, no Default has occurred and is continuing or would result from the consummation of the Transactions — this second prong is broader as it covers any Default (not limited to Contractual Obligations) and extends to prospective Defaults arising from the Transactions."
+  },
+  {
+    "id": "syn_16",
+    "category": "definition_dependency",
+    "question": "What representation does Section 5.23 make regarding the Loan Parties, and what defined term does it rely upon to establish the scope of that representation?",
+    "as_of": null,
+    "gold": [
+      "base::5.23"
+    ],
+    "gold_answer": "Section 5.23 represents that no Loan Party is an 'EEA Financial Institution.' The operative scope depends entirely on the defined term 'EEA Financial Institution,' which determines which entities fall within the category that the Loan Parties are warranting they are not."
+  },
+  {
+    "id": "syn_17",
+    "category": "fact_lookup",
+    "question": "What is the maximum number of days after the end of each fiscal year that Parent must deliver its audited consolidated financial statements, and what alternative shorter deadline may apply?",
+    "as_of": null,
+    "gold": [
+      "base::6.01(a)"
+    ],
+    "gold_answer": "Within 90 days after the end of each fiscal year, or within 5 days after any shorter period as the SEC shall specify for the filing of Annual Reports on Form 10-K, whichever is shorter."
+  },
+  {
+    "id": "syn_18",
+    "category": "multi_clause",
+    "question": "Under Section 6.10, what are the two provisos that modify the general inspection rights granted to the Administrative Agent and Lenders, and how do they differ in their application during an Event of Default versus normal circumstances?",
+    "as_of": null,
+    "gold": [
+      "base::6.10"
+    ],
+    "gold_answer": "First proviso: when an Event of Default exists, the Administrative Agent or any Lender may conduct inspections at the Borrower's expense at any time during normal business hours without advance notice (versus reasonable advance notice and reasonable frequency otherwise). Second proviso: all inspection rights are subject to Section 10.07 regarding treatment of material, non-public information of the Loan Parties."
+  },
+  {
+    "id": "syn_19",
+    "category": "amendment_temporal",
+    "question": "When did the obligation to deliver Compliance Certificates under Section 6.02(a) first commence, and with which financial statements was it tied?",
+    "as_of": "2018-01-01",
+    "gold": [
+      "base::6.02(a)"
+    ],
+    "gold_answer": "The Compliance Certificate delivery obligation commenced with the delivery of the financial statements for the fiscal quarter ended December 27, 2017."
+  },
+  {
+    "id": "syn_20",
+    "category": "definition_dependency",
+    "question": "Who must sign the Compliance Certificate under Section 6.02(a), and what additional reconciliation statement must Parent provide if there has been a change in GAAP used in preparing the financial statements?",
+    "as_of": null,
+    "gold": [
+      "base::6.02(a)"
+    ],
+    "gold_answer": "The Compliance Certificate must be signed by the chief executive officer, chief financial officer, treasurer, or controller of Parent. If there is any change in GAAP used in preparing the financial statements, Parent must also provide, if necessary for determining compliance with Section 7.10, a statement of reconciliation conforming such financial statements to GAAP."
+  },
+  {
+    "id": "syn_21",
+    "category": "covenant_carveout",
+    "question": "What specific qualifications or exceptions are prohibited in the independent auditor's report and opinion accompanying the annual financial statements under Section 6.01(a)?",
+    "as_of": null,
+    "gold": [
+      "base::6.01(a)"
+    ],
+    "gold_answer": "The auditor's report and opinion shall not be subject to any 'going concern' or like qualification or exception, nor any qualification or exception as to the scope of the audit."
+  },
+  {
+    "id": "syn_22",
+    "category": "covenant_carveout",
+    "question": "Under Section 7.02, what is the first permitted exception to the negative covenant on Indebtedness?",
+    "as_of": null,
+    "gold": [
+      "base::7.02(a)"
+    ],
+    "gold_answer": "Indebtedness outstanding on the date of the agreement and listed on Schedule 7.02 of the Disclosure Schedules is permitted."
+  },
+  {
+    "id": "syn_23",
+    "category": "covenant_carveout",
+    "question": "Is Indebtedness incurred under the Loan Documents a permitted exception to the negative covenant on Indebtedness in Section 7.02?",
+    "as_of": null,
+    "gold": [
+      "base::7.02(b)"
+    ],
+    "gold_answer": "Yes, Section 7.02(b) expressly permits Indebtedness under the Loan Documents."
+  },
+  {
+    "id": "syn_24",
+    "category": "definition_dependency",
+    "question": "Section 7.03 restricts the Loan Parties from making or holding 'Investments.' What is the general prohibition stated in Section 7.03 before any exceptions are listed?",
+    "as_of": null,
+    "gold": [
+      "base::7.03"
+    ],
+    "gold_answer": "The Loan Parties may not make or hold any Investments, except as specifically permitted by the enumerated exceptions that follow."
+  },
+  {
+    "id": "syn_25",
+    "category": "covenant_carveout",
+    "question": "Under Section 7.04(a), what types of assets may a Loan Party sell, and under what conditions?",
+    "as_of": null,
+    "gold": [
+      "base::7.04(a)"
+    ],
+    "gold_answer": "Any Loan Party may sell inventory, fixtures, and equipment in the ordinary course of business consistent with past practices."
+  },
+  {
+    "id": "syn_26",
+    "category": "multi-clause",
+    "question": "Does the existing Indebtedness exception under Section 7.02(a) require the debt to satisfy both a timing condition and a disclosure condition? If so, what are they?",
+    "as_of": null,
+    "gold": [
+      "base::7.02(a)"
+    ],
+    "gold_answer": "Yes. The Indebtedness must (1) be outstanding on the date of the agreement (timing condition) and (2) be listed on Schedule 7.02 of the Disclosure Schedules (disclosure condition)."
+  },
+  {
+    "id": "syn_27",
+    "category": "definition_dependency",
+    "question": "In Section 7.04(a), the permitted disposition carve-out references 'Loan Party' as the entity allowed to sell assets. How does this limit the scope of the exception compared to a broader reference such as 'any Subsidiary'?",
+    "as_of": null,
+    "gold": [
+      "base::7.04(a)"
+    ],
+    "gold_answer": "The exception is limited to entities that qualify as a 'Loan Party' (i.e., the Borrower and Guarantors who are parties to the Loan Documents), meaning non-Loan-Party Subsidiaries would not benefit from this specific carve-out for selling inventory, fixtures, and equipment in the ordinary course."
+  },
+  {
+    "id": "syn_28",
+    "category": "fact_lookup",
+    "question": "How many days does a Loan Party have after interest on a Loan becomes due before a non-payment Event of Default is triggered under Section 8.01(a)?",
+    "as_of": null,
+    "gold": [
+      "base::8.01(a)"
+    ],
+    "gold_answer": "Three days after the interest payment becomes due."
+  },
+  {
+    "id": "syn_29",
+    "category": "covenant_carveout",
+    "question": "Under the cross-default provision in Section 8.01(e), what types of Indebtedness are explicitly excluded from the cross-default trigger?",
+    "as_of": null,
+    "gold": [
+      "base::8.01(e)"
+    ],
+    "gold_answer": "Indebtedness under the Credit Agreement itself (hereunder) and Indebtedness under Swap Contracts are excluded from the general cross-default trigger in clause (i). Swap Contracts are addressed separately under clause (ii)."
+  },
+  {
+    "id": "syn_30",
+    "category": "definition_dependency",
+    "question": "In the cross-default provision of Section 8.01(e)(i), what defined term sets the minimum aggregate principal amount threshold for external Indebtedness or Guarantees that must be exceeded to trigger an Event of Default?",
+    "as_of": null,
+    "gold": [
+      "base::8.01(e)"
+    ],
+    "gold_answer": "The 'Threshold Amount' — the aggregate principal amount (including undrawn committed or available amounts and amounts owing to all creditors under any combined or syndicated credit arrangement) must exceed the Threshold Amount."
+  },
+  {
+    "id": "syn_31",
+    "category": "multi_clause",
+    "question": "What is the cure period for a Loan Party's failure to perform a covenant contained in a Loan Document that is not specifically enumerated in Section 8.01(a) or Section 8.01(b), and which section governs this?",
+    "as_of": null,
+    "gold": [
+      "base::8.01(c)"
+    ],
+    "gold_answer": "Under Section 8.01(c), the failure must continue for 30 days before it constitutes an Event of Default."
+  },
+  {
+    "id": "syn_32",
+    "category": "covenant_carveout",
+    "question": "Under Section 8.02, what level of lender approval is required for the Administrative Agent to exercise remedies upon a continuing Event of Default, and can the Administrative Agent act on its own initiative?",
+    "as_of": null,
+    "gold": [
+      "base::8.02"
+    ],
+    "gold_answer": "The Administrative Agent shall act at the request of the Required Lenders, or may act with the consent of the Required Lenders. The Administrative Agent does not act unilaterally; it requires either a request from or consent of the Required Lenders."
+  },
+  {
+    "id": "syn_33",
+    "category": "covenant_carveout",
+    "question": "Under Section 10.01(a), which specific conditions set forth in Section 4.01 are excluded from the requirement of written consent of each Lender for waiver?",
+    "as_of": null,
+    "gold": [
+      "base::10.01(a)"
+    ],
+    "gold_answer": "Section 4.01(b)(i) and Section 4.01(c) are excluded from the requirement that each Lender's written consent is needed to waive conditions under Section 4.01."
+  },
+  {
+    "id": "syn_34",
+    "category": "multi_clause_conditions",
+    "question": "Under the confidentiality provisions of Section 10.07, what type of agreement must be in place before Information can be disclosed to a prospective assignee or Participant, or to an actual or prospective counterparty to a swap or derivative transaction?",
+    "as_of": null,
+    "gold": [
+      "base::10.07"
+    ],
+    "gold_answer": "Disclosure to such parties is subject to an agreement containing provisions substantially the same as those of Section 10.07 (the confidentiality section itself)."
+  },
+  {
+    "id": "syn_35",
+    "category": "definition_dependency",
+    "question": "In Section 10.07, when Information is disclosed to Affiliates and their partners, directors, officers, employees, agents, trustees, advisors, and representatives, what two obligations must be communicated to those Persons receiving the disclosure?",
+    "as_of": null,
+    "gold": [
+      "base::10.07"
+    ],
+    "gold_answer": "The Persons to whom disclosure is made must be informed of the confidential nature of the Information and instructed to keep such Information confidential."
+  },
+  {
+    "id": "syn_36",
+    "category": "fact_lookup",
+    "question": "Under Section 10.01(a), for the initial Credit Extension specifically, waiver of which additional section's conditions also requires the written consent of each Lender?",
+    "as_of": null,
+    "gold": [
+      "base::10.01(a)"
+    ],
+    "gold_answer": "Section 4.02 — in the case of the initial Credit Extension, waiver of conditions set forth in Section 4.02 requires the written consent of each Lender."
+  }
+]

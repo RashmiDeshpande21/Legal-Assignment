@@ -1,0 +1,277 @@
+{
+ "v1_minimal": {
+  "q1": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q2": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q3": {
+   "node_recall": 0.0,
+   "score": 0.0
+  },
+  "q4": {
+   "node_recall": 0.1111111111111111,
+   "score": 0.111
+  },
+  "q5": {
+   "node_recall": 1.0,
+   "edge_recall": 0.0,
+   "score": 0.5
+  },
+  "q6": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q7": {
+   "node_recall": 0.5,
+   "score": 0.5
+  },
+  "q8": {
+   "edge_recall": 0.0,
+   "score": 0.0
+  },
+  "q9": {
+   "node_recall": 0.5,
+   "version_ok": 1.0,
+   "score": 0.75
+  },
+  "q10": {
+   "node_recall": 0.5,
+   "version_ok": 0.0,
+   "score": 0.25
+  },
+  "q11": {
+   "node_recall": 0.0,
+   "score": 0.0
+  },
+  "q12": {
+   "node_recall": 0.75,
+   "edge_recall": 0.0,
+   "version_ok": 0.0,
+   "score": 0.25
+  }
+ },
+ "v2_amendments": {
+  "q1": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q2": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q3": {
+   "node_recall": 0.0,
+   "score": 0.0
+  },
+  "q4": {
+   "node_recall": 0.1111111111111111,
+   "score": 0.111
+  },
+  "q5": {
+   "node_recall": 1.0,
+   "edge_recall": 0.0,
+   "score": 0.5
+  },
+  "q6": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q7": {
+   "node_recall": 0.5,
+   "score": 0.5
+  },
+  "q8": {
+   "edge_recall": 0.0,
+   "score": 0.0
+  },
+  "q9": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q10": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q11": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q12": {
+   "node_recall": 1.0,
+   "edge_recall": 0.0,
+   "version_ok": 1.0,
+   "score": 0.667
+  }
+ },
+ "v3_references": {
+  "q1": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q2": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q3": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q4": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q5": {
+   "node_recall": 1.0,
+   "edge_recall": 0.0,
+   "score": 0.5
+  },
+  "q6": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q7": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q8": {
+   "edge_recall": 1.0,
+   "score": 1.0
+  },
+  "q9": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q10": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q11": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q12": {
+   "node_recall": 1.0,
+   "edge_recall": 0.0,
+   "version_ok": 1.0,
+   "score": 0.667
+  }
+ },
+ "v4_exceptions": {
+  "q1": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q2": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q3": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q4": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q5": {
+   "node_recall": 1.0,
+   "edge_recall": 1.0,
+   "score": 1.0
+  },
+  "q6": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q7": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q8": {
+   "edge_recall": 1.0,
+   "score": 1.0
+  },
+  "q9": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q10": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q11": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q12": {
+   "node_recall": 1.0,
+   "edge_recall": 0.0,
+   "version_ok": 1.0,
+   "score": 0.667
+  }
+ },
+ "v5_full": {
+  "q1": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q2": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q3": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q4": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q5": {
+   "node_recall": 1.0,
+   "edge_recall": 1.0,
+   "score": 1.0
+  },
+  "q6": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q7": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q8": {
+   "edge_recall": 1.0,
+   "score": 1.0
+  },
+  "q9": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q10": {
+   "node_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  },
+  "q11": {
+   "node_recall": 1.0,
+   "score": 1.0
+  },
+  "q12": {
+   "node_recall": 1.0,
+   "edge_recall": 1.0,
+   "version_ok": 1.0,
+   "score": 1.0
+  }
+ }
+}
