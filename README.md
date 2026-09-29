@@ -34,16 +34,15 @@ Flat RAG optimizes for semantic similarity. That is necessary but not sufficient
 ## Results
 
 
-| Metric                                             | Graph path | Flat RAG  |
-| -------------------------------------------------- | ---------- | --------- |
-| **Held-out hard set** (not used to tune retrieval) | **16/20**  | **16/20** |
-| Final assignment-set score                         | **12/12**  | 5/12      |
-| Context recall                                     | **1.00**   | 0.48      |
-| Version correct                                    | **1.00**   | 0.67      |
-| Amendment-status citations                         | **29**     | 0         |
+| Metric | Graph path | Flat RAG |
+|---|:---:|:---:|
+| **Held-out hard set** | **16/20** | **9/20** |
+| Final assignment-set score | **12/12** | 5/12 |
+| Context recall | **1.00** | 0.48 |
+| Version correct | **1.00** | 0.67 |
+| Amendment-status citations | **29** | 0 |
 
-
-The 12 assignment questions were used during development; see [Evaluation methodology](#evaluation-methodology-read-this-before-the-1212). The held-out 16/20 is the cleaner generalization check.
+The 12 assignment questions were used during development; see [Evaluation methodology](#evaluation-methodology-read-this-before-the-1212). The held-out set is the cleaner generalization check (graph **16/20** vs flat RAG **9/20** on the same 20 questions, same generator and judge).
 
 **How to read those metrics**
 
@@ -214,7 +213,7 @@ Optional: `make answers` then `make eval` regenerates into `outputs/` (GPU + Bed
 1. Flat semantic retrieval missed evidence required for multi-hop, party, catalog, and some as-of questions on this brief.
 2. The structured retrieval path improved evidence recall and temporal correctness under matched models and prompts.
 3. Not every context-shaping idea survived holdout ablation — the final path keeps several experimental blocks **off**.
-4. Final frozen scores: **12/12** assignment (graph) vs **5/12** baseline; **16/20** held-out hard set.
+4. Final frozen scores: **12/12** assignment (graph) vs **5/12** baseline; holdout **16/20** graph vs **9/20** flat RAG.
 
 ---
 
