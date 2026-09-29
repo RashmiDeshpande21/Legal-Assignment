@@ -1,0 +1,194 @@
+{
+ "correct": 9,
+ "of": 20,
+ "by_category": {
+  "amendment_evolution": "1/4",
+  "as_of_temporal": "2/4",
+  "conflict_precedence": "2/3",
+  "definition_dependents": "0/3",
+  "false_premise": "3/3",
+  "multi_amendment_aggregation": "1/3"
+ },
+ "model": "Qwen_Qwen3.6-27B-Q4_K_M.gguf",
+ "path": "flat_rag",
+ "shard": "merged",
+ "per_question": {
+  "hh_01": {
+   "category": "amendment_evolution",
+   "correct": false,
+   "faithfulness": 0.8,
+   "citation_accuracy": 0.9,
+   "note": "The system correctly identifies the exclusion and the amending instrument but fails to state the effective date of 2018-06-26, claiming the context does not provide it, even though the question itself specifies the as-of date and the gold answer confirms the First Amendment took effect on 2018-06-26.",
+   "latency_s": 85.47,
+   "answer_preview": "The specific exclusion added to the subtraction clause is for **\"any non-cash items increasing Consolidated Net Income pursuant to FASB ASC 606 relating to the recognition of franchise fee revenue\"** [First Amendment to Third Amended and Restated Credit Agreement, near \u00a71.1]. \n\nThis modification was"
+  },
+  "hh_02": {
+   "category": "amendment_evolution",
+   "correct": false,
+   "faithfulness": 0.5,
+   "citation_accuracy": 0.7,
+   "note": "The system correctly identifies the Second Amendment and the simplified formula, but mischaracterizes the original definition (describing it as having a zero floor and successor-rate language rather than the two sub-clauses (a)/(b) with Reuters Screen LIBOR01 fallback mechanics), and fails to state the effective date of 2020-05-13.",
+   "latency_s": 119.18,
+   "answer_preview": "The definition of \u201cEurodollar Rate\u201d was restructured by the Second Amendment to Third Amended and Restated Credit Agreement [Second Amendment to Third Amended and Restated Credit Agreement, near \u00a71.6]. The provided context does not specify the effective date of this amendment.\n\nSubstantively, the or"
+  },
+  "hh_03": {
+   "category": "amendment_evolution",
+   "correct": false,
+   "note": "judge error: ValueError('substring not found')",
+   "latency_s": 135.0
+  },
+  "hh_04": {
+   "category": "amendment_evolution",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.95,
+   "note": "The system answer accurately identifies the Second Amendment, the suspended clauses (ii), (iii), and (iv), and the restoration conditions (compliance with Section 7.10 for the fiscal quarter ending June 30, 2021 as evidenced by the Section 6.02(a) Compliance Certificate), fully matching the gold answer and supported by the retrieved context.",
+   "latency_s": 108.27,
+   "answer_preview": "As of 2020-05-13, the modification was made by the **Second Amendment to Third Amended and Restated Credit Agreement** [Second Amendment to Third Amended and Restated Credit Agreement, near \u00a71.16]. It amended Section 7.05(a) by inserting a proviso at the end of the section that suspends the permissi"
+  },
+  "hh_05": {
+   "category": "as_of_temporal",
+   "correct": false,
+   "faithfulness": 0.7,
+   "citation_accuracy": 0.8,
+   "note": "The system answer incorrectly states the First Amendment was in force as of March 1, 2018; the gold answer specifies the original 2017 text (without the FASB ASC 606 exclusion) was operative on that date, meaning the First Amendment had not yet taken effect.",
+   "latency_s": 85.88,
+   "answer_preview": "As of March 1, 2018, non-cash items that increase Consolidated Net Income, including stock compensation benefits and deferred compensation adjustments, are subtracted when computing Consolidated EBITDA under clause (b)(iv) of the definition [Third Amended and Restated Credit Agreement, near \u00a71.01]. "
+  },
+  "hh_06": {
+   "category": "as_of_temporal",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.95,
+   "note": "The system answer correctly identifies the First Amendment's restatement of clause (b)(iv) and the exclusion of ASC 606 franchise fee revenue non-cash items, fully supported by the retrieved context.",
+   "latency_s": 88.93,
+   "answer_preview": "Yes. The baseline definition of Consolidated EBITDA in the Credit Agreement subtracts under clause (b)(iv) other non-cash items increasing Consolidated Net Income [Third Amended and Restated Credit Agreement, near \u00a71.01]. The First Amendment restates clause (b)(iv) to explicitly exclude \u201cany non-cas"
+  },
+  "hh_07": {
+   "category": "as_of_temporal",
+   "correct": false,
+   "faithfulness": 0.7,
+   "citation_accuracy": 0.5,
+   "note": "The system correctly identifies that testing is suspended for September 23, 2020, but incorrectly attributes this to the Third Amendment rather than the Second Amendment, and omits the critical nuance that the covenant is 'otherwise deemed to be in effect' for compliance/pro forma compliance purposes.",
+   "latency_s": 117.95,
+   "answer_preview": "As of September 23, 2020, the Consolidated Fixed Charge Coverage Ratio covenant under Section 7.10(b) is not required to be tested. [Third Amendment to Third Amended and Restated Credit Agreement, near \u00a71.18] The agreement explicitly suspends testing for the fiscal quarter ending on or about Septemb"
+  },
+  "hh_08": {
+   "category": "as_of_temporal",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.95,
+   "note": "The system answer correctly identifies the Third Amendment as operative, states 5.25:1.00 for the CLR and single fiscal quarter measurement for the CFCCR as of June 30, 2021, matching the gold answer exactly, with accurate citations to the retrieved context.",
+   "latency_s": 115.8,
+   "answer_preview": "As of June 30, 2021, the maximum permitted Consolidated Leverage Ratio under Section 7.10(a) is 5.25 to 1.00 [Third Amendment to Third Amended and Restated Credit Agreement, near \u00a71.17]. This Third Amendment provision supersedes the earlier Second Amendment threshold of 4.25 to 1.00 for that same qu"
+  },
+  "hh_09": {
+   "category": "multi_amendment_aggregation",
+   "correct": true,
+   "faithfulness": 0.95,
+   "citation_accuracy": 0.95,
+   "note": "The system answer correctly traces all Second and Third Amendment changes to the Consolidated Leverage Ratio regime with accurate citations and substance, but notes the First Amendment is not in context rather than affirmatively stating it did not touch the regime, and effective dates are not provided (though the gold answer has them).",
+   "latency_s": 189.99,
+   "answer_preview": "and write the full cited answer.\"\n\nI will keep the reasoning concise.\nPremise check: The prompt asks about the First, Second, and Third Amendments, but the context only contains the Second and Third Amendments. I will note this.\nSections to cite: Second Amendment \u00a71.5, \u00a71.17; Third Amendment \u00a71.3, \u00a7"
+  },
+  "hh_10": {
+   "category": "multi_amendment_aggregation",
+   "correct": false,
+   "faithfulness": 0.8,
+   "citation_accuracy": 0.7,
+   "note": "The system answer correctly describes Third Amendment changes but fails to address First and Second Amendment changes (claiming lack of context), missing the gold answer's key findings that the Second Amendment restated Eurodollar Rate, Base Rate clause (c), and Eurodollar Rate Loan definitions, and that the Third Amendment restated Eurodollar Rate Loan to cover Benchmark Replacement\u2014the system incorrectly states the Third Amendment did not directly amend Eurodollar Rate Loan.",
+   "latency_s": 127.94,
+   "answer_preview": "Based on the provided context, the premise that the First and Second Amendments modified these definitions cannot be addressed, as the context contains no excerpts from the First or Second Amendments. The context only covers the Third Amendment and the Third Amended and Restated Credit Agreement. Ad"
+  },
+  "hh_11": {
+   "category": "multi_amendment_aggregation",
+   "correct": false,
+   "faithfulness": 0.95,
+   "citation_accuracy": 0.95,
+   "note": "The system answer accurately covers the Second and Third Amendment changes to \u00a77.05(a) and \u00a77.03 with correct citations and details, but fails to address the First Amendment's EBITDA-related change and its interaction with the restricted-payments framework, which is a required component of the gold answer.",
+   "latency_s": 187.64,
+   "answer_preview": "and write full cited answer.\n\nLet's draft the <think> carefully.\nPremise check: The question assumes changes across the First, Second, and Third Amendments. The context only contains the Second and Third Amendments. I must correct this premise.\nSections/definitions: \u00a77.05(a) and \u00a77.03 provisos added"
+  },
+  "hh_12": {
+   "category": "definition_dependents",
+   "correct": false,
+   "faithfulness": 0.8,
+   "citation_accuracy": 0.7,
+   "note": "The system answer only identifies \u00a78.01(e) as referencing 'Threshold Amount,' missing \u00a76.04, \u00a78.01(h), and \u00a78.01(i) which are in the gold answer but not present in the retrieved context, resulting in an incomplete and incorrect answer.",
+   "latency_s": 108.28,
+   "answer_preview": "Based on the provided context, the only operative provision that references the defined term \"Threshold Amount\" is:\n\n* **Section 8.01(e) (Cross-Default)** of the Third Amended and Restated Credit Agreement, which applies the threshold in two specific subsections:\n  * **Subsection (i)(A)**: Establish"
+  },
+  "hh_13": {
+   "category": "definition_dependents",
+   "correct": false,
+   "faithfulness": 0.5,
+   "citation_accuracy": 0.3,
+   "note": "The system only identified \u00a71.01 (the definition itself) and failed to identify the four operative sections (\u00a72.03(c), \u00a72.03(h), \u00a72.07(b), \u00a710.01(d)) that rely on the Default Rate, correctly noting the context limitation but missing the gold answer entirely.",
+   "latency_s": 65.81,
+   "answer_preview": "and write the full cited answer.\"\nI will follow the reasoning steps briefly in the thought block, then output the answer.\nPremise check: The question assumes multiple sections rely on \"Default Rate,\" but the context only provides the definition.\nBaseline rule: N/A (not a negative covenant question)."
+  },
+  "hh_14": {
+   "category": "definition_dependents",
+   "correct": false,
+   "faithfulness": 0.7,
+   "citation_accuracy": 0.7,
+   "note": "The system answer misses the critical reference in \u00a72.03(a) and the 'Appropriate Lender' definition in \u00a71.01, which are both in the gold answer, and instead lists downstream defined terms (Revolving Credit Facility, L/C Obligations, etc.) that are not themselves dependent on the Letter of Credit Sublimit definition.",
+   "latency_s": 156.54,
+   "answer_preview": "Based on the provided context, the following provisions and defined terms reference or depend on the \u201cLetter of Credit Sublimit\u201d definition:\n\n**Provisions:**\n- **Section 1.01**: Defines the term as $30,000,000 and states it is part of, and not in addition to, the Revolving Credit Facility [Third Ame"
+  },
+  "hh_15": {
+   "category": "false_premise",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.95,
+   "note": "The system correctly identifies that no Fourth Amendment exists, accurately describes the Second and Third Amendment changes to Minimum Liquidity thresholds with proper citations, matching the gold answer's substance.",
+   "latency_s": 64.09,
+   "answer_preview": "The provided context does not contain a \"Fourth Amendment\" to Denny's 2017 Credit Agreement; it only includes the First, Second, and Third Amendments. Therefore, I cannot state what changes a Fourth Amendment made. \n\nBased on the available documents, the Minimum Liquidity thresholds originally intro"
+  },
+  "hh_16": {
+   "category": "false_premise",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.8,
+   "note": "The system correctly identifies that \u00a77.10 contains no Consolidated Net Worth covenant and accurately lists the three actual covenants (Leverage Ratio, Fixed Charge Coverage Ratio, Minimum Liquidity), though it oddly references 'Second Amendment' for \u00a77.10(a) and (b) when those are in the original agreement.",
+   "latency_s": 67.45,
+   "answer_preview": ": (1) premise check, (2) sections/definitions to cite, (3) enumeration checklist / grace-period gotchas. (Stay under ~150 words)\n    Then close </think> and write the full cited answer.\n    All set. \n    Output matches response. \n    Proceeds. \n    [Self-Correction/Verification during thought]\n    C"
+  },
+  "hh_17": {
+   "category": "false_premise",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.7,
+   "note": "The system correctly identifies that 'ESG Margin Adjustment' does not exist in the documents and cannot be answered, which aligns with the gold answer's conclusion that the premise is false, though the system's citations to \u00a71.17 are slightly imprecise.",
+   "latency_s": 61.69,
+   "answer_preview": "The provided context does not contain the answer. The excerpts do not define or reference an \u201cESG Margin Adjustment,\u201d so there is no basis in the provided text to explain how it would interact with the Consolidated Leverage Ratio step-downs established in Section 7.10(a) by the Second Amendment [Sec"
+  },
+  "hh_18": {
+   "category": "conflict_precedence",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.95,
+   "note": "The system answer correctly identifies \u00a710.09 as the controlling provision and accurately describes both the override language and the remedy (apply to principal or refund to Borrower), though it omits the explicit 'Notwithstanding anything to the contrary' override language mentioned in the gold answer.",
+   "latency_s": 48.3,
+   "answer_preview": "The \"Interest Rate Limitation\" provision controls [Third Amended and Restated Credit Agreement, near \u00a710.09]. It prescribes that any excess interest received shall be applied to the principal of the Loans or, if it exceeds the unpaid principal, refunded to the Borrower [Third Amended and Restated Cr"
+  },
+  "hh_19": {
+   "category": "conflict_precedence",
+   "correct": true,
+   "faithfulness": 1.0,
+   "citation_accuracy": 0.95,
+   "note": "The system answer accurately identifies the controlling provision, the 'notwithstanding' language, and both exceptions (x) and (y), fully matching the gold answer and supported by the retrieved \u00a710.01(i) context.",
+   "latency_s": 103.61,
+   "answer_preview": "Generally, no. Under the baseline rule in Section 10.01(i), a Defaulting Lender has no right to approve or disapprove any amendment, waiver, or consent, so amendments that by their terms require the consent of \"all Lenders\" or \"each affected Lender\" may be effected with the consent of the applicable"
+  },
+  "hh_20": {
+   "category": "conflict_precedence",
+   "correct": false,
+   "faithfulness": 0.95,
+   "citation_accuracy": 0.9,
+   "note": "The system answer correctly identifies the core carve-outs (setoff rights and Debtor Relief proceedings) and adds the 'no Administrative Agent' scenario (which is supported by the retrieved context), but misses the gold answer's explicit carve-outs (a) and (b) for the Administrative Agent and L/C Issuer exercising rights inuring solely to their own benefit, making the answer partially correct but incomplete relative to the gold standard.",
+   "latency_s": 86.38,
+   "answer_preview": "Section 10.03's \"Notwithstanding\" clause controls. It expressly overrides any contrary provisions in the Credit Agreement or other Loan Documents, vesting exclusive authority to enforce rights and remedies and to institute and maintain legal proceedings in the Administrative Agent [Third Amended and"
+  }
+ }
+}
