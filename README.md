@@ -1,4 +1,4 @@
-# conqr-denny-legal
+# Legal Assignment
 
 **Core hypothesis:** legal QA over amended agreements is not purely a semantic
 retrieval problem. Some answers require traversing explicit relationships
@@ -14,8 +14,6 @@ Generation runs locally on an open-weight GGUF. AWS Bedrock is used only as an
 
 ---
 
-
-
 ## Problem
 
 A credit agreement is not a bag of passages. Answering often depends on:
@@ -29,18 +27,17 @@ Flat RAG optimizes for semantic similarity. That is necessary but not sufficient
 
 ---
 
-
-
 ## Results
 
 
-| Metric | Graph path | Flat RAG |
-|---|:---:|:---:|
-| **Held-out hard set** | **16/20** | **9/20** |
-| Final assignment-set score | **12/12** | 5/12 |
-| Context recall | **1.00** | 0.48 |
-| Version correct | **1.00** | 0.67 |
-| Amendment-status citations | **29** | 0 |
+| Metric                     | Graph path | Flat RAG |
+| -------------------------- | ---------- | -------- |
+| **Held-out hard set**      | **16/20**  | **9/20** |
+| Final assignment-set score | **12/12**  | 5/12     |
+| Context recall             | **1.00**   | 0.48     |
+| Version correct            | **1.00**   | 0.67     |
+| Amendment-status citations | **29**     | 0        |
+
 
 The 12 assignment questions were used during development; see [Evaluation methodology](#evaluation-methodology-read-this-before-the-1212). The held-out set is the cleaner generalization check (graph **16/20** vs flat RAG **9/20** on the same 20 questions, same generator and judge).
 
@@ -53,8 +50,6 @@ The 12 assignment questions were used during development; see [Evaluation method
 Snapshot: `[eval/frozen/](eval/frozen/)`. Regenerating answers writes to `outputs/` and does **not** overwrite the frozen files.
 
 ---
-
-
 
 ## Concrete example: where flat RAG fails
 
@@ -75,8 +70,6 @@ Q10 asks the same question as of **2020-06-01**. Same section node; different op
 
 ---
 
-
-
 ## Why not flat RAG alone?
 
 
@@ -92,8 +85,6 @@ Q10 asks the same question as of **2020-06-01**. Same section node; different op
 Baseline still wins or ties on questions a single well-retrieved passage can settle (e.g. governing law). The graph’s job is the structural remainder.
 
 ---
-
-
 
 ## Evaluation methodology (read this before the 12/12)
 
@@ -114,8 +105,6 @@ What limits overfitting claims:
 Both paths share: embedder, reranker, generator GGUF, prompt template, generation settings (temperature 0, same max tokens / thinking config), the same 12 questions, and the same Bedrock judge harness. The intended difference is the **structured retrieval path** (graph traversal + as-of resolution + a few graph-only context projections such as catalog / parties / dependents) versus FAISS top‑30 chunks then the same MiniLM cut.
 
 ---
-
-
 
 ## Approach
 
@@ -149,8 +138,6 @@ Schema detail (4 node types, 7 edge types, ~740 nodes) lives in [writeup.md](wri
 
 ---
 
-
-
 ## Reproduction
 
 ```bash
@@ -175,8 +162,6 @@ Optional: `make answers` then `make eval` regenerates into `outputs/` (GPU + Bed
 
 ---
 
-
-
 ## Engineering details
 
 
@@ -193,8 +178,6 @@ Optional: `make answers` then `make eval` regenerates into `outputs/` (GPU + Bed
 
 ---
 
-
-
 ## Limitations
 
 - LLM-as-judge introduces variance; citation/temporal verifiers exist partly to sanity-check the judge.
@@ -206,8 +189,6 @@ Optional: `make answers` then `make eval` regenerates into `outputs/` (GPU + Bed
 
 ---
 
-
-
 ## Takeaways
 
 1. Flat semantic retrieval missed evidence required for multi-hop, party, catalog, and some as-of questions on this brief.
@@ -216,8 +197,6 @@ Optional: `make answers` then `make eval` regenerates into `outputs/` (GPU + Bed
 4. Final frozen scores: **12/12** assignment (graph) vs **5/12** baseline; holdout **16/20** graph vs **9/20** flat RAG.
 
 ---
-
-
 
 ## Layout
 
@@ -232,6 +211,6 @@ eval/frozen/       Scored submission snapshot
 experiments/       Model / retrieval evidence
 artifacts/         Committed graph.json + FAISS index
 tests/             94 unit tests
-writeup.md         Full narrative for the brief (Remaining to upload)
+writeup.md         Full narrative for the brief (Uploaded)
 ```
 
